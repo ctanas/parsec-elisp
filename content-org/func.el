@@ -5,15 +5,14 @@
 ; 03 - LV_Type
 ; 04 - Variant
 ; 05 - Flight_ID
-; 06 - Flight
-; 07 - Mission
-; 08 - Platform
-; 09 - Launch_Site
-; 10 - Agency
-; 11 - Launch_Code
-; 12 - Category
-; 13 - Country
-; 14 - Outcome
+; 06 - Mission
+; 07 - Platform
+; 08 - Launch_Site
+; 09 - Agency
+; 10 - Launch_Code
+; 11 - Category
+; 12 - Country
+; 13 - Outcome
 
 (defvar gcatdata "data.csv")
 
@@ -131,8 +130,8 @@ Returns the filtered data from DISPLAY-COLUMNS as an org table."
         (when (string-match-p (regexp-quote search-string) (nth 3 row))  ; Assuming column index 3 for rocket names
           (setq total (1+ total))
           (cond
-           ((string= "F" (nth 14 row)) (setq F-count (1+ F-count)))
-           ((string= "S" (nth 14 row)) (setq S-count (1+ S-count))))))
+           ((string= "F" (nth 13 row)) (setq F-count (1+ F-count)))
+           ((string= "S" (nth 13 row)) (setq S-count (1+ S-count))))))
       ;; Kill the csv buffer since we are done with it
       (kill-buffer csv-buffer))
     (list total F-count S-count)))
@@ -168,10 +167,10 @@ Returns the filtered data from DISPLAY-COLUMNS as an org table."
       (while (not (eobp))
         (let ((row (simple-csv-parse-line)))
           ;; Ensure each row is a list and has the required number of columns
-          (when (and (listp row) (>= (length row) 15))
+          (when (and (listp row) (>= (length row) 14))
             (let ((launch-date (nth 2 row))
-                  (country (nth 13 row))
-                  (status (nth 14 row)))
+                  (country (nth 12 row))
+                  (status (nth 13 row)))
               ;; Check if the launch date matches the specified year
               (when (and launch-date (string-match (format "^%s-" year) launch-date))
                 (unless (assoc country country-stats)
@@ -205,7 +204,7 @@ Returns the filtered data from DISPLAY-COLUMNS as an org table."
       (while (not (eobp))
         (let* ((row (simple-csv-parse-line))
                (launch-date (nth 2 row))
-               (status (nth 14 row)))
+               (status (nth 13 row)))
           ;; If the launch-date starts with the specified year, process the row
           (when (and (stringp launch-date) (string-match (format "^%s-" year) launch-date))
             (setq total-launches (1+ total-launches))

@@ -174,7 +174,22 @@ df['Country'] = df['Launch_Site'].map(dict_Site)
 # adding 'Outcome' column, based on Launch_Tag
 df['Outcome'] = df['Launch_Tag'].map(lambda x: 'F' if 'F' in x else 'S')
 
+def merge_missions(val1, val2):
+    if val2.strip() in ['', '-', val1]:
+        return val1
+    else:
+        return f"{val1} ({val2})"
+
+def merge_pads(val1, val2):
+    if val2.strip() in ['', '-']:
+        return val1
+    else:
+        return f"{val1} {val2}"
+
+df['Mission'] = df.apply(lambda row: merge_missions(row['Flight'], row['Mission']), axis=1)
+df['Launch_Site'] = df.apply(lambda row: merge_pads(row['Launch_Site'], row['Launch_Pad']), axis=1)
+
 # Export the reformatted file as CSV, while filtering out some columns
 print("Exporting data...")
-df[['Launch_Tag','Launch_JD','Launch_Date','LV_Type','Variant','Flight_ID', 'Flight', 'Mission','Platform','Launch_Site','Agency','Launch_Code', 'Category', 'Country','Outcome']].to_csv('data.csv', index=False)
+df[['Launch_Tag','Launch_JD','Launch_Date','LV_Type','Variant','Flight_ID', 'Mission','Platform','Launch_Site','Agency','Launch_Code', 'Category', 'Country','Outcome']].to_csv('data.csv', index=False)
 print("Done!")
