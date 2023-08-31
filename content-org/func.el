@@ -308,6 +308,50 @@ Returns the filtered data from DISPLAY-COLUMNS as an org table."
                all-years "\n")
               "\n"))))
 
+(defun list-launches-for-year (year &rest args)
+  "Return an org-mode table listing all launches for the specified YEAR.
+The table will only include the COLUMNS specified by their indices.
+Optionally, you can provide custom HEADERS for those columns."
+  (let ((csv-buffer (find-file-noselect gcatdata))
+        launches
+        columns
+        custom-headers)
+    ;; Check if last argument is a list (for custom headers)
+    (if (listp (car (last args)))
+        (progn
+          (setq custom-headers (car (last args)))
+          (setq columns (butlast args))
+          (unless (= (length columns) (length custom-headers))
+            (error "Number of columns does not match number of custom headers.")))
+      (setq columns args))
+
+    (with-current-buffer csv-buffer
+      ;; Collect data for the specified year
+      (goto-char (point-min))
+      (while (not (eobp))
+        (let* ((line (buffer-substring-no-properties (line-beginning-position) (line-end-position)))
+               (row (split-string line ","))
+               (launch-year (substring (nth 2 row) 0 4)))
+          (when (string= launch-year year)
+            (let ((selected-data (mapcar (lambda (idx) (nth idx row)) columns)))
+              (push selected-data launches))))
+        (forward-line 1))
+      (kill-buffer csv-buffer))
+
+    ;; Format as an org-mode table
+    (let ((headers (if custom-headers
+                       custom-headers
+                     (mapcar (lambda (idx) (concat "Col " (number-to-string idx))) columns))))
+      (concat "| " (mapconcat 'identity headers " | ") " |\n"
+              "|-" (mapconcat (lambda (_) "+-") headers "-") "-|\n"
+              (mapconcat 
+               (lambda (row)
+                 (concat "| " (mapconcat 'identity row " | ") " |"))
+               (nreverse launches) "\n")
+              "\n"))))
+;; Example
+; (list-launches-for-year "2023" 0 1 2 13 '("Launch ID" "Name" "Date" "Country"))
+
 (defun close-csv-buffer (filename)
   "Close the buffer associated with FILENAME."
   (let ((csv-buffer (get-buffer (file-name-nondirectory filename))))
