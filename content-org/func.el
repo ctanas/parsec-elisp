@@ -258,6 +258,56 @@ Returns the filtered data from DISPLAY-COLUMNS as an org table."
                          country-stats "\n")
               "\n"))))
 
+(defun table-launches-by-year-and-country ()
+  "Return an org-mode table summarizing the total launches for each country across all years, organized by year."
+  (let ((csv-buffer (find-file-noselect gcatdata))
+        data year-country-stats all-years all-countries)
+    (with-current-buffer csv-buffer
+      ;; Collect all data
+      (goto-char (point-min))
+      (while (not (eobp))
+        (let* ((line (buffer-substring-no-properties (line-beginning-position) (line-end-position)))
+               (year (substring (nth 2 (split-string line ",")) 0 4))
+               (country (substring line (- (length line) 4) (- (length line) 2)))
+               (key (concat year "-" country))
+               (count (or (assoc key year-country-stats) (list key 0))))
+
+          (when (and (= (length country) 2) (string-match-p "^[0-9]\\{4\\}$" year))
+            (unless (member year all-years)
+              (push year all-years))
+            (unless (member country all-countries)
+              (push country all-countries))
+
+            ;; Increment total launches
+            (cl-incf (cadr count))
+            (unless (assoc key year-country-stats)
+              (push count year-country-stats))))
+        (forward-line 1))
+      (kill-buffer csv-buffer))
+
+    ;; Sort years in descending order and countries in ascending order
+    (setq all-years (sort all-years (lambda (a b) (string> a b))))
+    (setq all-countries (sort all-countries 'string<))
+
+    ;; Format as an org-mode table
+    (let ((headers (append (list "Year") all-countries (list "Total"))))
+      (concat "| " (mapconcat 'identity headers " | ") " |\n"
+              "|-" (mapconcat (lambda (_) "+-") headers "-") "-|\n"
+              (mapconcat 
+               (lambda (year)
+                 (let (row)
+                   (push year row)
+                   (let ((year-total 0)) ; Initialize year-total
+                     (dolist (country all-countries)
+                       (let* ((key (concat year "-" country))
+                              (count (cadr (or (assoc key year-country-stats) (list key 0)))))
+                         (setq year-total (+ year-total count))
+                         (push (number-to-string count) row)))
+                     (push (number-to-string year-total) row)) ; Add yearly total
+                   (concat "| " (mapconcat 'identity (reverse row) " | ") " |")))
+               all-years "\n")
+              "\n"))))
+
 (defun close-csv-buffer (filename)
   "Close the buffer associated with FILENAME."
   (let ((csv-buffer (get-buffer (file-name-nondirectory filename))))
