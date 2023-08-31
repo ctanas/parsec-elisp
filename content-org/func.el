@@ -221,6 +221,43 @@ Returns the filtered data from DISPLAY-COLUMNS as an org table."
 ;        2023-successes (nth 1 results)
 ;        2023-failures (nth 2 results)))
 
+(defun table-launches-grand-total ()
+  "Return an org-mode table summarizing the total, successful, and failed launches for each country across all years."
+  (let ((csv-buffer (find-file-noselect gcatdata))
+        country-stats)
+    (with-current-buffer csv-buffer
+      ;; Collect all data
+      (goto-char (point-min))
+      (while (not (eobp))
+        (let* ((line (buffer-substring-no-properties (line-beginning-position) (line-end-position)))
+               (country (substring line (- (length line) 4) (- (length line) 2)))
+               (status (if (string= (substring line -1) "S") "S" (if (string= (substring line -1) "F") "F" nil)))
+               (stats (assoc country country-stats)))
+          (if stats
+              (progn
+                ;; Increment total launches
+                (cl-incf (nth 1 stats))
+                ;; Increment successful or failed launches based on status
+                (when status
+                  (cond 
+                   ((string= status "S") (cl-incf (nth 2 stats)))
+                   ((string= status "F") (cl-incf (nth 3 stats))))))
+            ;; If country is not yet in country-stats, initialize its stats
+            (when (and (= (length country) 2) status)
+              (push (list country 1 (if (string= status "S") 1 0) (if (string= status "F") 1 0)) country-stats))))
+        (forward-line 1))
+      (kill-buffer csv-buffer))
+    ;; Sort country-stats in descending order based on total launches
+    (setq country-stats (sort country-stats (lambda (a b) (> (nth 1 a) (nth 1 b)))))
+    ;; Format as an org-mode table
+    (let ((headers '("Country" "Total" "Success" "Failed")))
+      (concat "| " (mapconcat 'identity headers " | ") " |\n"
+              "|-" (mapconcat (lambda (_) "+-") headers "-") "-|\n"
+              (mapconcat (lambda (row)
+                           (concat "| " (mapconcat (lambda (item) (format "%s" item)) row " | ") " |"))
+                         country-stats "\n")
+              "\n"))))
+
 (defun close-csv-buffer (filename)
   "Close the buffer associated with FILENAME."
   (let ((csv-buffer (get-buffer (file-name-nondirectory filename))))
