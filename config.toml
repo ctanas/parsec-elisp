@@ -1,0 +1,52 @@
+author = "Claudiu"
+baseurl = "/"
+canonifyurls = true
+languageCode = "ro"
+paginate = 12
+theme = "alageek"
+title = "parsec.ro"
+toc = true
+DefaultContentLanguage = "ro"
+googleAnalytics = "367745098"
+
+[blackfriday]
+fractions = false
+
+[params]
+copyright = "©2009-2023 parsec.ro | un site de Claudiu Tănăselia."
+copyrightUrl = "https://www.parsec.ro"
+faviconfile = "/img/favicon.ico"
+latestpostcount = 8
+logofile2= "/img/logo_large2.png"
+logofile = "/img/logo2.png"
+highlightjs = false
+progressively = true
+facebook = "claudiu.tanaselia"
+instagram = "parsec.ro"
+twitter = "superparsec"
+email = "contact@parsec.ro"
+mastodon = "https://mastodon.social/@superparsec"
+
+[[menu.primary]]
+identifier = "arhiva"
+name = "Arhivă"
+url = "/arhiva/"
+weight = 15
+
+[[menu.primary]]
+identifier = "about"
+name = "Despre site"
+url = "/about/"
+weight = 30
+
+[[menu.secondary]]
+identifier = "patreon"
+name = "Newsletter"
+url = "https://buletin.parsec.ro"
+weight = 110
+
+[[menu.secondary]]
+identifier = "blog"
+name =  "Blog"
+url = "https://buletin.parsec.ro/notes"
+weight = 120
