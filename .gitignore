@@ -1,4 +1,5 @@
+.DS_Store
 launchdata.tsv
 sites.tsv
-.DS_Store
 launchdata.tmp
+sites.tmp
