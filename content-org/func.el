@@ -238,6 +238,35 @@ Returns the filtered data from DISPLAY-COLUMNS as an org table."
 ;        2023-successes (nth 1 results)
 ;        2023-failures (nth 2 results)))
 
+(defun launches-totals ()
+  "Return the total, successful, and failed number of launches for all years."
+  (let ((csv-buffer (find-file-noselect gcatdata))
+        (total-launches 0)
+        (total-successes 0)
+        (total-failures 0))
+    (with-current-buffer csv-buffer
+      (csv-mode)  ; Make sure csv-mode is active for the buffer
+      (goto-char (point-min))
+      (while (not (eobp))
+        (let* ((row (simple-csv-parse-line))
+               (status (nth 13 row)))
+          (cond 
+           ((string= status "S") 
+            (setq total-successes (1+ total-successes))
+            (setq total-launches (1+ total-launches)))
+           ((string= status "F") 
+            (setq total-failures (1+ total-failures))
+            (setq total-launches (1+ total-launches))))
+          (forward-line 1)))
+      (kill-buffer csv-buffer))
+    (list total-launches total-successes total-failures)))
+;; Usage
+;(let ((results (launches-totals)))
+;  (setq grand-total (nth 0 results)
+;        grand-successes (nth 1 results)
+;        grand-failures (nth 2 results)))
+
+
 (defun table-launches-grand-total ()
   "Return an org-mode table summarizing the total, successful, and failed launches for each country across all years."
   (let ((csv-buffer (find-file-noselect gcatdata))
@@ -369,11 +398,29 @@ Optionally, you can provide custom HEADERS for those columns."
 ;; Example
 ; (list-launches-for-year "2023" 0 1 2 13 '("Launch ID" "Name" "Date" "Country"))
 
-(defun close-csv-buffer (filename)
-  "Close the buffer associated with FILENAME."
-  (let ((csv-buffer (get-buffer (file-name-nondirectory filename))))
-    (when csv-buffer
-      (kill-buffer csv-buffer))))
+(defun set-yearly-totals ()
+  "Set the global variables for launches totals for all years from the current year to 1956."
+  (let* ((current-year (string-to-number (format-time-string "%Y")))
+         (year current-year))
+    (while (>= year 1956)
+      (let* ((results (launches-totals-for-year (number-to-string year)))
+             (total-var (intern (format "%d-total" year)))
+             (successes-var (intern (format "%d-successes" year)))
+             (failures-var (intern (format "%d-failures" year))))
+        (set total-var (nth 0 results))
+        (set successes-var (nth 1 results))
+        (set failures-var (nth 2 results)))
+      (setq year (1- year)))))
+
+(let ((results (launches-totals)))
+  (setq grand-total (nth 0 results)
+        grand-successes (nth 1 results)
+        grand-failures (nth 2 results)))
+
+
+
+
+
 
 
 
