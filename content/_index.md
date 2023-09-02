@@ -37,4 +37,13 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 ## Rachete orbitale active {#rachete-orbitale-active}
 
--   SUA: Falcon 9
+-   SUA: [Falcon 9](/r/falcon9), [Falcon Heavy](/r/falconh), [SLS](/r/sls), [Atlas V](/r/atlasv), [Delta IV](/r/delta4), [Delta IV Heavy](/r/delta4h), [Electron](/r/electron), [Firefly Alpha](/r/fireflya), [LauncherOne](/r/launcherone), [Astra](/r/astrarocket), [Antares](/r/antares), [Minotaur](/r/minotaur), [Pegasus](/r/pegasus), [Terran 1](/r/terran1), [RS1](/r/rs1);
+-   China: CZ-2C, CZ-2D, CZ-2F, CZ-3B, CZ-3C, CZ-4B, CZ-4C, CZ-11, CZ-5, CZ-6, CZ-7, CZ-8, KZ-1A, KZ-11, Gushenxing-1, Lijian-1, Shuang Quxian 1, Jielong-1, OS-M1, Zhuque-2, KT-2, Tianlong-2;
+-   Rusia: Soyuz-2.1, Soyuz-2.1v, Angara-1.2, Proton-M, Angara-A5;
+-   Europa: Ariane 5, Vega-C;
+-   Japonia: H-II, H3, Epsilon;
+-   India: SSLV, PSLV, GSLV Mk. 2, LVM3;
+-   Iran: Safir, Simorgh, Qased;
+-   Israel: Shavit;
+-   Coreea de Sud: Nuri;
+-   Coreea de Nord: Kwangmyongsong, Cheonlima-1.

@@ -15,9 +15,7 @@
 ; 13 - Outcome
 
 (defvar gcatdata "data.csv")
-
 (setq csv-separators '(";"))
-
 (defvar country-code-mappings
   '(("CN" . "China")
     ("US" . "Statele Unite")
