@@ -16,13 +16,31 @@
 
 (defvar gcatdata "data.csv")
 
+(setq csv-separators '(";"))
+
+(defvar country-code-mappings
+  '(("CN" . "China")
+    ("US" . "Statele Unite")
+    ("RU" . "Rusia")
+    ("EU" . "Europa")
+    ("JP" . "Japonia")
+    ("IN" . "India")
+    ("IR" . "Iran")
+    ("IL" . "Israel")
+    ("KP" . "Coreea de Nord")
+    ("KR" . "Coreea de Sud")
+    ("BR" . "Brazilia")
+    ;; Add more mappings as needed
+    )
+  "Alist mapping country codes to their respective full names.")
+
 ;; Helper function
 (defun simple-csv-parse-line (&optional separator)
   "Simple CSV parser that splits the line at commas.
 It doesn't handle quoted fields with commas inside them."
   (split-string (buffer-substring-no-properties (line-beginning-position) 
                                                (line-end-position))
-                (or separator ",")))
+                (or separator ";")))
 
 ;; Get a table with the last 10 launches
 (defun get-last-10 (filename &rest columns)
@@ -37,8 +55,9 @@ It doesn't handle quoted fields with commas inside them."
                                ("Flight" . "Satelit")
                                ("Mission" . "Misiune")
                                ("Flight_ID" . "Serie")
-                               ("Country" . "Ț")
+                               ("Country" . "TR")
                                ("Outcome" . "R")
+                               ("Launch_Site" . "Centru")
                                ;; Add more mappings as needed
                                )))
     (with-current-buffer csv-buffer
@@ -159,32 +178,31 @@ Returns the filtered data from DISPLAY-COLUMNS as an org table."
 (defun table-launches-year (year)
   "Return an org-mode table summarizing the total, successful, and failed launches for each country in a given year, in descending order of launches."
   (let ((csv-buffer (find-file-noselect gcatdata))
-        all-data country-stats)
+        country-stats)
     (with-current-buffer csv-buffer
-      (csv-mode)  ; Make sure csv-mode is active for the buffer
       ;; Collect all data
       (goto-char (point-min))
       (while (not (eobp))
-        (let ((row (simple-csv-parse-line)))
-          ;; Ensure each row is a list and has the required number of columns
-          (when (and (listp row) (>= (length row) 14))
-            (let ((launch-date (nth 2 row))
-                  (country (nth 12 row))
-                  (status (nth 13 row)))
-              ;; Check if the launch date matches the specified year
-              (when (and launch-date (string-match (format "^%s-" year) launch-date))
-                (unless (assoc country country-stats)
-                  (push (list country 0 0 0) country-stats))  ; Initialize stats for the country if not already present
-                (let ((stats (assoc country country-stats)))
-                  (cl-incf (nth 1 stats))  ; Increment total launches
-                  (cond ((string= status "S") (cl-incf (nth 2 stats)))  ; Increment successful launches
-                        ((string= status "F") (cl-incf (nth 3 stats)))))))))  ; Increment failed launches
-        (forward-line 1))
+        (let* ((line (buffer-substring-no-properties (line-beginning-position) (line-end-position)))
+               (n (length line))
+               (country-code (concat (substring line (- n 4) (- n 3)) (substring line (- n 3) (- n 2))))
+               (country (or (cdr (assoc country-code country-code-mappings)) country-code)) ; If no mapping is found, use the code
+               (status (substring line (- n 1) n))  ; Get the last character for launch status
+               (launch-date (substring line 0 4)))
+          ;; Check if the launch date matches the specified year
+          (when (string= launch-date year)
+            (unless (assoc country country-stats)
+              (push (list country 0 0 0) country-stats))  ; Initialize stats for the country if not already present
+            (let ((stats (assoc country country-stats)))
+              (cl-incf (nth 1 stats))  ; Increment total launches
+              (cond ((string= status "S") (cl-incf (nth 2 stats)))  ; Increment successful launches
+                    ((string= status "F") (cl-incf (nth 3 stats))))))  ; Increment failed launches
+          (forward-line 1)))
       (kill-buffer csv-buffer))
     ;; Sort country-stats in descending order based on total launches
     (setq country-stats (sort country-stats (lambda (a b) (> (cadr a) (cadr b)))))
     ;; Format as an org-mode table
-    (let ((headers '("Country" "Total" "Success" "Failed")))
+    (let ((headers '("Țară" "Tentative" "Reușite" "Eșecuri")))
       (concat "| " (mapconcat 'identity headers " | ") " |\n"
               "|-" (mapconcat (lambda (_) "+-") headers "-") "-|\n"
               (mapconcat (lambda (row)
@@ -266,7 +284,7 @@ Returns the filtered data from DISPLAY-COLUMNS as an org table."
       (goto-char (point-min))
       (while (not (eobp))
         (let* ((line (buffer-substring-no-properties (line-beginning-position) (line-end-position)))
-               (year (substring (nth 2 (split-string line ",")) 0 4))
+               (year (substring (nth 2 (split-string line ";")) 0 4))
                (country (substring line (- (length line) 4) (- (length line) 2)))
                (key (concat year "-" country))
                (count (or (assoc key year-country-stats) (list key 0))))
@@ -329,7 +347,7 @@ Optionally, you can provide custom HEADERS for those columns."
       (goto-char (point-min))
       (while (not (eobp))
         (let* ((line (buffer-substring-no-properties (line-beginning-position) (line-end-position)))
-               (row (split-string line ","))
+               (row (split-string line ";"))
                (launch-year (substring (nth 2 row) 0 4)))
           (when (string= launch-year year)
             (let ((selected-data (mapcar (lambda (idx) (nth idx row)) columns)))
@@ -356,3 +374,6 @@ Optionally, you can provide custom HEADERS for those columns."
   (let ((csv-buffer (get-buffer (file-name-nondirectory filename))))
     (when csv-buffer
       (kill-buffer csv-buffer))))
+
+
+

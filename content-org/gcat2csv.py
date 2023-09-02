@@ -191,5 +191,5 @@ df['Launch_Site'] = df.apply(lambda row: merge_pads(row['Launch_Site'], row['Lau
 
 # Export the reformatted file as CSV, while filtering out some columns
 print("Exporting data...")
-df[['Launch_Tag','Launch_JD','Launch_Date','LV_Type','Variant','Flight_ID', 'Mission','Platform','Launch_Site','Agency','Launch_Code', 'Category', 'Country','Outcome']].to_csv('data.csv', index=False)
+df[['Launch_Tag','Launch_JD','Launch_Date','LV_Type','Variant','Flight_ID', 'Mission','Platform','Launch_Site','Agency','Launch_Code', 'Category', 'Country','Outcome']].to_csv('data.csv', sep=';', index=False)
 print("Done!")

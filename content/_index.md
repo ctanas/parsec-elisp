@@ -14,18 +14,18 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 ## Cele mai recente lansări orbitale {#cele-mai-recente-lansări-orbitale}
 
-| ID       | Dată (UTC)       | Lansator       | Serie        | Satelit               | Misiune                 | Ț  | R |
-|----------|------------------|----------------|--------------|-----------------------|-------------------------|----|---|
-| 2023-129 | 2023-08-27 0105  | Falcon 9       | 251/B1080.3  | Starlink-103          | Starlink Group 6-11     | US | S |
-| 2023-128 | 2023-08-26 0727  | Falcon 9       | 250/B1081.1  | Dragon Crew-7         | Dragon C210.3           | US | S |
-| 2023-127 | 2023-08-25 0459  | Gushenxing 1   | Y8           | Jilin-1 Kuanfu 02A    | -                       | CN | S |
-| 2023-126 | 2023-08-23 2345  | Electron       | 40           | We Love The Nightlife | Capella 11 Acadia       | US | S |
-| 2023-F07 | 2023-08-23 1850? | Cheonlima-1    | -            | Manligyeong-1 F2      | -                       | KP | F |
-| 2023-125 | 2023-08-23 0108  | Soyuz-2.1a     | M 15000-065  | Progress MS-24        | Progress 7K-TGM No. 454 | RU | S |
-| 2023-124 | 2023-08-22 0937  | Falcon 9       | 249/B1061.15 | Starlink-102          | Starlink Group 7-1      | US | S |
-| 2023-123 | 2023-08-20 1745  | Chang Zheng 4C | Y56          | GF12-04               | GF12-04                 | CN | S |
-| 2023-122 | 2023-08-17 0336  | Falcon 9       | 248/B1067.13 | Starlink-101          | Starlink Group 6-10     | US | S |
-| 2023-121 | 2023-08-14 0532  | Kuaizhou-1A    | Y21?         | Jiaotong-6/10         | -                       | CN | S |
+| ID       | Dată (UTC)       | Lansator       | Serie        | Misiune                                   | Centru      | TR | R |
+|----------|------------------|----------------|--------------|-------------------------------------------|-------------|----|---|
+| 2023-131 | 2023-09-01 0221  | Falcon 9       | 252/B1077.7  | Starlink-104 (Starlink Group 6-13)        | CC LC40     | US | S |
+| 2023-130 | 2023-08-31 0736  | Chang Zheng 2D | Y82          | YG-39 01 (Yaogan 39 01)                   | XSC LC3     | CN | S |
+| 2023-129 | 2023-08-27 0105  | Falcon 9       | 251/B1080.3  | Starlink-103 (Starlink Group 6-11)        | CC LC40     | US | S |
+| 2023-128 | 2023-08-26 0727  | Falcon 9       | 250/B1081.1  | Dragon Crew-7 (Dragon C210.3)             | KSC LC39A   | US | S |
+| 2023-127 | 2023-08-25 0459  | Gushenxing 1   | Y8           | Jilin-1 Kuanfu 02A                        | JQ LC43/95A | CN | S |
+| 2023-126 | 2023-08-23 2345  | Electron       | 40           | We Love The Nightlife (Capella 11 Acadia) | MAHIA LC1B  | US | S |
+| 2023-F07 | 2023-08-23 1850? | Cheonlima-1    | -            | Manligyeong-1 F2                          | SOHAE LC2   | KP | F |
+| 2023-125 | 2023-08-23 0108  | Soyuz-2.1a     | M 15000-065  | Progress MS-24 (Progress 7K-TGM No. 454)  | GIK-5 LC31  | RU | S |
+| 2023-124 | 2023-08-22 0937  | Falcon 9       | 249/B1061.15 | Starlink-102 (Starlink Group 7-1)         | VSFBS SLC4E | US | S |
+| 2023-123 | 2023-08-20 1745  | Chang Zheng 4C | Y56          | GF12-04                                   | JQ LC43/94  | CN | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}
