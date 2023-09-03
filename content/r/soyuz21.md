@@ -4,6 +4,18 @@ author = ["Claudiu"]
 draft = false
 +++
 
+Soyuz-2 este racheta care a înlocuit vechile lansatoare Soyuz-U (1973-2007, 786 lansări, 22 eșecuri) și Soyuz-FG (folosită ca o punte de legătură între Soyuz-U și Soyuz-2 pentru zborurile cu echipaj, între 2001-2019, 70 lansări, 1 eșec parțial). La fel ca toate celelalte rachete din această familie, Soyuz-2 este și ea derivată din racheta balistică intercontinentală R-7 Семёрка și este practic un upgrade al venerabilei Soyuz-U.
+
+Soyuz-2 este în principal folosită în două variante (Soyuz-2.1a, Soyuz-2.1b) și acestea pot fi lansate de la Baikonur (Kazahstan), Plesetsk, Vostochny (Rusia) și Kourou (Guiana Franceză, închiriată operatorului european Arianespace, de unde au loc lansări de sateliți de telecomunicații pe orbite geostaționare).
+
+Soyuz-2 folosește motoare RD-108A pentru prima treaptă (care folosesc kerosen și oxigen) și un set de patru boostere cu combustibil lichid, cu motoare RD-107A (același combustibil lichid cu kerosen și oxigen). După 118 secunde, boosterele își termină combustibilul și se desprind de treapta primară, care mai continuă să funcționeze încă alte 168 de secunde (un total de 286 de secunde). Diferența dintre Soyuz-2.1a și Soyuz-2.1b o fac propulsoarele celei de-a doua trepte: RD-0110 pentru Soyuz-2.1a sau motoare RD-0124, mai performante, pentru Soyuz-2.1b. Când racheta Soyuz-2 este lansată de compania Arianespace din Guiana Franceză, aceasta este denumită Soyuz-STA, respectiv STB. A doua treaptă folosește același tip de combustibil ca prima treaptă și de obicei arde pentru 270 secunde.
+
+Racheta Soyuz-2 poate avea și o a treia treaptă, Fregat (în variante Fregat, Fregat-M sau Fregat-MT) sau Volga, acestea folosind tetraoxid de azot și oxigen drept combustibil.
+
+Mai există și varianta Soyuz-2.1v care înseamnă doar corpul central al rachetei (fiind prima rachetă din familia Soyuz care nu are cele patru boostere auxiliare), iar motorul ales pentru prima treaptă în cazul acestei variante este legendarul NK-33 (care urmează să fie înlocuit în următorii ani cu RD-193). Soyuz-2.1v este folosită mai rar, doar de 5 ori din 2013 și până în prezent).
+
+Soyuz-2.1a poate lansa cel mult 7 tone pe orbită terestră joasă sau 2.8 tone pe orbită geostaționară, în timp ce Soyuz-2.1b poate urca până la 8.2 tone pe orbită terestră joasă și 3.2 tone pe orbită geostaționară. Soyuz-2.1v are performanțe mai modeste, cu 2.8 tone pe orbită terestră joasă.
+
 Până în prezent, racheta Soyuz-2.1 a fost lansată de 136 ori, din care 2 lansări au eșuat.
 
 | Launch_Tag | Launch_Date     | LV_Type    | Flight_ID            | Mission                                     | Launch_Site   | Country | Outcome |

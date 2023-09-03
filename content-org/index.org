@@ -54,14 +54,14 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 :END:
 
 ** Despre site
-Site-ul parsec.ro este un site cu materiale despre explorarea spațiului, proiect personal care a început în 2009, după o vizită la Centrul Spațial Johnson al NASA, din Houston. Eu sunt Claudiu Tănăselia, fizician, cercetător științific la INCDO INOE2000 ICIA Cluj-Napoca.
+Site-ul parsec.ro este un site cu notițe despre explorarea spațiului, proiect personal care a început în 2009, după o vizită la Centrul Spațial Johnson al NASA, din Houston. Eu sunt Claudiu Tănăselia, fizician, cercetător științific la INCDO INOE2000 ICIA Cluj-Napoca.
 
 În timp, am evoluat de la un blog cu noutăți din domeniul explorării spațiului (activ între 2009 și 2018) la un site care în prezent conține câteva materiale în care sunt concentrate informațiile cu privire la activitățile spațiale curente, articole care vor fi aduse la zi pe măsură ce informațiile prezentate vor necesita acest lucru.
 
-Pentru un flux mai dens de știri, mă puteți urmări pe Facebook, vă puteți abona la newsletter sau puteți asculta podcastul Buletin Cosmic.
+Pentru un flux mai dens de știri, mă puteți urmări pe Facebook sau vă puteți abona la newsletter-ul [[https://buletin.parsec.ro][Buletin Cosmic]].
 
 ** Detalii tehnice
-Tabelele cu statistici ale rachetelor și lansărilor orbitale sunt generate din [[https://planet4589.org/space/gcat/][GCAT: General Catalog of Artificial Space Objects]], date folosite cu aprobarea lui [[https://planet4589.org/][Jonathan McDowell]], alterate pentru a le face mai concise și potrivite site-ului de față. Site-ul este generat folosind Emacs (org-mode, Emacs-Lisp și ox-hugo) și afișat cu ajutorul Hugo și GitHub Pages.
+Tabelele cu statistici ale rachetelor și lansărilor orbitale sunt generate din [[https://planet4589.org/space/gcat/][GCAT: General Catalog of Artificial Space Objects]], date folosite cu aprobarea lui [[https://planet4589.org/][Jonathan McDowell]], simplificate și adaptate pentru a le face mai concise și potrivite site-ului de față. Site-ul este generat folosind [[https://www.gnu.org/software/emacs/][Emacs]] (scris în org-mode și Emacs-Lisp, exportat cu [[https://ox-hugo.scripter.co][ox-hugo]]) și afișat cu ajutorul Hugo și GitHub Pages.
 
 ** Contact
 Apreciez orice feedback, comentariu, sugestie, critică constructivă. Mă găsiți oricând la adresa de mail contact@parsec.ro sau îmi puteți trimite un mesaj pe pagina de [[https://www.facebook.com/claudiu.tanaselia][Facebook]].
@@ -177,6 +177,17 @@ Până în prezent, racheta src_emacs-lisp[:results value raw]{rocket} a fost la
   (counts-for-rocket rocket)
 #+END_SRC
 
+tlas V este un lansator de calibru mediu, dezvoltat de compania Lockheed Martin, dar ulterior a trecut în portofoliul United Launch Alliace (ULA) care adună sub un singur acoperiș rachetele Atlas și Delta (aceasta din urmă fiind inițial dezvoltată de Beoing).
+
+Prima treaptă Atlas V este propulsată de un motor RD-180 de producție rusească, alimentat cu LOX/RP-1. De obicei, Atlas V folosește un număr de 1-5 boostere suplimentare cu combustibil solid produse de Aerojet Rocketdyne (acestea urmează să fie înlocuite cu boostere GEM-63, produse de Nortrop Grumann). A doua treaptă este legendara treaptă superioară Centaur, propulsată de unul sau două motoare RL10, care ard LOX/LH2. Configurația unei rachete Atlas este specificată prin trei numere XYZ:
+- X reprezintă diametrul conului protector al încărcăturii, exprimat în metri (4 sau 5)
+- Y este numărul de boostere suplimentare cu combustibil solid (între 0 și 5)
+- Z numărul de motoare ale treptei superioare Centaur (1 sau 2)
+
+Astfel 521 înseamnă un satelit voluminos, care are nevoie de un con protector cu diametrul de 5 metri, sunt folosite 2 boostere cu combustibil solid și treapta Centaur are 1 singur motor (de fapt treapta superioară Centaur nu a folosit 2 motoare pentru o lansare Atlas V decât în cazul lansării capsulei Boeing CST-100 Starliner, în configurația N22).
+
+În funcție de configurația de zbor, o rachetă Atlas V poate urca între 8250 și 20520 kilograme pe orbită terestră joasă și între 4750 și 8900 kilograme pe orbită geostaționară.
+
 Până în prezent, racheta src_emacs-lisp[:results value raw]{rocket} a fost lansată de src_emacs-lisp[:results value raw]{(nth 0 (counts-for-rocket rocket))} ori, din care src_emacs-lisp[:results value raw]{(nth 1 (counts-for-rocket rocket))} lansări au eșuat.
 
 #+BEGIN_SRC emacs-lisp :results raw :exports results
@@ -289,11 +300,39 @@ Până în prezent, racheta src_emacs-lisp[:results value raw]{rocket} a fost la
   (counts-for-rocket rocket)
 #+END_SRC
 
+Dezvoltată inițial sub numele Taurus-II, Antares venea în completarea arsenalului companiei /Orbital Sciences/[fn:ant1], cea care mai avea în portofoliu și rachetele Pegasus (de calibru mic, lansată cu ajutorul unui avion Lockheed L-1011 TriStar), Taurus (astăzi denumită Minotaur-C) și Minotaur-V. Este o rachetă în două trepte, de calibru mediu, dezvoltată cu costuri reduse, exclusiv pentru aprovizionarea Stației Spațiale Internaționale (ISS). Antares poate urca până la 8 tone pe orbită terestră joasă (masa capsulei Cygnus, la care se adaugă încărcătura utilă a acesteia). Prima treaptă este derivată din racheta ucraineană Zenit, ambele fiind contruite de compania /Yuzhnoe/ și folosește oxigen lichid și kerosen pentru propulsia motoatelor fabricate de /NPO Energomash/. A doua treaptă este un motor cu combustibil solid Castor, care variază în funcție de iterația rachetei. O a treia treaptă poate fi folosită, deși nu a fost cazul până în prezent, și pentru acest lucru există trei variante: OAM (Orbital Adjust Module), Star-48 sau Orion-38. Antares folosește exclusiv rampa de lansare LP-0A de la baza Wallops a NASA, situată în statul Virginia.
+
+Primul zbor Antares a avut loc în 21 aprilie 2013 și fost un test, urcând pe orbită o machetă a capsulei Cygnus. A fost folosită varianta *Antares-110*, unde prima treaptă a fost propulsată de două motoare AJ26-62 (derivate din celebrele motoare rusești NK-33), iar a doua treaptă a folosit un motor Castor-30A cu combustibil solid (derivat din Castor 120, dar mai scurt).
+
+Al doilea zbor (și primul zbor operațonal) al rachetei Antares a avut loc în 18 septembrie 2013 și a fost folosită tot varianta *Antares-110*, care a pus pe orbită prima capsulă Cygnus (Orb-D1, denumită și "G. David Low"). Aceasta a andocat cu ISS o săptămână mai târziu, datorită unei erori de poziționare a computerului de bord, dar și pentru că andocarea capsulei Soyuz TMA-10M, cue chipaj, avea prioritate.
+
+Al treilea zbor Antares a însemna debutul variantei *Antares-120* (9 ianuarie 2014), când prima treaptă rămâne neschimbată, dar pentru a doua treaptă se folosește motorul Castor-30B, cu performanțe mai bune decât predecesorul său. Este primul zbor operațional al capsulei Cygnus și primul din contractul /Commercial Resupply Service/ (CRS) pe care compania Orbital ATK îl desfășura pentru NASA. Capsula Cygnus CRS Orb1 ("C. Gordon Fullerton") a livrat 1261 de kilograme de provizii echipajului de la bordul ISS, cu 500 de kg mai mult decât în misiunea precedentă.
+
+A patra misiunea Antares folosește aceeași variantă *Antares-120* pentru lansarea capsulei Cygnus CRS Orb2 ("Janice Voss"), la 13 iulie 2014, care transportă 1494 kilograme de provizii spre ISS.
+
+Pentru al cincilea zbor, din 28 octombrie 2014, Orbital ATK folosește varianta *Antares-130*, care înseamnă că pentru treapta superioară, motorul Castor-30B este înlocuit cu unul mai performant, Castor-30XL. Din păcate însă, avea să fie primul și ultimul zbor al rachetei în această configurație, pentru că la 6 secunde după lansare, o pompă a motoarelor AJ26-62 cedează și racheta explodează la mică distanță de rampa de lansare. Capsula Cygnus CRS Orb3 ("Deke Slayton") este pierdută, împreună cu alți sateliți aflați la bord.
+
+Sâmbătă, 15 februarie 2020, o nouă lansare Antares-230+ a urcat pe orbită o capsulă Cygnus, încărcată cu peste 3 tone de provizii și echipamente științifice pentru echipajul Stației Spațiale Internaționale. Lansarea a avut loc de pe rampa LP-0A de la complexul Wallops din Virgina. Capsula Cygnus NG-13 /S.S. Robert H. Lawrence/ a ajuns în vecinătatea ISS în cursul zilei de marți, 18 februarie, de unde a fost capturată de echipaj folosind brațul robotic al stației și atașată modulului Unity, unde va petrece următoarele aproximativ 3 luni, până în 11 mai 2020, când este programată decuplarea de ISS. Lansarea a fost amânată de două ori, în 9 februarie din cauza unei probleme cu un echipament de la sol, iar a doua oară, în 14 februarie, din cauza vânturilor puternice de la altitudine înaltă (motivul pentru care o lansare în 13 februarie nici nu a mai fost luată în considerare). Northrop Grumann a specificat că misiunea a fost lansată cu două luni mai devreme decât fusese inițial planificată, la solicitarea NASA.
+
+#+CAPTION: Explozia rachetei Antares-130, la 6 secunde după lansare, datorită unor probleme a pompei motoarelor AJ26-62. Sursa foto: NASA.
+[[/img/antaresx.jpg]]
+
+A șasea rachetă Antares înlocuiește motoarele derivate din NK-33 cu motoarele RD-181 (derivate din RD-191) și această variantă se numește *Antares-230* (treapta secundară Castor-30XL este păstrată). Capsula Cygnus primește și ea un upgrade (volum intern mai mare, panouri solare mai ușoare și rotunde, 700 kg creștere a masei utile care poate fi lansată pe orbită). Este priam astfel de capsulă lansată de o rachetă Antares, dar a treia capsulă Cygnus de nouă generație, primele două variante îmbunătățite fiind lansate de câte o rachetă Atlas V, pentru ca Orbital ATK să își poată susține obligațiile contractuale cu NASA și să nu existe o discontinuitate în aprovizionarea ISS. Cygnus CRS OA-5 "Alan G. Poindexter", încărcată cu 2425 de kilograme de provizii, este lansată în 17 octombrie 2017 și este cuplată cu ISS șase zile mai târziu.
+
+#+CAPTION: Capsula Cygnus OA-6, înainte de a fi capturată folosind brațul robotic CanadArm-2 al Stației Spațiale Internaționale (26.03.2016). /Sursa foto: [[https://www.flickr.com/photos/nasa2explore/26099981645/][NASA]]/.
+[[/img/cygnusoa6.jpg]]
+
+Următoarele misiuni Antares sunt în continuare dedicate exclusiv lansării capsulei Cygnus și folosesc doar varianta Antares-230, deși mai este intercalată încă o lansare cu racheta Atlas V. În ultimul timp, capsulele Cygnus, după desprinderea de ISS, au rămas din ce în ce mai mult timp pe orbită, înainte de a reveni distructiv prin atmosferă, pentru a derula o serie din ce în ce mai complexă de experimente științifice. Cea mai recentă capsulă Cygnus, NG-10, a rămas o lună de zile pe orbită, înainte de finalul misiunii.
+
+Misiunea NG-12, parte a CRS2 (a doua parte a contractului de aprovizionare comercială a ISS semnat cu NASA) a însemnat și debutul variantei Antares-230+, în 02 noiembrie 2019, care a lansat capsula Cygnus SS "Alan Bean" NG-12. Varianta 230+ aduce în plus o serie de îmbunătățiri structurale ale primei trepte, pentru a putea permite funcționarea la putere maximă a motoarelor RD-181, folosite din 2016. CRS2 vine cu câteva cerințe suplimentare din partea NASA: o masă mai mare urcată pe orbită și posibilitatea de a încărca o parte a proviziilor cu mai puțin de 24 de ore înainte de lansare.
+
 Până în prezent, racheta src_emacs-lisp[:results value raw]{rocket} a fost lansată de src_emacs-lisp[:results value raw]{(nth 0 (counts-for-rocket rocket))} ori, din care src_emacs-lisp[:results value raw]{(nth 1 (counts-for-rocket rocket))} lansări au eșuat.
 
 #+BEGIN_SRC emacs-lisp :results raw :exports results
   (get-rocket 3 rocket 0 2 3 5 6 8 12 13)
 #+END_SRC
+
+[fn:ant1] /Orbital Sciences/ a fost fondată în 1982 și în 2014 a fuzionat cu /Alliant Techsystems/ (ATK), formând compania /Orbital ATK/, care a funcționat ca atare până în 2017, când /Northrop Grumman/ a cumpărat /Orbital ATK/, astfel că fosta companie a ajuns o divizie în cadrul /Northrop Grumman/, denumită /Nortrop Grumman Innovation System/ (NGIS).
 
 ** Minotaur
 :PROPERTIES:
@@ -721,6 +760,18 @@ Până în prezent, racheta src_emacs-lisp[:results value raw]{rocket} a fost la
   (counts-for-rocket rocket)
 #+END_SRC
 
+Soyuz-2 este racheta care a înlocuit vechile lansatoare Soyuz-U (1973-2007, 786 lansări, 22 eșecuri) și Soyuz-FG (folosită ca o punte de legătură între Soyuz-U și Soyuz-2 pentru zborurile cu echipaj, între 2001-2019, 70 lansări, 1 eșec parțial). La fel ca toate celelalte rachete din această familie, Soyuz-2 este și ea derivată din racheta balistică intercontinentală R-7 Семёрка și este practic un upgrade al venerabilei Soyuz-U.
+
+Soyuz-2 este în principal folosită în două variante (Soyuz-2.1a, Soyuz-2.1b) și acestea pot fi lansate de la Baikonur (Kazahstan), Plesetsk, Vostochny (Rusia) și Kourou (Guiana Franceză, închiriată operatorului european Arianespace, de unde au loc lansări de sateliți de telecomunicații pe orbite geostaționare). 
+
+Soyuz-2 folosește motoare RD-108A pentru prima treaptă (care folosesc kerosen și oxigen) și un set de patru boostere cu combustibil lichid, cu motoare RD-107A (același combustibil lichid cu kerosen și oxigen). După 118 secunde, boosterele își termină combustibilul și se desprind de treapta primară, care mai continuă să funcționeze încă alte 168 de secunde (un total de 286 de secunde). Diferența dintre Soyuz-2.1a și Soyuz-2.1b o fac propulsoarele celei de-a doua trepte: RD-0110 pentru Soyuz-2.1a sau motoare RD-0124, mai performante, pentru Soyuz-2.1b. Când racheta Soyuz-2 este lansată de compania Arianespace din Guiana Franceză, aceasta este denumită Soyuz-STA, respectiv STB. A doua treaptă folosește același tip de combustibil ca prima treaptă și de obicei arde pentru 270 secunde. 
+
+Racheta Soyuz-2 poate avea și o a treia treaptă, Fregat (în variante Fregat, Fregat-M sau Fregat-MT) sau Volga, acestea folosind tetraoxid de azot și oxigen drept combustibil.
+
+Mai există și varianta Soyuz-2.1v care înseamnă doar corpul central al rachetei (fiind prima rachetă din familia Soyuz care nu are cele patru boostere auxiliare), iar motorul ales pentru prima treaptă în cazul acestei variante este legendarul NK-33 (care urmează să fie înlocuit în următorii ani cu RD-193). Soyuz-2.1v este folosită mai rar, doar de 5 ori din 2013 și până în prezent).
+
+Soyuz-2.1a poate lansa cel mult 7 tone pe orbită terestră joasă sau 2.8 tone pe orbită geostaționară, în timp ce Soyuz-2.1b poate urca până la 8.2 tone pe orbită terestră joasă și 3.2 tone pe orbită geostaționară. Soyuz-2.1v are performanțe mai modeste, cu 2.8 tone pe orbită terestră joasă.
+
 Până în prezent, racheta src_emacs-lisp[:results value raw]{rocket} a fost lansată de src_emacs-lisp[:results value raw]{(nth 0 (counts-for-rocket rocket))} ori, din care src_emacs-lisp[:results value raw]{(nth 1 (counts-for-rocket rocket))} lansări au eșuat.
 
 #+BEGIN_SRC emacs-lisp :results raw :exports results
@@ -865,11 +916,26 @@ Până în prezent, racheta src_emacs-lisp[:results value raw]{rocket} a fost la
   (counts-for-rocket rocket)
 #+END_SRC
 
+Epsilon este racheta japoneză cu combustibil solid, succesoarea rachetei M-V (acum retrasă din uz) și alternativa la familia de rachete H-II. 
+
+În funcție de necesități, Epsilon poate avea 3 sau 4 trepte (a 4-a treaptă fiind propulsată de un motor cu combustibil lichid) și a fost până acum folosită în două variante: primul zbor al rachetei a folosit o treaptă secundară M-34c și o a treia treaptă KM-Vb, care în zborurile ulterioare (Epsilon-2) au fost înlocuite cu M-35, respectiv KM-V2c. Prima treaptă a rachetei, SRB-A3, este boosterul care ajută rachetele H-IIA și H-IIB în prima fază a zborului, iar treptele 2 și 3 sunt moștenite de la M-V. 
+
+Epsilon poate urca până la 1200 kg pe orbită terestră joasă (250x500 km) și 450 kg pe orbită heliosincronă (500 km)[fn:epsilonspecs]. Prima treaptă arde pentru 116 secunde, a doua (M-35) arde timp de 140 secunde iar a treia treaptă (KM-V2c) timp de 90 secunde. A patra treaptă, denumită /Compact Liquid Propulsion System/ --CLPS (opțională), folosește un motor cu hidrazină care poate funcționa cel mult 1100 secunde. Racheta are 24.4 metri înălțime, un diametru de 2.5 metri și o masă de 91 tone.
+
+Lansările Epsilon au loc de la centrul spațial Uchinoura, folosit pentru fostele rachete M-V și zboruri suborbitale.
+
+În anii următori, JAXA ar putea folosi racheta Epsilon pentru a trimite o sondă pe orbita Lunii și un mic lander pe suprafața acesteia[fn:epsilonmoon].
+
+Epsilon-S va reprezenta un upgrade substabțial al rachetei, cu modificări ale treptelor 1 și 3, dar și ale conului protector sau ale softului de la bord, pentru a armoniza integrarea cu viitoarea rachetă H3. Astfel, prima treaptă Epsilon-S va fi chiar boosterul auxialiar cu combustibil solid folosit și pentru racheta H3, denumit SRB-3, iar a treia treaptă va avea o cantitate dublă de combustibil față de versiunea precedentă Epsilon-2[fn::https://www.jaxa.jp/press/2020/06/20200612-1-2_j.html]. Prima lansare Epsilon-S este programată pentru 2023, când racheta va lansa satelitul Vietnamez LOTUSat-1[fn::http://parabolicarc.com/2020/06/14/jaxa-to-launch-vietnamese-satellite-on-upgraded-epsilon-s-launcher/]. Epsilon-S va putea lansa 600 de kilograme la maximum 700 km (orbită heliosincronă) sau 1400 kg la 500 km altitudine. 
+
 Până în prezent, racheta src_emacs-lisp[:results value raw]{rocket} a fost lansată de src_emacs-lisp[:results value raw]{(nth 0 (counts-for-rocket rocket))} ori, din care src_emacs-lisp[:results value raw]{(nth 1 (counts-for-rocket rocket))} lansări au eșuat.
 
 #+BEGIN_SRC emacs-lisp :results raw :exports results
   (get-rocket 3 rocket 0 2 3 5 6 8 12 13)
 #+END_SRC
+
+[fn:epsilonmoon] https://english.kyodonews.net/news/2020/04/5065353da362-japan-eyes-sending-micro-lunar-probe-on-solid-fuel-rocket-in-2020s.html
+[fn:epsilonspecs] https://global.jaxa.jp/projects/rockets/epsilon
 
 ** SSLV
 :PROPERTIES:
@@ -1125,6 +1191,71 @@ Moștenirea programului Buran însă continuă și astăzi. Boosterele rachetei 
 
 /Articol publicat inițial în revista Știință&Tehnică, iulie 2013/ /și adus la zi ulterior/.
 
+** X-37B
+:PROPERTIES:
+:EXPORT_FILE_NAME: x37b 
+:END:
+
+X-37B este o navetă spațială dezvoltată de compania Boeing[fn:x37bb] pentru Forțele Aeriene ale Statelor Unite ale Americii (USAF). X-37B a evoluat din vehiculul X-37A al NASA, proiect care a început în 1999 și care a avut câteva zboruri atmosferice în 2006, dar care nu a zburat niciodată în spațiu. 
+
+Lungă de 8.9 metri, înaltă de 2.9 metri și cu o avengură a aripilor de 4.5 metri, X-37B ar putea încăpea în cala fostelor navete spațiale ale NASA (lucru care a fost planificat inițial, dar după accidentul navetei Columbia s-a optat pentru folosirea unor rachete clasice). De fapt, avengura aripilor nu este aleasă întâmplător, ea are această valoare pentru a putea încăpea în conul protector al rachetelor de astăzi, care au maximum 5 metri diametru. X-37B are o masă de aproximativ 5 tone și poate zbura pe orbită terestră joasă, la altitudini între 240 și 800 km altitudine. Pentru propulsie, X-37B folosește un motor cu combustibil hipergolic (tetraoxid de azot și hidrazină). 
+
+Boeing a construit până în prezent două astfel de vehicule și se crede că acestea zboară alternativ în misiuni, însă obiectivele misiunilor și detaliile parametrilor orbitali sunt de cele mai multe ori secrete, dar acest lucru nu-i împiedică pe astronomi să identifice X-37B pe orbită.
+
+#+CAPTION: Naveta spațială autonomă X-37B în 30 martie 2010, înainte de primul său zbor (/Foto: USAF/Boeing/) 
+[[/img/x37blanded.jpg]]
+
+*** OTV-1 (USA-212)
+
+Prima navetă X-37B (vehiculul 1) a fost lansată în spațiu în 23 aprilie 2010, ora 01:52, de o rachetă Atlas V 501 și a aterizat, 224 zile mai târziu, în 3 decembrie 2010, pe pista 12 de la baza aeriană Vandenberg, din California. Naveta a fost ulterior identificată de astronomii amatori pe o orbită 401x422 km, 40 grade înclinație, dar parametri orbitali s-au modificat de câteva ori în timpul misiunii. A fost primul vehicul care a aterizat autonom pe o pistă de aterizare după o misiune orbitală, după naveta spațială sovietică Buran (care a zburat pentru prima și singura dată în spațiu în 15 noiembrie 1998). Au fost observat cel puțin 5 modificări ale parametrilor orbitali cât timp naveta a fost în spațiu.
+
+*** OTV-2 (USA-226)
+
+A doua navetă X-37B (vehiculul 2) a fost lansată în spațiu în 6 martie 2011, ora 00:46, de o rachetă Atlas V 501 și a aterizat după 468 zile petrecute pe orbită, în 16 iunie 2012, pe pista 12 de la baza aeriană Vandenberg, din California. Au fost observate cel puțin trei schimbări ale orbitei, însă aceasta a oscilat mereu între 317-339 km altitudine când a fost surprinsă de astronomii amatori.
+
+*** OTV-3 (USA-240)
+
+Primul vehicul X-37B a zburat în a doua sa misiune în spațiu (și a treia misiune X-37B) între 11 decembrie 2012 și 17 octombrie 2014, petrecând astfel 674 zile pe orbită. Tot o rachetă Atlas V 501 a fost folosită pentru lansarea navetei în spațiu, iar revenirea pe Pământ s-a făcut tot la baza aeriană de la Vandenberg, California.
+
+*** OTV-4 (USA-261)
+
+Probabil a doua misiune a celui de-al doilea vehicul X-37B și a patra misiune OTV a început în 20 mai 2015, ora 18:05, de la Cape Canaveral și a durat 717 zile, naveta revenind pe Pământ în 7 mai 2017 pe [pista de la Kennedy Space Center, din Florida](https://www.youtube.com/watch?v=ybQRMzygiQQ). Unele surse au declarat că în cadrul acestei misiuni a fost studiat un sistem de propulsie electrică bazat pe efectul Hall, cu o putere de 4.5 kW, care folosesc electricitate și xenon pentru a genera impuls (sistem care urmează să fie integrat în familia de sateliți militari de telecomunicații AEHF ai USAF) dar și un experiment la NASA (METIS) care studiază comportarea câtorva materiale speciale expuse condițiilor extreme din spațiul cosmic.
+
+#+CAPTION: Al doilea vehicul X-37B, după încheierea celei de-a doua misiuni (OTV-4), în 7 mai 2017, pe pista de la Kennedy Space Center (/Foto: USAF/Boeing/)
+[[/img/x37bmen.jpg]]
+
+#+CAPTION: Vehiculul X-37B, la finalul misiunii OTV-4, pe pista de la Kennedy Space Center, imediat după aterizare, în 7 mai 2017 (/Foto: USAF/Boeing/)
+[[/img/otv4.jpg]]
+
+*** OTV-5 (USA-277)
+
+Naveta (probabil tot vehiculul 2, ca în cazul misiunii OTV-4 precedente) a fost [lansată în 7 septembrie 2017](https://www.youtube.com/watch?v=9M6Zvi-fFv4) de o rachetă Falcon 9[fn:f9otv5], de pe rampa LC-39A de la Kennedy Space Center, fiind pentru prima dată când nu a fost folosită o rachetă Atlas V pentru lansarea acestor navete. A fost găsită ulterior pe o orbită cu înclinația de 54.5 grade și la o altitudine de 356 km. În iulie 2019, astronomul olandez Ralf Vandebergh[fn:rf] a reușit să fotografieze naveta X-37B pe orbită, iar în imaginile surprinse de el se pot observa ușile deschise ale calei. În dimineața zilei de 27 octombrie 2019, OTV-5 a aterizat la Kennedy Space Center, pe pista destinată fostelor navete spațiale, finalizând astfel cea mai longevivă misiune a navetei X-37B de până acum, după 780 de zile petrecute în spațiu.
+
+La începutul lunii februarie 2020, Pentagonul a confirmat oficial un zvon care spunea că vehiculul din misiunea OTV-5 a lansat între 7 septembrie 2017 și 26 octombrie 2019 trei sateliți (USA 295 - 45169/2017-052C, USA 296 - 45170/2017-052D, USA 297 - 45171/2017-052D) fără a oferi detalii cu privire la misiunea acestora, caracteristici sau orbita pe care se află.
+
+*** OTV-6 (USA-299)
+
+Misiunea OTV-6 (probabil vehiculul 1, folosit în misiunile OTV-1 și OTV-3) a fost lansată în 17 mai 2020 de o rachetă Atlas V 501 și pentru prima dată aceasta a transportat și două experimente pentru NASA (unul care studiază efectul expunerii unor materiale la condițiile din spațiul cosmic iar celălalt va studia efectul radiației cosmice asupra unor semințe). Tot pentru prima dată, naveta are atașat în partea posterioară un modul de serviciu, care poate găzdui mai multe experimente științifice, în plus față de cele care se desfășoară în cala navetei. Vehiculul va lansa un satelit de mici dimensiuni al USAF. X-37B rămâne un vehicul al Forțelor Aeriene, dar procedurile pentru lansare, operațiuni orbitale și aterizare au fost preluate de US Space Force.
+
+#+CAPTION: Naveta X-37B, înainte de misiunea OTV-6 /(Sursa foto: [[https://www.spaceforce.mil/News/Article/2177702/next-x-37b-orbital-test-vehicle-scheduled-to-launch][US Space Force]])/
+[[/img/otv6p1.jpg]]
+
+*** Rezumat
+
+|    Lansare | Misiune | Vehicul | Lansator    | Rampă      | Denumire | Durată   |  Aterizare | Pistă aterizare |
+|------------+---------+---------+-------------+------------+----------+----------+------------+-----------------|
+| 22.04.2010 | OTV-1   | X-37B-1 | Atlas V 501 | CC SLC-41  | USA-212  | 224 zile | 03.12.2010 | VAFB RNY12      |
+| 05.03.2011 | OTV-2   | X-37B-2 | Atlas V 501 | CC SLC-41  | USA-226  | 468 zile | 16.06.2012 | VAFB RNY12      |
+| 11.12.2012 | OTV-3   | X-37B-1 | Atlas V 501 | CC SLC-41  | USA-240  | 674 zile | 17.10.2014 | VAFB RNY12      |
+| 20.05.2015 | OTV-4   | X-37B-2 | Atlas V 501 | CC SLC-41  | USA-261  | 717 zile | 07.05.2017 | KSC SLF         |
+| 07.09.2017 | OTV-5   | X-37B-2 | Falcon 9 B4 | KSC LC-39A | USA-277  | 780 zile | 27.10.2019 | LSC SLF         |
+| 17.05.2020 | OTV-6   | X-37B-1 | Atlas V 501 | CC SLC-41  | USA-299  | ??       |         ?? | ??              |
+
+
+[fn:f9otv5] https://www.spacex.com/news/2017/09/07/otv-5-mission
+[fn:rf] http://www.leonarddavid.com/caught-on-camera-secretive-space-plane/
+[fn:x37bb] https://www.boeing.com/defense/autonomous-systems/x37b/index.page
+
 ** Meteoriți
 :PROPERTIES:
 :EXPORT_FILE_NAME: meteoriti 
@@ -1171,6 +1302,77 @@ Din păcate, toți cei 9 sau 10 meteoriți românești sunt condrite, adică cei
 [fn:met1] [[https://www.lpi.usra.edu/meteor/metbull.php?sea=&sfor=names&ants=&nwas=&falls=&valids=&stype=contains&lrec=50&map=ge&browse=&country=Romania&srt=name&categ=All&mblist=All&rect=&phot=&strewn=&snew=0&pnt=Normal%20table&dr=&page=0][Meteoritical Bulletin Database, Romanian Meteorites]]
 [fn:met2] [[https://scholarcommons.usf.edu/geologia/vol58/iss2/art5/][Luttge-Pop D., Andrei R., Har N., Historical Romanian meteorites: emendations of official catalogue records, Studia UBB Geologia 58 (2): 41-45, 2013 ]]
 
+** Programul spațial iranian
+:PROPERTIES:
+:EXPORT_FILE_NAME: iran 
+:END:
+
+În 2009, Iran devine a 9 națiune capabilă să lanseze independent sateliți proprii, din cele 10 națiuni existente în acest moment are au această posibilitate (Coreea de Nord s-a alăturat acestui club select în 2012 prin lansarea în 12 decembrie a satelitului  Kwangmyŏngsŏng-3). O rachetă Safir-1 de producție proprie avea să lanseze în 2 februarie 2009 satelitul Omid, concomitent cu cea de-a 30-a aniversare a Revoluției Iraniene din 1979, după ce, cu câteva luni înainte, Iran reușea primul zbor orbital, dar fără un satelit funcțional la bordul treptei superioare a rachetei Safir-1.
+
+Agenția Spațială Iraniană (ISA) este fondată în 2004. Înainte de Safir, iranienii foloseau un propulsor în două (ulterior trei) trepte cu combustibil lichid, Kavoshgar, pentru zboruri suborbitale, care putea ajunge până la 200 kilometri altitudine, dar nu era suficient de puternic pentru a ajunge pe orbită. Kavoshgar este derivată din racheta balistică Shahab-3, la rândul ei de inspirație nord-coreeană (Nodong-1) și folosit în ultimii ani pentru diverse teste suborbitale. De astfel colaborarea dintre Iran și regimul de la Phenian în acest domeniu este una binecunoscută. Kavoshgar-1 zboară pentru prima dată în 4 februarie 2008, pe o traiectorie suborbitală, urmată de Kavoshgar-2 în noiembrie 2008.
+
+Safir-1 a fost lansată pentru prima dată în 17 august 2008 de la baza "Imam Khomeini" din Semnan, însă se pare că nu avea nici un satelit la bord. Chiar și dacă ar fi avut, acesta ar fi fost distrus de explozia care a avut loc la scurt timp după lansare, deși surse oficiale iraniene spun că zborul suborbital a fost un succes. A fost doar un test, pentru că a doua lansare Safir avea să plaseze primul satelit iranian pe orbită, în 2 februarie 2009. Omid nu era însă un satelit foarte complex: un cub cu latura de 40 centimetri, cântărind doar 27.3 kilograme. La fel ca și Sputnik, acesta conținea doar un transmițător radio, cu care oficialii de la Teheran putea dovedi relativ ușor că satelitul lor a ajuns pe orbită. În 25 aprilie 2009, satelitul Omid[fn:irn1] revine în atmosfera Pământului, după ce își încheie misiunea (bateriile de la bord s-au consumat în jurul date de 20 februarie). A parcurs peste 700 de orbite joase (246 x 377 km), la o înclinație de 55.5 grade.
+
+În 3 februarie 2010, la bordul rachetei Kavoshgar-3 ajung în spațiu, într-un zbor suborbital, un șobolan, două broaște țestoase și câțiva viermi.
+
+După succesul lansării satelitului Omid, Iranul a început să lucreze la dezvoltarea unei noi generații a rachetei Safir (denumită Safir-B), capabilă să urce încărcături de două ori mai grele pe orbită. Pentru acest lucru s-au folosit două boostere cu combustibil solid atașate rachetei principale. În 15 iunie 2011, o rachetă Safir-B1 transportă pe orbită (236 x 299 km) al doilea satelit iranian, Rasad-1, care a avut o masă de 15.3 kilograme. Dotat cu panouri solare pentru generarea electricității, Rasad-1 funcționează timp de 3 săptămâni, timp în care este folosit pentru observarea suprafeței terestre, având la bord o cameră cu o rezoluție de 150 metri/pixel. În 6 iulie 2011, Rasad-1 își încheie misiunea și se dezintegrează în atmosfera Pământului.
+
+Însă racheta Kavoshgar nu este uitată și este folosită de Iran pentru a încerca să lanseze o capsulă cu o maimuță spre orbită. Un test are loc în 11 martie 2011, când o rachetă Kavoshgar-4 lansează o capsulă fără ocupant. Din păcate, lansarea Kavoshgar-5 din septembrie 2011, în care se afla și o maimuță, este un eșec și mamiferul nu supraviețuiește.
+
+Iranienii îmbunătățesc și mai mult racheta Safir (construind variante 1-B) și în 3 februarie 2012 lansează satelitul Navid (Navid-e-Elm va Sana’t), care avea o masă de 50 de kilograme. Navid este folosit timp de 2 luni, pentru monitorizarea dezastrelor naturale și pentru observații meteorologice, până în 1 aprilie 2012. Prima imagine primită de la Navid a fost în 8 februarie 2012, la 5 zile după lansare.
+
+Urmează trei lansări eșuate pentru Iran, neconfirmate oficial, în 23 mai 2012, 1 octombrie 2012 și 20 martie 2014. Primele două tentative erau pentru lansarea noului satelit Fajr iar cea din 2013 trebuia să pună pe orbită satelitul Tadbir, o variantă evoluată a lui Navid. Acesta ar fi ajuns pe orbită dacă treapta superioară nu s-a oprit cu câteva secunde mai devreme, ceea ce e transformat tentative orbitală într-un zbor suborbital.
+
+În cele din urmă, în 2 februarie 2015, Iranul lansează satelitul Fajr (50 kilograme, Safir poate urca în spațiu maximum 60 kilograme), la exact 6 ani după primul succes orbital iranian. Fajr a rămas pe orbită timp de 23 de zile.
+
+În paralel în Iran continuă și programul Kavoshgar și Iranul afirmă că în 2013 a lansat de două ori câte o maimuță în spațiu, în două zboruri suborbitale din 29 ianuarie și 14 decembrie 2013, însă informația nu a putut fi verificată de o sursă externă Iranului. Pentru astfel de zboruri, Iranul folosește capsula Pishgam, care urmează să fie adaptată pentru a putea transporta și persoane în spațiu, în viitorul apropiat (până în 2019 pe orbită și până în 2025 pe Lună, conform declarațiilor oficiale de la Teheran, dar este clar că termenele sunt mult prea optimiste).
+
+Agenția Spațială din Iran a prezentat în 2010 noul său propulsor, Simorgh, care în 2016 a efectuat primul său suborbital, urmat de un eșec un an mai târziu. Simorgh poate urca un satelit de 60-100 de kilograme până la o altitudine de 500 km. După Simorgh, agenția spațială iraniană plănuiește să construiască o rachetă mai puternică, Qoqnoos, despre care însă nu se cunosc prea multe detalii.
+
+Pentru 2019 au fost programate trei lansări, însă toate trei s-au soldat cu un eșec. În 15 ianuarie, satelitul Payam este distrus când a doua treaptă a rachetei Simorgh suferă o problemă tehnică, al doilea eșec consecutiv pentru Simorgh. Câteva zile mai târziu, în 7 februarie, o rachetă Safir 1-B nu reușește să urce pe orbită satelitul Dousti, iar în 29 august 2019, un satelit american de spionaj[fn:irn2],[fn:irn3] a fotografiat o rampă de lansare avariată în urma unei explozii recente: se pare că o rachetă Safir era pregătită pentru zbor cu satelitul Nahid-1, dar în timpul alimentării cu combustibil s-a produs o deflagrație care a distrus racheta și a avariat rampa de lansare[fn:irn4]. 
+
+În 9 februiarie 2020 la ora 15:48 UTC, o tentativă de lansare a satelitului Zafar-1 s-a încheiat cu un nou eșec al rachetei Simorhg. Inițial racheta a părăsit rampa de lansare și prima treaptă s-a separat corespunzător, la 105 secunde după lansare, separare urmată imadiat de aprinderea celei de-a doua trepte. Conul protector s-a desprins 18 secunde mai târziu. Satelitul trebuia să ajungă la o altitudine de 530 km și o înclinație orbitală de 56 de grade, însă treapta secundară a reușit să-i imprime o viteză de doar 6.533 km/s, față de 7.4 km/s cât ar fi fost necesar pentru înscrierea pe orbită[fn:irn5]. Astfel, satelitul a ajuns la o altitudine maximă de 541 km, după care a revenit balistic spre Pământ. Impactul cu Oceanul Indian a avut loc 25 de minute mai târziu, la 6400 km de Semnan.
+
+#+CAPTION: Racheta Simorgh cu satelitul Zafar-1, la centrul spațial Semnan, înainte de lansarea eșuată din 9 februarie 2020 (Sursa: IRNA)
+[[/img/simorgh.jpg]]
+
+#+CAPTION: Rampa de lansare a rachetei Safir, avariate în jurul datei de 29 august.
+[[/img/rampasenmam.jpg]]
+
+În 22 aprilie 2020, armata iraniană anunță lansarea cu succes a satelitului Noor, folosind o rachetă nouă, Quased[fn::https://apnews.com/0b45baa8a846f55e058e98905e290ce5]. Este primul satelit militar iranian, care probabil își are originile în programul spațial al armatei, unul derulat în paralel cu cel civil (al agenției spațiale iraniene) și folosit cel mai probabil pentru observații optice (deși dimensiunile reduse îi limitează performanțele). Qased este derivată din racheta balistică cu rază medie de acțiune Shahab-3 (cu combustibil lichid, derivată la rândul ei din racheta nord-coreeană Nodong-1), care a fost modificată pentru a primi o treaptă secundară Salman (cu combustibil solid, anunțată public în februarie). Spre deosebire de celelalte lansări care au avut loc de la centrul spațial Khomeini din Semnan, lansarea inaugurală Quased a avut loc de la o bază militară din Shahroud (55.3340E 36.2006N), iar satelitul a ajuns până la 426 km altitudine. 
+
+Programul spațial iranian poate fi sintetizat în următorul tabel. Toate lansările au avut loc de la Centrul Spațial "Imam Khomeini", aflat în sud-estul provinciei Semnan, cu excepția lansării din 22 aprilie 2020, care a avut loc de la baza militară Shahroud.
+
+|       Data | Lansator    | Încărcătură                | Rezultat | Observații                |
+|------------+-------------+----------------------------+----------+---------------------------|
+| 02.11 2006 | Kavoshgar-1 | fără încărcătură           | Succes   | Zbor atmosferic           |
+| 25.02.2007 | Kavoshgar-1 | Kavosh                     | Succes   | Zbor atmosferic           |
+| 04.02.2008 | Kavoshgar-1 | fără încărcătură           | Succes   | Zbor suborbital           |
+| 16.08.2008 | Safir-1     | DemoSat                    | Succes?  | Primul satelit iranian    |
+| 26.11.2008 | Kavoshgar-2 | Capsulă fără ocupanți      | Succes   | Zbor atmosferic           |
+| 02.02.2009 | Safir-1     | Omid                       | Succes   | Primul satelit funcțional |
+| 03.02.2010 | Kavoshgar-3 | Capsulă cu șopârle         | Succes   | Zbor atmosferic           |
+| 15.03.2011 | Kavoshgar-4 | Capsulă fără ocupanți      | Succes   | Zbor suborbital           |
+| 15.06.2011 | Safir-1A    | Rasad-1                    | Succes   | Satelit funcțional        |
+| 15.09.2011 | Kavoshgar-5 | Capsulă cu o primată       | Eșec     | Zbor suborbital           |
+| 03.02.2012 | Safir-1B    | Navid                      | Succes   | Satelit funcțional        |
+| 23.05.2012 | Kavoshgar-6 | DemoSat                    | Eșec     | Zbor suborbital           |
+| 28.01.2013 | Kavoshgar-7 | Capsulă Pishgam cu primată | Succes   | Zbor suborbital           |
+| 14.12.2013 | Kavoshgar-8 | Capsulă Pishgam cu primată | Succes   | Zbor suborbital           |
+| 02.02.2015 | Safir-1B    | Fajr                       | Succes   | Satelit funcțional        |
+| 19.04.2016 | Simorgh     | fără încărcătură           | Succes   | Zbor suborbital           |
+| 27.07.2017 | Simorgh     | fără încărcătură           | Eșec     | Defecțiunea treptei 2     |
+| 15.01.2019 | Simorgh     | Payam                      | Eșec     | Defecțiunea treptei 3     |
+| 05.02.2019 | Safir       | Doosti                     | Eșec     | Lansare eșuată            |
+| 29.08.2019 | Safir       | Nahid-1                    | Eșec     | Explozie pe rampă         |
+| 09.02.2020 | Simorhg     | Zafar-1                    | Eșec     | Lansare eșuată            |
+| 22.04.2020 | Qased       | Noor                       | Succes   | Satelit plasat pe orbită  |
+
+[fn:irn1] Omid nu a fost însă primul satelit iranian care a ajuns pe orbită, însă a fost primul care a ajuns în spațiu lansat de o rachetă iraniană. În 2005, Sina-1 a fost lansat de către o rachetă rusească Kosmos-3M de la baza din Plesetsk.
+[fn:irn2] https://www.npr.org/2019/08/29/755406765/iranian-rocket-launch-ends-in-failure-images-show
+[fn:irn3] https://www.reuters.com/article/us-iran-space-launch-failure/iranian-satellite-launch-fails-due-to-technical-issues-official-idUSKCN1VJ2HK
+[fn:irn4] https://twitter.com/realDonaldTrump/status/1167493371973255170 (imagine probabil surprinsă de satelitul de spionaj USA-224/NROL-49, a cărui traiectorie trece exact pe deasupra rampei respective, la ora la care a fost surprinsă fotografia).
+[fn:irn5] https://en.mehrnews.com/news/155470/Another-copy-of-Zafar-satellite-to-be-sent-into-orbit-in-June
 * Footer :noexport:
 
 #+BEGIN_SRC: emacs-lisp
