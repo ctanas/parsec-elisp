@@ -161,6 +161,7 @@ df['Launch_Date'] = df['Launch_Date'].replace(';', ':', regex=True)
 df['LV_Type'] = df['LV_Type'].replace('Soyuz-2-1A', 'Soyuz-2.1a', regex=True)
 df['LV_Type'] = df['LV_Type'].replace('Soyuz-2-1B', 'Soyuz-2.1b', regex=True)
 df['LV_Type'] = df['LV_Type'].replace('Soyuz-2-1V', 'Soyuz-2.1v', regex=True)
+df['LV_Type'] = df['LV_Type'].replace('Chang Zheng', 'Changzheng', regex=True)
 #df['LV_Type'] = df['LV_Type'].replace('GSLV Mk II', 'GSLV Mk. 2', regex=True)
 df['LV_Type'] = df['LV_Type'].replace('GSLV Mk III', 'LVM3', regex=True)
 

@@ -14,18 +14,18 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 ## Cele mai recente lansări orbitale {#cele-mai-recente-lansări-orbitale}
 
-| ID       | Dată (UTC)       | Lansator       | Serie        | Misiune                                   | Centru      | TR | R |
-|----------|------------------|----------------|--------------|-------------------------------------------|-------------|----|---|
-| 2023-131 | 2023-09-01 0221  | Falcon 9       | 252/B1077.7  | Starlink-104 (Starlink Group 6-13)        | CC LC40     | US | S |
-| 2023-130 | 2023-08-31 0736  | Chang Zheng 2D | Y82          | YG-39 01 (Yaogan 39 01)                   | XSC LC3     | CN | S |
-| 2023-129 | 2023-08-27 0105  | Falcon 9       | 251/B1080.3  | Starlink-103 (Starlink Group 6-11)        | CC LC40     | US | S |
-| 2023-128 | 2023-08-26 0727  | Falcon 9       | 250/B1081.1  | Dragon Crew-7 (Dragon C210.3)             | KSC LC39A   | US | S |
-| 2023-127 | 2023-08-25 0459  | Gushenxing 1   | Y8           | Jilin-1 Kuanfu 02A                        | JQ LC43/95A | CN | S |
-| 2023-126 | 2023-08-23 2345  | Electron       | 40           | We Love The Nightlife (Capella 11 Acadia) | MAHIA LC1B  | US | S |
-| 2023-F07 | 2023-08-23 1850? | Cheonlima-1    | -            | Manligyeong-1 F2                          | SOHAE LC2   | KP | F |
-| 2023-125 | 2023-08-23 0108  | Soyuz-2.1a     | M 15000-065  | Progress MS-24 (Progress 7K-TGM No. 454)  | GIK-5 LC31  | RU | S |
-| 2023-124 | 2023-08-22 0937  | Falcon 9       | 249/B1061.15 | Starlink-102 (Starlink Group 7-1)         | VSFBS SLC4E | US | S |
-| 2023-123 | 2023-08-20 1745  | Chang Zheng 4C | Y56          | GF12-04                                   | JQ LC43/94  | CN | S |
+| ID       | Dată (UTC)       | Lansator      | Serie        | Misiune                                   | Centru      | TR | R |
+|----------|------------------|---------------|--------------|-------------------------------------------|-------------|----|---|
+| 2023-133 | 2023-09-02 1425  | Falcon 9      | 253/B1063.13 | SDA-0B                                    | VSFBS SLC4E | US | S |
+| 2023-132 | 2023-09-02 0620  | PSLV-XL       | PSLV-C57     | Aditya-L1                                 | SHAR FLP    | IN | S |
+| 2023-131 | 2023-09-01 0221  | Falcon 9      | 252/B1077.7  | Starlink-104 (Starlink Group 6-13)        | CC LC40     | US | S |
+| 2023-130 | 2023-08-31 0736  | Changzheng 2D | Y82          | YG-39 01 (Yaogan 39 01)                   | XSC LC3     | CN | S |
+| 2023-129 | 2023-08-27 0105  | Falcon 9      | 251/B1080.3  | Starlink-103 (Starlink Group 6-11)        | CC LC40     | US | S |
+| 2023-128 | 2023-08-26 0727  | Falcon 9      | 250/B1081.1  | Dragon Crew-7 (Dragon C210.3)             | KSC LC39A   | US | S |
+| 2023-127 | 2023-08-25 0459  | Gushenxing 1  | Y8           | Jilin-1 Kuanfu 02A                        | JQ LC43/95A | CN | S |
+| 2023-126 | 2023-08-23 2345  | Electron      | 40           | We Love The Nightlife (Capella 11 Acadia) | MAHIA LC1B  | US | S |
+| 2023-F07 | 2023-08-23 1850? | Cheonlima-1   | -            | Manligyeong-1 F2                          | SOHAE LC2   | KP | F |
+| 2023-125 | 2023-08-23 0108  | Soyuz-2.1a    | M 15000-065  | Progress MS-24 (Progress 7K-TGM No. 454)  | GIK-5 LC31  | RU | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}
@@ -38,12 +38,5 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 ## Rachete orbitale active {#rachete-orbitale-active}
 
 -   SUA: [Falcon 9](/r/falcon9), [Falcon Heavy](/r/falconh), [SLS](/r/sls), [Atlas V](/r/atlasv), [Delta IV](/r/delta4), [Delta IV Heavy](/r/delta4h), [Electron](/r/electron), [Firefly Alpha](/r/fireflya), [LauncherOne](/r/launcherone), [Astra](/r/astrarocket), [Antares](/r/antares), [Minotaur](/r/minotaur), [Pegasus](/r/pegasus), [Terran 1](/r/terran1), [RS1](/r/rs1);
--   China: CZ-2C, CZ-2D, CZ-2F, CZ-3B, CZ-3C, CZ-4B, CZ-4C, CZ-11, CZ-5, CZ-6, CZ-7, CZ-8, KZ-1A, KZ-11, Gushenxing-1, Lijian-1, Shuang Quxian 1, Jielong-1, OS-M1, Zhuque-2, KT-2, Tianlong-2;
--   Rusia: Soyuz-2.1, Soyuz-2.1v, Angara-1.2, Proton-M, Angara-A5;
--   Europa: Ariane 5, Vega-C;
--   Japonia: H-II, H3, Epsilon;
--   India: SSLV, PSLV, GSLV Mk. 2, LVM3;
--   Iran: Safir, Simorgh, Qased;
--   Israel: Shavit;
--   Coreea de Sud: Nuri;
--   Coreea de Nord: Kwangmyongsong, Cheonlima-1.
+-   China: [CZ-2C](/r/cz2c), [CZ-2D](/r/cz2d), [CZ-2F](/r/cz2f), [CZ-3B](/r/cz3b), [CZ-3C](/r/cz3c), [CZ-4B](/r/cz4b), [CZ-4C](/r/cz4c), [CZ-11](/r/cz11), [CZ-5](/r/cz5), [CZ-6](/r/cz6), [CZ-7](/r/cz7), [CZ-8](/r/cz8), [KZ-1A](/r/kz1a), [KZ-11](/r/kz11), [Gushenxing-1](/r/gushenxing1), [Lijian-1](/r/lijian1), [Shuang Quxian 1](/r/shuangquxian), [Jielong](/r/jielong), [OS-M1](/r/osm1), [Zhuque-2](/r/zhuque2), [KT-2](/r/kt2), [Tianlong-2](/r/tianlong2);
+-   Rusia: [Soyuz-2.1](/r/soyuz21), [Soyuz-2.1v](/r/soyuz21v), [[</r/protonm>][
