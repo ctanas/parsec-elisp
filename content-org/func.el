@@ -415,10 +415,4 @@ Optionally, you can provide custom HEADERS for those columns."
         grand-successes (nth 1 results)
         grand-failures (nth 2 results)))
 
-
-
-
-
-
-
-
+(set-yearly-totals)
