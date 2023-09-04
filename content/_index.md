@@ -16,6 +16,7 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 | ID       | Dată (UTC)       | Lansator      | Serie        | Misiune                                   | Centru      | TR | R |
 |----------|------------------|---------------|--------------|-------------------------------------------|-------------|----|---|
+| 2023-134 | 2023-09-04 0247  | Falcon 9      | 254/B1073.10 | Starlink-105 (Starlink Group 6-12)        | KSC LC39A   | US | S |
 | 2023-133 | 2023-09-02 1425  | Falcon 9      | 253/B1063.13 | SDA-0B                                    | VSFBS SLC4E | US | S |
 | 2023-132 | 2023-09-02 0620  | PSLV-XL       | PSLV-C57     | Aditya-L1                                 | SHAR FLP    | IN | S |
 | 2023-131 | 2023-09-01 0221  | Falcon 9      | 252/B1077.7  | Starlink-104 (Starlink Group 6-13)        | CC LC40     | US | S |
@@ -25,7 +26,6 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 | 2023-127 | 2023-08-25 0459  | Gushenxing 1  | Y8           | Jilin-1 Kuanfu 02A                        | JQ LC43/95A | CN | S |
 | 2023-126 | 2023-08-23 2345  | Electron      | 40           | We Love The Nightlife (Capella 11 Acadia) | MAHIA LC1B  | US | S |
 | 2023-F07 | 2023-08-23 1850? | Cheonlima-1   | -            | Manligyeong-1 F2                          | SOHAE LC2   | KP | F |
-| 2023-125 | 2023-08-23 0108  | Soyuz-2.1a    | M 15000-065  | Progress MS-24 (Progress 7K-TGM No. 454)  | GIK-5 LC31  | RU | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}
