@@ -4,10 +4,11 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Changzheng 4C a fost lansată de 51 ori, din care 2 lansări au eșuat.
+Până în prezent, racheta Changzheng 4C a fost lansată de 52 ori, din care 2 lansări au eșuat.
 
 | Launch_Tag | Launch_Date     | LV_Type       | Flight_ID | Mission                              | Launch_Site | Country | Outcome |
 |------------|-----------------|---------------|-----------|--------------------------------------|-------------|---------|---------|
+| 2023-136   | 2023-09-06 1814 | Changzheng 4C | Y53       | YG-33 03 (Yaogan 33 03)              | JQ LC43/94  | CN      | S       |
 | 2023-123   | 2023-08-20 1745 | Changzheng 4C | Y56       | GF12-04                              | JQ LC43/94  | CN      | S       |
 | 2023-111   | 2023-08-03 0347 | Changzheng 4C | Y44       | FY3-06 (FY3F)                        | JQ LC43/94  | CN      | S       |
 | 2023-048   | 2023-03-31 0627 | Changzheng 4C | Y49       | YG-34 04 (Yaogan 34-04)              | JQ LC43/94  | CN      | S       |

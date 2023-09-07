@@ -14,18 +14,18 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 ## Cele mai recente lansări orbitale {#cele-mai-recente-lansări-orbitale}
 
-| ID       | Dată (UTC)       | Lansator      | Serie        | Misiune                                   | Centru      | TR | R |
-|----------|------------------|---------------|--------------|-------------------------------------------|-------------|----|---|
-| 2023-134 | 2023-09-04 0247  | Falcon 9      | 254/B1073.10 | Starlink-105 (Starlink Group 6-12)        | KSC LC39A   | US | S |
-| 2023-133 | 2023-09-02 1425  | Falcon 9      | 253/B1063.13 | SDA-0B                                    | VSFBS SLC4E | US | S |
-| 2023-132 | 2023-09-02 0620  | PSLV-XL       | PSLV-C57     | Aditya-L1                                 | SHAR FLP    | IN | S |
-| 2023-131 | 2023-09-01 0221  | Falcon 9      | 252/B1077.7  | Starlink-104 (Starlink Group 6-13)        | CC LC40     | US | S |
-| 2023-130 | 2023-08-31 0736  | Changzheng 2D | Y82          | YG-39 01 (Yaogan 39 01)                   | XSC LC3     | CN | S |
-| 2023-129 | 2023-08-27 0105  | Falcon 9      | 251/B1080.3  | Starlink-103 (Starlink Group 6-11)        | CC LC40     | US | S |
-| 2023-128 | 2023-08-26 0727  | Falcon 9      | 250/B1081.1  | Dragon Crew-7 (Dragon C210.3)             | KSC LC39A   | US | S |
-| 2023-127 | 2023-08-25 0459  | Gushenxing 1  | Y8           | Jilin-1 Kuanfu 02A                        | JQ LC43/95A | CN | S |
-| 2023-126 | 2023-08-23 2345  | Electron      | 40           | We Love The Nightlife (Capella 11 Acadia) | MAHIA LC1B  | US | S |
-| 2023-F07 | 2023-08-23 1850? | Cheonlima-1   | -            | Manligyeong-1 F2                          | SOHAE LC2   | KP | F |
+| ID       | Dată (UTC)      | Lansator      | Serie        | Misiune                            | Centru      | TR | R |
+|----------|-----------------|---------------|--------------|------------------------------------|-------------|----|---|
+| 2023-137 | 2023-09-06 2342 | H-IIA 202     | H-IIA-47     | XRISM/SLIM                         | TNSC Y      | JP | S |
+| 2023-136 | 2023-09-06 1814 | Changzheng 4C | Y53          | YG-33 03 (Yaogan 33 03)            | JQ LC43/94  | CN | S |
+| 2023-135 | 2023-09-05 0934 | Gushenxing 1  | Y1           | The Little Mermaid (Tianqi-21/24)  | HHAI LP4    | CN | S |
+| 2023-134 | 2023-09-04 0247 | Falcon 9      | 254/B1073.10 | Starlink-105 (Starlink Group 6-12) | KSC LC39A   | US | S |
+| 2023-133 | 2023-09-02 1425 | Falcon 9      | 253/B1063.13 | SDA-0B                             | VSFBS SLC4E | US | S |
+| 2023-132 | 2023-09-02 0620 | PSLV-XL       | PSLV-C57     | Aditya-L1                          | SHAR FLP    | IN | S |
+| 2023-131 | 2023-09-01 0221 | Falcon 9      | 252/B1077.7  | Starlink-104 (Starlink Group 6-13) | CC LC40     | US | S |
+| 2023-130 | 2023-08-31 0736 | Changzheng 2D | Y82          | YG-39 01 (Yaogan 39 01)            | XSC LC3     | CN | S |
+| 2023-129 | 2023-08-27 0105 | Falcon 9      | 251/B1080.3  | Starlink-103 (Starlink Group 6-11) | CC LC40     | US | S |
+| 2023-128 | 2023-08-26 0727 | Falcon 9      | 250/B1081.1  | Dragon Crew-7 (Dragon C210.3)      | KSC LC39A   | US | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}
