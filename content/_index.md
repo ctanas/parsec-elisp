@@ -16,6 +16,8 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 | ID       | Dată (UTC)      | Lansator      | Serie        | Misiune                            | Centru      | TR | R |
 |----------|-----------------|---------------|--------------|------------------------------------|-------------|----|---|
+| 2023-140 | 2023-09-10 1247 | Atlas V 551   | AV-102       | SILENT BARKER                      | CC SLC41    | US | S |
+| 2023-139 | 2023-09-10 0430 | Changzheng 6A | Y5           | YG-40 (Yaogan 40)                  | TYSC LC16   | CN | S |
 | 2023-138 | 2023-09-09 0312 | Falcon 9      | 255/B1076.7  | Starlink-106 (Starlink Group 6-14) | CC LC40     | US | S |
 | 2023-137 | 2023-09-06 2342 | H-IIA 202     | H-IIA-47     | XRISM/SLIM                         | TNSC Y      | JP | S |
 | 2023-136 | 2023-09-06 1814 | Changzheng 4C | Y53          | YG-33 03 (Yaogan 33 03)            | JQ LC43/94  | CN | S |
@@ -24,8 +26,6 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 | 2023-133 | 2023-09-02 1425 | Falcon 9      | 253/B1063.13 | SDA-0B                             | VSFBS SLC4E | US | S |
 | 2023-132 | 2023-09-02 0620 | PSLV-XL       | PSLV-C57     | Aditya-L1                          | SHAR FLP    | IN | S |
 | 2023-131 | 2023-09-01 0221 | Falcon 9      | 252/B1077.7  | Starlink-104 (Starlink Group 6-13) | CC LC40     | US | S |
-| 2023-130 | 2023-08-31 0736 | Changzheng 2D | Y82          | YG-39 01 (Yaogan 39 01)            | XSC LC3     | CN | S |
-| 2023-129 | 2023-08-27 0105 | Falcon 9      | 251/B1080.3  | Starlink-103 (Starlink Group 6-11) | CC LC40     | US | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}

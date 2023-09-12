@@ -16,10 +16,11 @@ Astfel 521 înseamnă un satelit voluminos, care are nevoie de un con protector 
 
 În funcție de configurația de zbor, o rachetă Atlas V poate urca între 8250 și 20520 kilograme pe orbită terestră joasă și între 4750 și 8900 kilograme pe orbită geostaționară.
 
-Până în prezent, racheta Atlas V a fost lansată de 97 ori, din care 0 lansări au eșuat.
+Până în prezent, racheta Atlas V a fost lansată de 98 ori, din care 0 lansări au eșuat.
 
 | Launch_Tag | Launch_Date     | LV_Type     | Flight_ID | Mission                                       | Launch_Site | Country | Outcome |
 |------------|-----------------|-------------|-----------|-----------------------------------------------|-------------|---------|---------|
+| 2023-140   | 2023-09-10 1247 | Atlas V 551 | AV-102    | SILENT BARKER                                 | CC SLC41    | US      | S       |
 | 2022-150   | 2022-11-10 0949 | Atlas V 401 | AV-098    | JPSS-2/LOFTID                                 | VSFBS SLC3E | US      | S       |
 | 2022-123   | 2022-10-04 2136 | Atlas V 531 | AV-099    | SES-20/SES-21                                 | CC SLC41    | US      | S       |
 | 2022-092   | 2022-08-04 1029 | Atlas V 421 | AV-097    | SBIRS GEO-6                                   | CC SLC41    | US      | S       |
