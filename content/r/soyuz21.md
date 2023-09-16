@@ -16,10 +16,11 @@ Mai există și varianta Soyuz-2.1v care înseamnă doar corpul central al rache
 
 Soyuz-2.1a poate lansa cel mult 7 tone pe orbită terestră joasă sau 2.8 tone pe orbită geostaționară, în timp ce Soyuz-2.1b poate urca până la 8.2 tone pe orbită terestră joasă și 3.2 tone pe orbită geostaționară. Soyuz-2.1v are performanțe mai modeste, cu 2.8 tone pe orbită terestră joasă.
 
-Până în prezent, racheta Soyuz-2.1 a fost lansată de 136 ori, din care 2 lansări au eșuat.
+Până în prezent, racheta Soyuz-2.1 a fost lansată de 137 ori, din care 2 lansări au eșuat.
 
 | Launch_Tag | Launch_Date     | LV_Type    | Flight_ID            | Mission                                     | Launch_Site   | Country | Outcome |
 |------------|-----------------|------------|----------------------|---------------------------------------------|---------------|---------|---------|
+| 2023-143   | 2023-09-15 1544 | Soyuz-2.1a | M 15000-061          | Soyuz MS-24 (Soyuz 11F732A48 No. 755)       | GIK-5 LC31    | RU      | S       |
 | 2023-125   | 2023-08-23 0108 | Soyuz-2.1a | M 15000-065          | Progress MS-24 (Progress 7K-TGM No. 454)    | GIK-5 LC31    | RU      | S       |
 | 2023-118   | 2023-08-10 2310 | Soyuz-2.1b | V 15000-003/ 122-10  | Luna-25 (Luna-Glob)                         | VOST PU1S     | RU      | S       |
 | 2023-114   | 2023-08-07 1319 | Soyuz-2.1b | -                    | Glonass-K2 13L (Glonass-K2 No. 13L)         | GIK-1 LC43/3  | RU      | S       |
