@@ -16,6 +16,7 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 | ID       | Dată (UTC)      | Lansator      | Serie        | Misiune                               | Centru      | TR | R |
 |----------|-----------------|---------------|--------------|---------------------------------------|-------------|----|---|
+| 2023-145 | 2023-09-17 0413 | Changzheng 2D | Y83          | YG-39 02 (Yaogan 39 02)               | XSC LC3     | CN | S |
 | 2023-144 | 2023-09-16 0338 | Falcon 9      | 257/B1078.5  | Starlink-108 (Starlink Group 6-16)    | CC LC40     | US | S |
 | 2023-143 | 2023-09-15 1544 | Soyuz-2.1a    | M 15000-061  | Soyuz MS-24 (Soyuz 11F732A48 No. 755) | GIK-5 LC31  | RU | S |
 | 2023-142 | 2023-09-15 0228 | Firefly Alpha | FLTA003      | VICTUS NOX                            | V SLC2W     | US | S |
@@ -25,7 +26,6 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 | 2023-138 | 2023-09-09 0312 | Falcon 9      | 255/B1076.7  | Starlink-106 (Starlink Group 6-14)    | CC LC40     | US | S |
 | 2023-137 | 2023-09-06 2342 | H-IIA 202     | H-IIA-47     | XRISM/SLIM                            | TNSC Y      | JP | S |
 | 2023-136 | 2023-09-06 1814 | Changzheng 4C | Y53          | YG-33 03 (Yaogan 33 03)               | JQ LC43/94  | CN | S |
-| 2023-135 | 2023-09-05 0934 | Gushenxing 1  | Y1           | The Little Mermaid (Tianqi-21/24)     | HHAI LP4    | CN | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}
