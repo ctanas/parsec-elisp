@@ -4,10 +4,11 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Electron a fost lansată de 39 ori, din care 3 lansări au eșuat.
+Până în prezent, racheta Electron a fost lansată de 40 ori, din care 4 lansări au eșuat.
 
 | Launch_Tag | Launch_Date     | LV_Type  | Flight_ID | Mission                                          | Launch_Site | Country | Outcome |
 |------------|-----------------|----------|-----------|--------------------------------------------------|-------------|---------|---------|
+| 2023-F08   | 2023-09-19 0655 | Electron | 41        | We Will Never Desert You (Capella 12 Acadia)     | MAHIA LC1B  | US      | F       |
 | 2023-126   | 2023-08-23 2345 | Electron | 40        | We Love The Nightlife (Capella 11 Acadia)        | MAHIA LC1B  | US      | S       |
 | 2023-100   | 2023-07-18 0127 | Electron | 39        | Baby Come Back (Electron 39 Rideshare)           | MAHIA LC1B  | US      | S       |
 | 2023-073   | 2023-05-26 0346 | Electron | 37        | Coming To A Storm Near Y (Tropics SV03/SV07)     | MAHIA LC1B  | US      | S       |
