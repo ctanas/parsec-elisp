@@ -44,6 +44,7 @@ body {
   background-color: var(--main-bg-color);
   color: var(--main-font-color);
   font-family: var(--font-content);
+  font-feature-settings: "ss03";
 }
 
 a,

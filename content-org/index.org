@@ -24,7 +24,7 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 ** Cele mai recente lansări orbitale
 
 #+BEGIN_SRC emacs-lisp :results raw :exports results
-  (get-last-10 gcatdata 0 2 3 5 6 8 12 13)
+  (get-last-10 gcatdata 0 2 3 4 5 6 8 12 13)
 #+END_SRC
 
 ** Lansări orbitale
@@ -102,7 +102,7 @@ Din 1957 și până în prezent au avut loc src_emacs-lisp[:results value raw]{g
 #+END_SRC
 
 #+BEGIN_SRC emacs-lisp :results raw :exports results
-  (list-launches-for-year "2023" 0 2 3 5 6 8 12 13 '("ID" "Dată (UTC)" "Lansator" "Serie" "Misiune" "Centru" "TR" "R"))
+  (list-launches-for-year "2023" 0 2 3 4 5 6 8 12 13 '("ID" "Dată (UTC)" "Lansator" "Serie" "V" "Misiune" "Centru" "TR" "R"))
 #+END_SRC
 
 * Lansări pre-2023 :noexport:
