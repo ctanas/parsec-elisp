@@ -49,6 +49,7 @@ It doesn't handle quoted fields with commas inside them."
         (header-rename-alist '(("Launch_Tag" . "ID")
                                ("Launch_Date" . "Dată (UTC)")
                                ("LV_Type" . "Lansator")
+                               ("Variant" . "Var")
                                ("Mission" . "Misiune")
                                ("Flight" . "Satelit")
                                ("Mission" . "Misiune")
