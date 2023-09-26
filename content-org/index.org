@@ -4,7 +4,7 @@
 #+EXCLUDE_TAGS: noexport
 
 #+BEGIN_SRC emacs-lisp :eval yes :results silent
-  (load-file "func.elc")
+  (load-file "func.el")
 ;  (set-yearly-totals)
 #+END_SRC
 
