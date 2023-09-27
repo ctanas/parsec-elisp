@@ -2091,6 +2091,8 @@ Până în prezent, racheta src_emacs-lisp[:results value raw]{rocket} a fost la
   (counts-for-rocket rocket)
 #+END_SRC
 
+Qased este o rachetă cu combustibil solid, în trei trepte, folosită de gruparea militară Garda Revoluționară Iraniană, care are un program spațial separat de cel al agenției spațiale iraniene. Poate lansa aproximativ 50 kg pe orbită terestră joasă (500 km)
+
 Până în prezent, racheta src_emacs-lisp[:results value raw]{rocket} a fost lansată de src_emacs-lisp[:results value raw]{(nth 0 (counts-for-rocket rocket))} ori, din care src_emacs-lisp[:results value raw]{(nth 1 (counts-for-rocket rocket))} lansări au eșuat.
 
 #+BEGIN_SRC emacs-lisp :results raw :exports results
