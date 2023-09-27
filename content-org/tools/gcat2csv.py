@@ -10,7 +10,6 @@ from datetime import date
 from dateutil.parser import parse as parsedate
 from dateutil.relativedelta import relativedelta
 from datetime import datetime, timedelta
-from spacetrack import SpaceTrackClient
 
 list_args = sys.argv
 
