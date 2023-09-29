@@ -14,18 +14,18 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 ## Cele mai recente lansări orbitale {#cele-mai-recente-lansări-orbitale}
 
-| ID       | Dată (UTC)      | Lansator      | Var | Serie        | Misiune                                      | Centru      | TR | R |
-|----------|-----------------|---------------|-----|--------------|----------------------------------------------|-------------|----|---|
-| 2023-148 | 2023-09-25 0848 | Falcon 9      | FT5 | 260/B1075.6  | Starlink-111 (Starlink Group 7-3)            | VSFBS SLC4E | US | S |
-| 2023-147 | 2023-09-24 0338 | Falcon 9      | FT5 | 259/B1060.17 | Starlink-110 (Starlink Group 6-18)           | CC LC40     | US | S |
-| 2023-F09 | 2023-09-21 0459 | Gushenxing 1  | 1   | Y11          | Autumn Sonata (Jilin-1 GF04B)                | JQ LC43/95A | CN | F |
-| 2023-146 | 2023-09-20 0338 | Falcon 9      | FT5 | 258/B1058.17 | Starlink-109 (Starlink Group 6-17)           | CC LC40     | US | S |
-| 2023-F08 | 2023-09-19 0655 | Electron      | -   | 41           | We Will Never Desert You (Capella 12 Acadia) | MAHIA LC1B  | US | F |
-| 2023-145 | 2023-09-17 0413 | Changzheng 2D | -   | Y83          | YG-39 02 (Yaogan 39 02)                      | XSC LC3     | CN | S |
-| 2023-144 | 2023-09-16 0338 | Falcon 9      | FT5 | 257/B1078.5  | Starlink-108 (Starlink Group 6-16)           | CC LC40     | US | S |
-| 2023-143 | 2023-09-15 1544 | Soyuz-2.1a    | -   | M 15000-061  | Soyuz MS-24 (Soyuz 11F732A48 No. 755)        | GIK-5 LC31  | RU | S |
-| 2023-142 | 2023-09-15 0228 | Firefly Alpha | -   | FLTA003      | VICTUS NOX                                   | V SLC2W     | US | S |
-| 2023-141 | 2023-09-12 0657 | Falcon 9      | FT5 | 256/B1071.11 | Starlink-107 (Starlink Group 7-2)            | VSFBS SLC4E | US | S |
+| ID       | Dată (UTC)       | Lansator      | Var | Serie        | Misiune                                      | Centru      | TR | R |
+|----------|------------------|---------------|-----|--------------|----------------------------------------------|-------------|----|---|
+| 2023-150 | 2023-09-27 0600? | Qased         | -   | -            | Noor 3                                       | SHAHR LP1   | IR | S |
+| 2023-149 | 2023-09-26 2015  | Changzheng 4C | -   | Y54          | YG-33 04 (Yaogan 33 04)                      | JQ LC43/94  | CN | S |
+| 2023-148 | 2023-09-25 0848  | Falcon 9      | FT5 | 260/B1075.6  | Starlink-111 (Starlink Group 7-3)            | VSFBS SLC4E | US | S |
+| 2023-147 | 2023-09-24 0338  | Falcon 9      | FT5 | 259/B1060.17 | Starlink-110 (Starlink Group 6-18)           | CC LC40     | US | S |
+| 2023-F09 | 2023-09-21 0459  | Gushenxing 1  | 1   | Y11          | Autumn Sonata (Jilin-1 GF04B)                | JQ LC43/95A | CN | F |
+| 2023-146 | 2023-09-20 0338  | Falcon 9      | FT5 | 258/B1058.17 | Starlink-109 (Starlink Group 6-17)           | CC LC40     | US | S |
+| 2023-F08 | 2023-09-19 0655  | Electron      | -   | 41           | We Will Never Desert You (Capella 12 Acadia) | MAHIA LC1B  | US | F |
+| 2023-145 | 2023-09-17 0413  | Changzheng 2D | -   | Y83          | YG-39 02 (Yaogan 39 02)                      | XSC LC3     | CN | S |
+| 2023-144 | 2023-09-16 0338  | Falcon 9      | FT5 | 257/B1078.5  | Starlink-108 (Starlink Group 6-16)           | CC LC40     | US | S |
+| 2023-143 | 2023-09-15 1544  | Soyuz-2.1a    | -   | M 15000-061  | Soyuz MS-24 (Soyuz 11F732A48 No. 755)        | GIK-5 LC31  | RU | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}
