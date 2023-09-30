@@ -16,6 +16,7 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 | ID       | Dată (UTC)       | Lansator      | Var | Serie        | Misiune                                      | Centru      | TR | R |
 |----------|------------------|---------------|-----|--------------|----------------------------------------------|-------------|----|---|
+| 2023-151 | 2023-09-30 0200  | Falcon 9      | FT5 | 261/B1069.10 | Starlink-112 (Starlink Group 6-19)           | CC LC40     | US | S |
 | 2023-150 | 2023-09-27 0600? | Qased         | -   | -            | Noor 3                                       | SHAHR LP1   | IR | S |
 | 2023-149 | 2023-09-26 2015  | Changzheng 4C | -   | Y54          | YG-33 04 (Yaogan 33 04)                      | JQ LC43/94  | CN | S |
 | 2023-148 | 2023-09-25 0848  | Falcon 9      | FT5 | 260/B1075.6  | Starlink-111 (Starlink Group 7-3)            | VSFBS SLC4E | US | S |
@@ -25,7 +26,6 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 | 2023-F08 | 2023-09-19 0655  | Electron      | -   | 41           | We Will Never Desert You (Capella 12 Acadia) | MAHIA LC1B  | US | F |
 | 2023-145 | 2023-09-17 0413  | Changzheng 2D | -   | Y83          | YG-39 02 (Yaogan 39 02)                      | XSC LC3     | CN | S |
 | 2023-144 | 2023-09-16 0338  | Falcon 9      | FT5 | 257/B1078.5  | Starlink-108 (Starlink Group 6-16)           | CC LC40     | US | S |
-| 2023-143 | 2023-09-15 1544  | Soyuz-2.1a    | -   | M 15000-061  | Soyuz MS-24 (Soyuz 11F732A48 No. 755)        | GIK-5 LC31  | RU | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}
@@ -39,11 +39,4 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 -   SUA: [Falcon 9](/r/falcon9), [Falcon Heavy](/r/falconh), [SLS](/r/sls), [Atlas V](/r/atlasv), [Delta IV](/r/delta4), [Delta IV Heavy](/r/delta4h), [Electron](/r/electron), [Firefly Alpha](/r/fireflya), [LauncherOne](/r/launcherone), [Astra](/r/astrarocket), [Antares](/r/antares), [Minotaur](/r/minotaur), [Pegasus](/r/pegasus), [Terran 1](/r/terran1), [RS1](/r/rs1);
 -   China: [CZ-2C](/r/cz2c), [CZ-2D](/r/cz2d), [CZ-2F](/r/cz2f), [CZ-3B](/r/cz3b), [CZ-3C](/r/cz3c), [CZ-4B](/r/cz4b), [CZ-4C](/r/cz4c), [CZ-11](/r/cz11), [CZ-5](/r/cz5), [CZ-6](/r/cz6), [CZ-7](/r/cz7), [CZ-8](/r/cz8), [KZ-1A](/r/kz1a), [KZ-11](/r/kz11), [Gushenxing-1](/r/gushenxing1), [Lijian-1](/r/lijian1), [Shuang Quxian 1](/r/shuangquxian), [Jielong](/r/jielong), [OS-M1](/r/osm1), [Zhuque-2](/r/zhuque2), [KT-2](/r/kt2), [Tianlong-2](/r/tianlong2);
--   Rusia: [Soyuz-2.1](/r/soyuz21), [Soyuz-2.1v](/r/soyuz21v), [Proton-M](/r/protonm), [Angara-1.2](/r/angara12), [Angara-A5](/r/angaraa5);
--   Europa: [Ariane 5](/r/ariane5), [Vega](/r/vega);
--   Japonia: [H-II](/r/hii), [H3](/r/h3), [Epsilon](/r/epsilon);
--   India: [SSLV](/r/sslv), [PSLV](/r/pslv), [GSLV Mk. 2](/r/gslvmk2), [LVM3](/r/lvm3);
--   Iran: [Safir](/r/safir), [Simorgh](/r/simorgh), [Qased](/r/qased);
--   Israel: [Shavit](/r/shavit);
--   Coreea de Sud: [Nuri](/r/nuri);
--   Coreea de Nord: [Kwangmyongsong](/r/Kwangmyongsong), [Cheonlima-1](/r/cheonlima1).
+-   Rusia: [Soyuz-2.1](/r/soyuz21), [Soyuz-2.1v](/r/soyuz21v), [[</r/protonm>][

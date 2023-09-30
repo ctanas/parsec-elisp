@@ -4,10 +4,11 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Falcon 9 a fost lansată de 259 ori, din care 1 lansări au eșuat.
+Până în prezent, racheta Falcon 9 a fost lansată de 260 ori, din care 1 lansări au eșuat.
 
 | Launch_Tag | Launch_Date      | LV_Type  | Flight_ID    | Mission                                    | Launch_Site | Country | Outcome |
 |------------|------------------|----------|--------------|--------------------------------------------|-------------|---------|---------|
+| 2023-151   | 2023-09-30 0200  | Falcon 9 | 261/B1069.10 | Starlink-112 (Starlink Group 6-19)         | CC LC40     | US      | S       |
 | 2023-148   | 2023-09-25 0848  | Falcon 9 | 260/B1075.6  | Starlink-111 (Starlink Group 7-3)          | VSFBS SLC4E | US      | S       |
 | 2023-147   | 2023-09-24 0338  | Falcon 9 | 259/B1060.17 | Starlink-110 (Starlink Group 6-18)         | CC LC40     | US      | S       |
 | 2023-146   | 2023-09-20 0338  | Falcon 9 | 258/B1058.17 | Starlink-109 (Starlink Group 6-17)         | CC LC40     | US      | S       |
@@ -246,24 +247,24 @@ Până în prezent, racheta Falcon 9 a fost lansată de 259 ori, din care 1 lans
 | 2016-028   | 2016-05-06 0521  | Falcon 9 | 024/B1022?   | JCSAT 2B (JCSAT 14)                        | CC LC40     | US      | S       |
 | 2016-024   | 2016-04-08 2043  | Falcon 9 | 023/B1021    | Dragon CRS-8 (Dragon C110)                 | CC LC40     | US      | S       |
 | 2016-013   | 2016-03-04 2335  | Falcon 9 | 022/B1020?   | SES-9                                      | CC LC40     | US      | S       |
-| 2016-002   | 2016-01-17 1842  | Falcon 9 | 019          | Jason-3                                    | VS SLC4E    | US      | S       |
+| 2016-002   | 2016-01-17 1842  | Falcon 9 | 019/B1017?   | Jason-3                                    | VS SLC4E    | US      | S       |
 | 2015-081   | 2015-12-22 0129  | Falcon 9 | 021/B1019    | Orbcomm OG2 Mission 2 (Orbcomm OG2)        | CC LC40     | US      | S       |
-| 2015-F02   | 2015-06-28 1421  | Falcon 9 | 020          | Dragon CRS-7 (Dragon C109)                 | CC LC40     | US      | F       |
-| 2015-023   | 2015-04-27 2303  | Falcon 9 | 018          | TurkmenAlem52E/MonacoSat (Turkmensat)      | CC LC40     | US      | S       |
-| 2015-021   | 2015-04-14 2010  | Falcon 9 | 017          | Dragon CRS-6 (Dragon C108)                 | CC LC40     | US      | S       |
-| 2015-010   | 2015-03-02 0350  | Falcon 9 | 016          | ABS-3A/Eutelsat115WB                       | CC LC40     | US      | S       |
-| 2015-007   | 2015-02-11 2303  | Falcon 9 | 015          | DSCOVR                                     | CC LC40     | US      | S       |
-| 2015-001   | 2015-01-10 0947  | Falcon 9 | 014          | Dragon CRS-5 (Dragon C107)                 | CC LC40     | US      | S       |
-| 2014-056   | 2014-09-21 0552  | Falcon 9 | 012          | Dragon CRS-4 (Dragon C106)                 | CC LC40     | US      | S       |
-| 2014-052   | 2014-09-07 0500  | Falcon 9 | 013          | Asiasat 6 (Asiasat 6/Thaicom)              | CC LC40     | US      | S       |
+| 2015-F02   | 2015-06-28 1421  | Falcon 9 | 020/B1018?   | Dragon CRS-7 (Dragon C109)                 | CC LC40     | US      | F       |
+| 2015-023   | 2015-04-27 2303  | Falcon 9 | 018/B1016?   | TurkmenAlem52E/MonacoSat (Turkmensat)      | CC LC40     | US      | S       |
+| 2015-021   | 2015-04-14 2010  | Falcon 9 | 017/B1015?   | Dragon CRS-6 (Dragon C108)                 | CC LC40     | US      | S       |
+| 2015-010   | 2015-03-02 0350  | Falcon 9 | 016/B1014?   | ABS-3A/Eutelsat115WB                       | CC LC40     | US      | S       |
+| 2015-007   | 2015-02-11 2303  | Falcon 9 | 015/B1013?   | DSCOVR                                     | CC LC40     | US      | S       |
+| 2015-001   | 2015-01-10 0947  | Falcon 9 | 014/B1012?   | Dragon CRS-5 (Dragon C107)                 | CC LC40     | US      | S       |
+| 2014-056   | 2014-09-21 0552  | Falcon 9 | 012/B1010?   | Dragon CRS-4 (Dragon C106)                 | CC LC40     | US      | S       |
+| 2014-052   | 2014-09-07 0500  | Falcon 9 | 013/B1011?   | Asiasat 6 (Asiasat 6/Thaicom)              | CC LC40     | US      | S       |
 | 2014-046   | 2014-08-05 0800  | Falcon 9 | 011          | Asiasat 8                                  | CC LC40     | US      | S       |
 | 2014-040   | 2014-07-14 1515  | Falcon 9 | 010          | Orbcomm OG2 Mission 1 (Orbcomm OG2)        | CC LC40     | US      | S       |
 | 2014-022   | 2014-04-18 1925  | Falcon 9 | 009          | Dragon CRS-3 (Dragon C105)                 | CC LC40     | US      | S       |
 | 2014-002   | 2014-01-06 2206  | Falcon 9 | 008          | Thaicom  6                                 | CC LC40     | US      | S       |
 | 2013-071   | 2013-12-03 2241  | Falcon 9 | 007          | SES-8                                      | CC LC40     | US      | S       |
-| 2013-055   | 2013-09-29 1600  | Falcon 9 | 006          | Cassiope/Demo (Cassiope)                   | VS SLC4E    | US      | S       |
-| 2013-010   | 2013-03-01 1510  | Falcon 9 | 005          | Dragon CRS-2 (Dragon C104)                 | CC LC40     | US      | S       |
-| 2012-054   | 2012-10-08 0035  | Falcon 9 | 004          | Dragon CRS-1 (Dragon C103)                 | CC LC40     | US      | S       |
-| 2012-027   | 2012-05-22 0744  | Falcon 9 | 003          | Dragon C2 (Dragon C102)                    | CC LC40     | US      | S       |
-| 2010-066   | 2010-12-08 1543  | Falcon 9 | 002          | Dragon C1 (Dragon C101)                    | CC LC40     | US      | S       |
-| 2010-026   | 2010-06-04 1845  | Falcon 9 | 001          | Dragon Qual Unit (Dragon Spacecraft)       | CC LC40     | US      | S       |
+| 2013-055   | 2013-09-29 1600  | Falcon 9 | 006/B1003?   | Cassiope/Demo (Cassiope)                   | VS SLC4E    | US      | S       |
+| 2013-010   | 2013-03-01 1510  | Falcon 9 | 005/B0007?   | Dragon CRS-2 (Dragon C104)                 | CC LC40     | US      | S       |
+| 2012-054   | 2012-10-08 0035  | Falcon 9 | 004/B0006?   | Dragon CRS-1 (Dragon C103)                 | CC LC40     | US      | S       |
+| 2012-027   | 2012-05-22 0744  | Falcon 9 | 003/B0005?   | Dragon C2 (Dragon C102)                    | CC LC40     | US      | S       |
+| 2010-066   | 2010-12-08 1543  | Falcon 9 | 002/B0004?   | Dragon C1 (Dragon C101)                    | CC LC40     | US      | S       |
+| 2010-026   | 2010-06-04 1845  | Falcon 9 | 001/B0003?   | Dragon Qual Unit (Dragon Spacecraft)       | CC LC40     | US      | S       |
