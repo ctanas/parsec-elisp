@@ -3,7 +3,7 @@
 #+LANGUAGE: ro
 #+EXCLUDE_TAGS: noexport
 
-#+BEGIN_SRC emacs-lisp :eval yes :results silent
+#+BEGIN_SRC emacs-lisp :eval yes :results silent :name initrun
   (load-file "func.el")
 #+END_SRC
 
