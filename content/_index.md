@@ -14,18 +14,18 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 ## Cele mai recente lansări orbitale {#cele-mai-recente-lansări-orbitale}
 
-| ID       | Dată (UTC)       | Lansator      | Var | Serie        | Misiune                                      | Centru      | TR | R |
-|----------|------------------|---------------|-----|--------------|----------------------------------------------|-------------|----|---|
-| 2023-153 | 2023-10-05 0536  | Falcon 9      | FT5 | 262/B1076.8  | Starlink-113 (Starlink Group 6-21)           | CC LC40     | US | S |
-| 2023-152 | 2023-10-05 0024  | Changzheng 2D | -   | Y84          | YG-39 03 (Yaogan 39 03)                      | XSC LCx     | CN | S |
-| 2023-151 | 2023-09-30 0200  | Falcon 9      | FT5 | 261/B1069.10 | Starlink-112 (Starlink Group 6-19)           | CC LC40     | US | S |
-| 2023-150 | 2023-09-27 0600? | Qased         | -   | -            | Noor 3                                       | SHAHR LP1   | IR | S |
-| 2023-149 | 2023-09-26 2015  | Changzheng 4C | -   | Y54          | YG-33 04 (Yaogan 33 04)                      | JQ LC43/94  | CN | S |
-| 2023-148 | 2023-09-25 0848  | Falcon 9      | FT5 | 260/B1075.6  | Starlink-111 (Starlink Group 7-3)            | VSFBS SLC4E | US | S |
-| 2023-147 | 2023-09-24 0338  | Falcon 9      | FT5 | 259/B1060.17 | Starlink-110 (Starlink Group 6-18)           | CC LC40     | US | S |
-| 2023-F09 | 2023-09-21 0459  | Gushenxing 1  | 1   | Y11          | Autumn Sonata (Jilin-1 GF04B)                | JQ LC43/95A | CN | F |
-| 2023-146 | 2023-09-20 0338  | Falcon 9      | FT5 | 258/B1058.17 | Starlink-109 (Starlink Group 6-17)           | CC LC40     | US | S |
-| 2023-F08 | 2023-09-19 0655  | Electron      | -   | 41           | We Will Never Desert You (Capella 12 Acadia) | MAHIA LC1B  | US | F |
+| ID       | Dată (UTC)       | Lansator      | Var | Serie        | Misiune                            | Centru      | TR | R |
+|----------|------------------|---------------|-----|--------------|------------------------------------|-------------|----|---|
+| 2023-156 | 2023-10-09 0743  | Falcon 9      | FT5 | 263/B1063.14 | Starlink-114 (Starlink Group 7-4)  | VSFBS SLC4E | US | S |
+| 2023-155 | 2023-10-09 0136  | Vega          | 1   | VV23         | THEOS-2/TRITON                     | CSG ZLV     | EU | S |
+| 2023-154 | 2023-10-06 1806  | Atlas V 501   | -   | AV-104       | Kuiper Protoflight (KuiperSat-1/2) | CC SLC41    | US | S |
+| 2023-153 | 2023-10-05 0536  | Falcon 9      | FT5 | 262/B1076.8  | Starlink-113 (Starlink Group 6-21) | CC LC40     | US | S |
+| 2023-152 | 2023-10-05 0024  | Changzheng 2D | -   | Y84          | YG-39 03 (Yaogan 39 03)            | XSC LCx     | CN | S |
+| 2023-151 | 2023-09-30 0200  | Falcon 9      | FT5 | 261/B1069.10 | Starlink-112 (Starlink Group 6-19) | CC LC40     | US | S |
+| 2023-150 | 2023-09-27 0600? | Qased         | -   | -            | Noor 3                             | SHAHR LP1   | IR | S |
+| 2023-149 | 2023-09-26 2015  | Changzheng 4C | -   | Y54          | YG-33 04 (Yaogan 33 04)            | JQ LC43/94  | CN | S |
+| 2023-148 | 2023-09-25 0848  | Falcon 9      | FT5 | 260/B1075.6  | Starlink-111 (Starlink Group 7-3)  | VSFBS SLC4E | US | S |
+| 2023-147 | 2023-09-24 0338  | Falcon 9      | FT5 | 259/B1060.17 | Starlink-110 (Starlink Group 6-18) | CC LC40     | US | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}

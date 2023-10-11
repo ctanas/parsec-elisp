@@ -4,16 +4,16 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Din 1957 și până în prezent au avut loc 6508 tentative de lansări orbitale, din care 6124 lansări reușite și 384 eșecuri (încărcătura primară nu a ajuns pe orbită).
+Din 1957 și până în prezent au avut loc 6511 tentative de lansări orbitale, din care 6127 lansări reușite și 384 eșecuri (încărcătura primară nu a ajuns pe orbită).
 
 În tabelul de mai jos sunt prezentate numărul total de lansări orbitale, pentru fiecare stat în parte, începând cu 1957. Câteva precizări: lansările URSS și ale Rusiei nu sunt numărate separat, iar lansările statelor europene, fie prin Arianespace sau separat, sunt catalogate drept lansări europene, indiferent de locul de unde este lansată racheta. În stabilirea țării în a cărei portofoliu intră lansarea, am considerat că statul în care este înregistrat operatorul este cel consiederat în statistici (de exemplu, lansările rachetei Electron din Noua Zeelandă sunt lansări ale Statelor Unite, pentru că Rocket Lab, compania care operează lansatorul, este o companie americană).
 
 | Country | Total | Success | Failed |
 |---------|-------|---------|--------|
 | RU      | 3369  | 3211    | 158    |
-| US      | 1998  | 1855    | 143    |
+| US      | 2000  | 1857    | 143    |
 | CN      | 551   | 525     | 26     |
-| EU      | 326   | 309     | 17     |
+| EU      | 327   | 310     | 17     |
 | JP      | 129   | 118     | 11     |
 | IN      | 90    | 81      | 9      |
 | IR      | 16    | 8       | 8      |
@@ -24,7 +24,7 @@ Din 1957 și până în prezent au avut loc 6508 tentative de lansări orbitale,
 
 | Year | BR | CN | EU | IL | IN | IR | JP | KP | KR | RU  | US | Total |
 |------|----|----|----|----|----|----|----|----|----|-----|----|-------|
-| 2023 | 0  | 46 | 2  | 1  | 7  | 1  | 3  | 2  | 1  | 13  | 86 | 162   |
+| 2023 | 0  | 46 | 3  | 1  | 7  | 1  | 3  | 2  | 1  | 13  | 88 | 165   |
 | 2022 | 0  | 64 | 6  | 0  | 5  | 1  | 1  | 0  | 1  | 21  | 87 | 186   |
 | 2021 | 0  | 55 | 7  | 0  | 2  | 2  | 3  | 0  | 1  | 24  | 51 | 145   |
 | 2020 | 0  | 39 | 7  | 1  | 2  | 2  | 4  | 0  | 0  | 15  | 44 | 114   |

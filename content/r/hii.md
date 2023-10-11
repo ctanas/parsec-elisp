@@ -4,10 +4,11 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Vega a fost lansată de 21 ori, din care 3 lansări au eșuat.
+Până în prezent, racheta Vega a fost lansată de 22 ori, din care 3 lansări au eșuat.
 
 | Launch_Tag | Launch_Date     | LV_Type | Flight_ID | Mission                                   | Launch_Site | Country | Outcome |
 |------------|-----------------|---------|-----------|-------------------------------------------|-------------|---------|---------|
+| 2023-155   | 2023-10-09 0136 | Vega    | VV23      | THEOS-2/TRITON                            | CSG ZLV     | EU      | S       |
 | 2022-F06   | 2022-12-21 0147 | Vega C  | VV22      | Pleiades NEO 5/6                          | CSG ZLV     | EU      | F       |
 | 2022-080   | 2022-07-13 1313 | Vega C  | VV21      | LARES 2                                   | CSG ZLV     | EU      | S       |
 | 2021-105   | 2021-11-16 0927 | Vega    | VV20      | CERES 1-3                                 | CSG ZLV     | EU      | S       |
