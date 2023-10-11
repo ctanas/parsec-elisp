@@ -39,11 +39,4 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 -   SUA: [Falcon 9](/r/falcon9), [Falcon Heavy](/r/falconh), [SLS](/r/sls), [Atlas V](/r/atlasv), [Delta IV](/r/delta4), [Delta IV Heavy](/r/delta4h), [Electron](/r/electron), [Firefly Alpha](/r/fireflya), [LauncherOne](/r/launcherone), [Astra](/r/astrarocket), [Antares](/r/antares), [Minotaur](/r/minotaur), [Pegasus](/r/pegasus), [Terran 1](/r/terran1), [RS1](/r/rs1);
 -   China: [CZ-2C](/r/cz2c), [CZ-2D](/r/cz2d), [CZ-2F](/r/cz2f), [CZ-3B](/r/cz3b), [CZ-3C](/r/cz3c), [CZ-4B](/r/cz4b), [CZ-4C](/r/cz4c), [CZ-11](/r/cz11), [CZ-5](/r/cz5), [CZ-6](/r/cz6), [CZ-7](/r/cz7), [CZ-8](/r/cz8), [KZ-1A](/r/kz1a), [KZ-11](/r/kz11), [Gushenxing-1](/r/gushenxing1), [Lijian-1](/r/lijian1), [Shuang Quxian 1](/r/shuangquxian), [Jielong](/r/jielong), [OS-M1](/r/osm1), [Zhuque-2](/r/zhuque2), [KT-2](/r/kt2), [Tianlong-2](/r/tianlong2);
--   Rusia: [Soyuz-2.1](/r/soyuz21), [Soyuz-2.1v](/r/soyuz21v), [Proton-M](/r/protonm), [Angara-1.2](/r/angara12), [Angara-A5](/r/angaraa5);
--   Europa: [Ariane 5](/r/ariane5), [Vega](/r/vega);
--   Japonia: [H-II](/r/hii), [H3](/r/h3), [Epsilon](/r/epsilon);
--   India: [SSLV](/r/sslv), [PSLV](/r/pslv), [GSLV Mk. 2](/r/gslvmk2), [LVM3](/r/lvm3);
--   Iran: [Safir](/r/safir), [Simorgh](/r/simorgh), [Qased](/r/qased);
--   Israel: [Shavit](/r/shavit);
--   Coreea de Sud: [Nuri](/r/nuri);
--   Coreea de Nord: [Kwangmyongsong](/r/Kwangmyongsong), [Cheonlima-1](/r/cheonlima1).
+-   Rusia: [Soyuz-2.1](/r/soyuz21), [Soyuz-2.1v](/r/soyuz21v), [[</r/protonm>][
