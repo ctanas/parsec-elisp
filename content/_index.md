@@ -16,6 +16,9 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 | ID       | Dată (UTC)       | Lansator      | Var | Serie        | Misiune                            | Centru      | TR | R |
 |----------|------------------|---------------|-----|--------------|------------------------------------|-------------|----|---|
+| 2023-159 | 2023-10-15 0054  | Changzheng 2D | -   | Yxx          | Yunhai-1 04                        | JQ LC43/94  | CN | S |
+| 2023-158 | 2023-10-13 2301  | Falcon 9      | FT5 | 264/B1067.14 | Starlink-115 (Starlink Group 6-22) | CC LC40     | US | S |
+| 2023-157 | 2023-10-13 1419  | Falcon Heavy  | -   | 008          | Psyche                             | KSC LC39A   | US | S |
 | 2023-156 | 2023-10-09 0743  | Falcon 9      | FT5 | 263/B1063.14 | Starlink-114 (Starlink Group 7-4)  | VSFBS SLC4E | US | S |
 | 2023-155 | 2023-10-09 0136  | Vega          | 1   | VV23         | THEOS-2/TRITON                     | CSG ZLV     | EU | S |
 | 2023-154 | 2023-10-06 1806  | Atlas V 501   | -   | AV-104       | Kuiper Protoflight (KuiperSat-1/2) | CC SLC41    | US | S |
@@ -23,9 +26,6 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 | 2023-152 | 2023-10-05 0024  | Changzheng 2D | -   | Y84          | YG-39 03 (Yaogan 39 03)            | XSC LCx     | CN | S |
 | 2023-151 | 2023-09-30 0200  | Falcon 9      | FT5 | 261/B1069.10 | Starlink-112 (Starlink Group 6-19) | CC LC40     | US | S |
 | 2023-150 | 2023-09-27 0600? | Qased         | -   | -            | Noor 3                             | SHAHR LP1   | IR | S |
-| 2023-149 | 2023-09-26 2015  | Changzheng 4C | -   | Y54          | YG-33 04 (Yaogan 33 04)            | JQ LC43/94  | CN | S |
-| 2023-148 | 2023-09-25 0848  | Falcon 9      | FT5 | 260/B1075.6  | Starlink-111 (Starlink Group 7-3)  | VSFBS SLC4E | US | S |
-| 2023-147 | 2023-09-24 0338  | Falcon 9      | FT5 | 259/B1060.17 | Starlink-110 (Starlink Group 6-18) | CC LC40     | US | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}
@@ -39,4 +39,4 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 -   SUA: [Falcon 9](/r/falcon9), [Falcon Heavy](/r/falconh), [SLS](/r/sls), [Atlas V](/r/atlasv), [Delta IV](/r/delta4), [Delta IV Heavy](/r/delta4h), [Electron](/r/electron), [Firefly Alpha](/r/fireflya), [LauncherOne](/r/launcherone), [Astra](/r/astrarocket), [Antares](/r/antares), [Minotaur](/r/minotaur), [Pegasus](/r/pegasus), [Terran 1](/r/terran1), [RS1](/r/rs1);
 -   China: [CZ-2C](/r/cz2c), [CZ-2D](/r/cz2d), [CZ-2F](/r/cz2f), [CZ-3B](/r/cz3b), [CZ-3C](/r/cz3c), [CZ-4B](/r/cz4b), [CZ-4C](/r/cz4c), [CZ-11](/r/cz11), [CZ-5](/r/cz5), [CZ-6](/r/cz6), [CZ-7](/r/cz7), [CZ-8](/r/cz8), [KZ-1A](/r/kz1a), [KZ-11](/r/kz11), [Gushenxing-1](/r/gushenxing1), [Lijian-1](/r/lijian1), [Shuang Quxian 1](/r/shuangquxian), [Jielong](/r/jielong), [OS-M1](/r/osm1), [Zhuque-2](/r/zhuque2), [KT-2](/r/kt2), [Tianlong-2](/r/tianlong2);
--   Rusia: [Soyuz-2.1](/r/soyuz21), [Soyuz-2.1v](/r/soyuz21v), [[</r/protonm>][
+-   Rusia: [Soyuz-2.1](/r/soyuz21), [Soyuz-2.1v](/r/soyuz21v), [[</r/angara12>]

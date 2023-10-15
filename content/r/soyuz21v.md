@@ -9,7 +9,7 @@ Până în prezent, racheta Soyuz-2.1v a fost lansată de 10 ori, din care 0 lan
 | Launch_Tag | Launch_Date     | LV_Type    | Flight_ID           | Mission                              | Launch_Site   | Country | Outcome |
 |------------|-----------------|------------|---------------------|--------------------------------------|---------------|---------|---------|
 | 2023-045   | 2023-03-29 1957 | Soyuz-2.1v | -                   | Kosmos-2568 (Razbeg No. 2?)          | GIK-1 LC43/4? | RU      | S       |
-| 2022-137   | 2022-10-21 1900 | Soyuz-2.1v | -                   | Kosmos-2561/2562 (14F164/14F172)     | GIK-1 LC43/4  | RU      | S       |
+| 2022-137   | 2022-10-21 1920 | Soyuz-2.1v | -                   | Kosmos-2561/2562 (14F164/14F172)     | GIK-1 LC43/4  | RU      | S       |
 | 2022-089   | 2022-08-01 2025 | Soyuz-2.1v | -                   | Kosmos-2558 (Nivelir?)               | GIK-1 LC43/4? | RU      | S       |
 | 2021-081   | 2021-09-09 1959 | Soyuz-2.1v | -                   | Kosmos-2551 (Razbeg No. 1?)          | GIK-1 LC43/4  | RU      | S       |
 | 2019-079   | 2019-11-25 1752 | Soyuz-2.1v | 780-21 -121/004     | Kosmos-2542 (Nivelir?)               | GIK-1 LC43/4  | RU      | S       |

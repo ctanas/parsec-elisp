@@ -27,7 +27,7 @@ Până în prezent, racheta Atlas V a fost lansată de 99 ori, din care 0 lansă
 | 2022-092   | 2022-08-04 1029 | Atlas V 421 | AV-097    | SBIRS GEO-6                                   | CC SLC41    | US      | S       |
 | 2022-073   | 2022-07-01 2315 | Atlas V 541 | AV-094    | USSF-12 (WFOV)                                | CC SLC41    | US      | S       |
 | 2022-055   | 2022-05-19 2254 | Atlas V N22 | AV-082    | Starliner OFT-2 (Starliner SC2)               | CC SLC41    | US      | S       |
-| 2022-021   | 2022-03-01 1438 | Atlas V 541 | AV-095    | GOES T                                        | CC SLC41    | US      | S       |
+| 2022-021   | 2022-03-01 2138 | Atlas V 541 | AV-095    | GOES T                                        | CC SLC41    | US      | S       |
 | 2022-006   | 2022-01-21 1900 | Atlas V 511 | AV-084    | GSSAP 5/6                                     | CC SLC41    | US      | S       |
 | 2021-118   | 2021-12-07 1019 | Atlas V 551 | AV-093    | STP-3 (STPSAT-6/LDPE-1)                       | CC SLC41    | US      | S       |
 | 2021-093   | 2021-10-16 0934 | Atlas V 401 | AV-096    | Lucy                                          | CC SLC41    | US      | S       |
