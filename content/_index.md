@@ -14,18 +14,18 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 ## Cele mai recente lansări orbitale {#cele-mai-recente-lansări-orbitale}
 
-| ID       | Dată (UTC)       | Lansator      | Var | Serie        | Misiune                            | Centru      | TR | R |
-|----------|------------------|---------------|-----|--------------|------------------------------------|-------------|----|---|
-| 2023-159 | 2023-10-15 0054  | Changzheng 2D | -   | Yxx          | Yunhai-1 04                        | JQ LC43/94  | CN | S |
-| 2023-158 | 2023-10-13 2301  | Falcon 9      | FT5 | 264/B1067.14 | Starlink-115 (Starlink Group 6-22) | CC LC40     | US | S |
-| 2023-157 | 2023-10-13 1419  | Falcon Heavy  | -   | 008          | Psyche                             | KSC LC39A   | US | S |
-| 2023-156 | 2023-10-09 0743  | Falcon 9      | FT5 | 263/B1063.14 | Starlink-114 (Starlink Group 7-4)  | VSFBS SLC4E | US | S |
-| 2023-155 | 2023-10-09 0136  | Vega          | 1   | VV23         | THEOS-2/TRITON                     | CSG ZLV     | EU | S |
-| 2023-154 | 2023-10-06 1806  | Atlas V 501   | -   | AV-104       | Kuiper Protoflight (KuiperSat-1/2) | CC SLC41    | US | S |
-| 2023-153 | 2023-10-05 0536  | Falcon 9      | FT5 | 262/B1076.8  | Starlink-113 (Starlink Group 6-21) | CC LC40     | US | S |
-| 2023-152 | 2023-10-05 0024  | Changzheng 2D | -   | Y84          | YG-39 03 (Yaogan 39 03)            | XSC LCx     | CN | S |
-| 2023-151 | 2023-09-30 0200  | Falcon 9      | FT5 | 261/B1069.10 | Starlink-112 (Starlink Group 6-19) | CC LC40     | US | S |
-| 2023-150 | 2023-09-27 0600? | Qased         | -   | -            | Noor 3                             | SHAHR LP1   | IR | S |
+| ID       | Dată (UTC)      | Lansator      | Var | Serie        | Misiune                            | Centru      | TR | R |
+|----------|-----------------|---------------|-----|--------------|------------------------------------|-------------|----|---|
+| 2023-162 | 2023-10-22 0217 | Falcon 9      | FT5 | 267/B1080.4  | Starlink-118 (Starlink Group 6-24) | CC LC40     | US | S |
+| 2023-161 | 2023-10-21 0823 | Falcon 9      | FT5 | 266/B1061.16 | Starlink-117 (Starlink Group 7-5)  | VSFBS SLC4E | US | S |
+| 2023-160 | 2023-10-18 0039 | Falcon 9      | FT5 | 265/B1062.16 | Starlink-116 (Starlink Group 6-23) | CC LC40     | US | S |
+| 2023-159 | 2023-10-15 0054 | Changzheng 2D | -   | Y77          | Yunhai-1 04                        | JQ LC43/94  | CN | S |
+| 2023-158 | 2023-10-13 2301 | Falcon 9      | FT5 | 264/B1067.14 | Starlink-115 (Starlink Group 6-22) | CC LC40     | US | S |
+| 2023-157 | 2023-10-13 1419 | Falcon Heavy  | -   | 008          | Psyche                             | KSC LC39A   | US | S |
+| 2023-156 | 2023-10-09 0743 | Falcon 9      | FT5 | 263/B1063.14 | Starlink-114 (Starlink Group 7-4)  | VSFBS SLC4E | US | S |
+| 2023-155 | 2023-10-09 0136 | Vega          | 1   | VV23         | THEOS-2/TRITON                     | CSG ZLV     | EU | S |
+| 2023-154 | 2023-10-06 1806 | Atlas V 501   | -   | AV-104       | Kuiper Protoflight (KuiperSat-1/2) | CC SLC41    | US | S |
+| 2023-153 | 2023-10-05 0536 | Falcon 9      | FT5 | 262/B1076.8  | Starlink-113 (Starlink Group 6-21) | CC LC40     | US | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}
