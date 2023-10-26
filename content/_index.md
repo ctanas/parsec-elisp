@@ -16,6 +16,8 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 | ID       | Dată (UTC)      | Lansator      | Var | Serie        | Misiune                            | Centru      | TR | R |
 |----------|-----------------|---------------|-----|--------------|------------------------------------|-------------|----|---|
+| 2023-164 | 2023-10-26 0314 | Changzheng 2F | -   | Y17          | Shenzhou 17                        | JQ LC43/91  | CN | S |
+| 2023-163 | 2023-10-23 2003 | Changzheng 2D | -   | Y85          | YG-39 04 (Yaogan 39 04)            | XSC         | CN | S |
 | 2023-162 | 2023-10-22 0217 | Falcon 9      | FT5 | 267/B1080.4  | Starlink-118 (Starlink Group 6-24) | CC LC40     | US | S |
 | 2023-161 | 2023-10-21 0823 | Falcon 9      | FT5 | 266/B1061.16 | Starlink-117 (Starlink Group 7-5)  | VSFBS SLC4E | US | S |
 | 2023-160 | 2023-10-18 0039 | Falcon 9      | FT5 | 265/B1062.16 | Starlink-116 (Starlink Group 6-23) | CC LC40     | US | S |
@@ -24,8 +26,6 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 | 2023-157 | 2023-10-13 1419 | Falcon Heavy  | -   | 008          | Psyche                             | KSC LC39A   | US | S |
 | 2023-156 | 2023-10-09 0743 | Falcon 9      | FT5 | 263/B1063.14 | Starlink-114 (Starlink Group 7-4)  | VSFBS SLC4E | US | S |
 | 2023-155 | 2023-10-09 0136 | Vega          | 1   | VV23         | THEOS-2/TRITON                     | CSG ZLV     | EU | S |
-| 2023-154 | 2023-10-06 1806 | Atlas V 501   | -   | AV-104       | Kuiper Protoflight (KuiperSat-1/2) | CC SLC41    | US | S |
-| 2023-153 | 2023-10-05 0536 | Falcon 9      | FT5 | 262/B1076.8  | Starlink-113 (Starlink Group 6-21) | CC LC40     | US | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}
@@ -39,7 +39,7 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 -   SUA: [Falcon 9](/r/falcon9), [Falcon Heavy](/r/falconh), [SLS](/r/sls), [Atlas V](/r/atlasv), [Delta IV](/r/delta4), [Delta IV Heavy](/r/delta4h), [Electron](/r/electron), [Firefly Alpha](/r/fireflya), [LauncherOne](/r/launcherone), [Astra](/r/astrarocket), [Antares](/r/antares), [Minotaur](/r/minotaur), [Pegasus](/r/pegasus), [Terran 1](/r/terran1), [RS1](/r/rs1);
 -   China: [CZ-2C](/r/cz2c), [CZ-2D](/r/cz2d), [CZ-2F](/r/cz2f), [CZ-3B](/r/cz3b), [CZ-3C](/r/cz3c), [CZ-4B](/r/cz4b), [CZ-4C](/r/cz4c), [CZ-11](/r/cz11), [CZ-5](/r/cz5), [CZ-6](/r/cz6), [CZ-7](/r/cz7), [CZ-8](/r/cz8), [KZ-1A](/r/kz1a), [KZ-11](/r/kz11), [Gushenxing-1](/r/gushenxing1), [Lijian-1](/r/lijian1), [Shuang Quxian 1](/r/shuangquxian), [Jielong](/r/jielong), [OS-M1](/r/osm1), [Zhuque-2](/r/zhuque2), [KT-2](/r/kt2), [Tianlong-2](/r/tianlong2);
--   Rusia: [Soyuz-2.1](/r/soyuz21), [Angara-1.2](/r/angara12), [Angara-A5](/r/angaraa5), [Proton-M](/r/protonm);
+-   Rusia: [Soiuz-2.1](/r/soyuz21), [Soiuz-2.1v](/r/soyuz21v), [Angara-1.2](/r/angara12), [Angara-A5](/r/angaraa5), [Proton-M](/r/protonm);
 -   Europa: [Ariane 5](/r/ariane5), [Vega](/r/vega);
 -   Japonia: [H-II](/r/hii), [H3](/r/h3), [Epsilon](/r/epsilon);
 -   India: [SSLV](/r/sslv), [PSLV](/r/pslv), [GSLV Mk. 2](/r/gslvmk2), [LVM3](/r/lvm3);
