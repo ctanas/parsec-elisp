@@ -6521,3 +6521,4 @@ Launch_Tag;Launch_JD;Launch_Date;LV_Type;Variant;Flight_ID;Mission;Platform;Laun
 2023-164 ;2460243.63;2023-10-26 0314;Changzheng 2F;-;Y17;Shenzhou 17;-;JQ LC43/91;CALT;OS;Sat LEO O;CN;S
 2023-165 ;2460244.75;2023-10-27 0605;Soyuz-2.1b;-;-;Kosmos-2570/Kosmos-2571 (Lotos-S1 No. 808?);-;GIK-1 LC43/3;VVKO;OS;Sat LEO O;RU;S
 2023-166 ;2460246.88;2023-10-29 0900;Falcon 9;FT5;268/B1075.7;Starlink-119 (Starlink Group 7-6);-;VSFBS SLC4E;SPX;OS;Sat LEO D;US;S
+2023-167 ;2460248.47;2023-10-30 2320;Falcon 9;FT5;269/B1077.8;Starlink-120 (Starlink Group 6-25);-;CC LC40;SPX;OS;Sat LEO D;US;S

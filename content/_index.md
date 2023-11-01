@@ -16,6 +16,7 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 | ID       | Dată (UTC)      | Lansator      | Var | Serie        | Misiune                                     | Centru       | TR | R |
 |----------|-----------------|---------------|-----|--------------|---------------------------------------------|--------------|----|---|
+| 2023-167 | 2023-10-30 2320 | Falcon 9      | FT5 | 269/B1077.8  | Starlink-120 (Starlink Group 6-25)          | CC LC40      | US | S |
 | 2023-166 | 2023-10-29 0900 | Falcon 9      | FT5 | 268/B1075.7  | Starlink-119 (Starlink Group 7-6)           | VSFBS SLC4E  | US | S |
 | 2023-165 | 2023-10-27 0605 | Soyuz-2.1b    | -   | -            | Kosmos-2570/Kosmos-2571 (Lotos-S1 No. 808?) | GIK-1 LC43/3 | RU | S |
 | 2023-164 | 2023-10-26 0314 | Changzheng 2F | -   | Y17          | Shenzhou 17                                 | JQ LC43/91   | CN | S |
@@ -25,7 +26,6 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 | 2023-160 | 2023-10-18 0039 | Falcon 9      | FT5 | 265/B1062.16 | Starlink-116 (Starlink Group 6-23)          | CC LC40      | US | S |
 | 2023-159 | 2023-10-15 0054 | Changzheng 2D | -   | Y77          | Yunhai-1 04                                 | JQ LC43/94   | CN | S |
 | 2023-158 | 2023-10-13 2301 | Falcon 9      | FT5 | 264/B1067.14 | Starlink-115 (Starlink Group 6-22)          | CC LC40      | US | S |
-| 2023-157 | 2023-10-13 1419 | Falcon Heavy  | -   | 008          | Psyche                                      | KSC LC39A    | US | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}

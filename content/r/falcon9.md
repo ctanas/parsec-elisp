@@ -4,10 +4,11 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Falcon 9 a fost lansată de 267 ori, din care 1 lansări au eșuat.
+Până în prezent, racheta Falcon 9 a fost lansată de 268 ori, din care 1 lansări au eșuat.
 
 | Launch_Tag | Launch_Date      | LV_Type  | Flight_ID    | Mission                                    | Launch_Site | Country | Outcome |
 |------------|------------------|----------|--------------|--------------------------------------------|-------------|---------|---------|
+| 2023-167   | 2023-10-30 2320  | Falcon 9 | 269/B1077.8  | Starlink-120 (Starlink Group 6-25)         | CC LC40     | US      | S       |
 | 2023-166   | 2023-10-29 0900  | Falcon 9 | 268/B1075.7  | Starlink-119 (Starlink Group 7-6)          | VSFBS SLC4E | US      | S       |
 | 2023-162   | 2023-10-22 0217  | Falcon 9 | 267/B1080.4  | Starlink-118 (Starlink Group 6-24)         | CC LC40     | US      | S       |
 | 2023-161   | 2023-10-21 0823  | Falcon 9 | 266/B1061.16 | Starlink-117 (Starlink Group 7-5)          | VSFBS SLC4E | US      | S       |
