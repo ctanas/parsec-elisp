@@ -20,7 +20,7 @@ Până în prezent, racheta Soyuz-2.1 a fost lansată de 138 ori, din care 2 lan
 
 | Launch_Tag | Launch_Date     | LV_Type    | Flight_ID            | Mission                                     | Launch_Site   | Country | Outcome |
 |------------|-----------------|------------|----------------------|---------------------------------------------|---------------|---------|---------|
-| 2023-165   | 2023-10-27 0605 | Soyuz-2.1b | -                    | Kosmos-2570/Kosmos-2571 (Lotos-S1 No. 808?) | GIK-1 LC43/3  | RU      | S       |
+| 2023-165   | 2023-10-27 0604 | Soyuz-2.1b | -                    | Kosmos-2570/Kosmos-2571 (Lotos-S1 No. 808?) | GIK-1 LC43/3  | RU      | S       |
 | 2023-143   | 2023-09-15 1544 | Soyuz-2.1a | M 15000-061          | Soyuz MS-24 (Soyuz 11F732A48 No. 755)       | GIK-5 LC31    | RU      | S       |
 | 2023-125   | 2023-08-23 0108 | Soyuz-2.1a | M 15000-065          | Progress MS-24 (Progress 7K-TGM No. 454)    | GIK-5 LC31    | RU      | S       |
 | 2023-118   | 2023-08-10 2310 | Soyuz-2.1b | V 15000-003/ 122-10  | Luna-25 (Luna-Glob)                         | VOST PU1S     | RU      | S       |

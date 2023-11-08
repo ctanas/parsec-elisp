@@ -48,5 +48,11 @@ weight = 110
 [[menu.secondary]]
 identifier = "blog"
 name =  "Blog"
-url = "https://buletin.parsec.ro/notes"
+url = "https://blog.parsec.ro"
 weight = 120
+
+[[menu.secondary]]
+identifier = "notes"
+name =  "Notițe"
+url = "https://buletin.parsec.ro/notes"
+weight = 130

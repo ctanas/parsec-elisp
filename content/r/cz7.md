@@ -4,10 +4,11 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Changzheng 7 a fost lansată de 12 ori, din care 1 lansări au eșuat.
+Până în prezent, racheta Changzheng 7 a fost lansată de 13 ori, din care 1 lansări au eșuat.
 
 | Launch_Tag | Launch_Date     | LV_Type            | Flight_ID | Mission                       | Launch_Site | Country | Outcome |
 |------------|-----------------|--------------------|-----------|-------------------------------|-------------|---------|---------|
+| 2023-169   | 2023-11-03 1454 | Changzheng 7A      | Y6        | TJS-10                        | WEN LC201   | CN      | S       |
 | 2023-063   | 2023-05-10 1322 | Changzheng 7       | Y7        | Tianzhou-6                    | WEN LC201   | CN      | S       |
 | 2023-002   | 2023-01-08 2200 | Changzheng 7A      | Y4        | Shi Jian 23                   | WEN LC201   | CN      | S       |
 | 2022-152   | 2022-11-12 0203 | Changzheng 7       | Y6        | Tianzhou-5                    | WEN LC201   | CN      | S       |
