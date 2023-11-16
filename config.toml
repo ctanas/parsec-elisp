@@ -47,6 +47,6 @@ weight = 110
 
 [[menu.secondary]]
 identifier = "notes"
-name =  "Notițe"
-url = "https://buletin.parsec.ro/notes"
+name =  "WhatsApp"
+url = "https://whatsapp.com/channel/0029Va9bfkYBKfhuRHzWKr3X"
 weight = 130
