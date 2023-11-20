@@ -4,12 +4,13 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Changzheng 2C a fost lansată de 74 ori, din care 1 lansări au eșuat.
+Până în prezent, racheta Changzheng 2C a fost lansată de 75 ori, din care 1 lansări au eșuat.
 
 | Launch_Tag | Launch_Date      | LV_Type              | Flight_ID    | Mission                                | Launch_Site | Country | Outcome |
 |------------|------------------|----------------------|--------------|----------------------------------------|-------------|---------|---------|
+| 2023-176   | 2023-11-16 0355  | Changzheng 2C/YZ-1S  | Yxx/Y6?      | HY3-01                                 | JQ LC43/94  | CN      | S       |
 | 2023-116   | 2023-08-08 2253  | Changzheng 2C        | Y46          | HJ2-06                                 | TYSC LC9    | CN      | S       |
-| 2023-095   | 2023-07-09 1100  | Changzheng 2C/YZ-1S  | Y52?/Y3      | HJSW-1                                 | JQ LC43/94  | CN      | S       |
+| 2023-095   | 2023-07-09 1100  | Changzheng 2C/YZ-1S  | Y52?/Y3?     | HJSW-1                                 | JQ LC43/94  | CN      | S       |
 | 2023-069   | 2023-05-21 0800  | Changzheng 2C        | Y60          | Aomen Kexue                            | JQ LC43/94  | CN      | S       |
 | 2023-032   | 2023-03-13 0402  | Changzheng 2C        | Y64          | Helusi 2 (Horus 2)                     | JQ LC43/94  | CN      | S       |
 | 2023-025   | 2023-02-24 0401  | Changzheng 2C        | Y63          | Helusi 1 (Horus 1)                     | JQ LC43/94  | CN      | S       |
@@ -17,7 +18,7 @@ Până în prezent, racheta Changzheng 2C a fost lansată de 74 ori, din care 1 
 | 2022-132   | 2022-10-12 2253  | Changzheng 2C        | Y66          | HJ-2-05 (HJ-2-05 (5m S-SAR-01))        | TYSC LC9    | CN      | S       |
 | 2022-082   | 2022-07-15 2257  | Changzheng 2C        | Y71          | Siwei 2-01/02 (Siwei GJ 2-01/02)       | TYSC LC9    | CN      | S       |
 | 2022-058   | 2022-06-02 0400  | Changzheng 2C        | Y65          | Geely Xingguo 01 zu (GeeSat 01-01/09)  | XSC LC3     | CN      | S       |
-| 2022-056   | 2022-05-20 1030  | Changzheng 2C/YZ-1S  | Y53          | BSX-1/2                                | JQ LC43/94  | CN      | S       |
+| 2022-056   | 2022-05-20 1030  | Changzheng 2C/YZ-1S  | Y53/Y5       | BSX-1/2                                | JQ LC43/94  | CN      | S       |
 | 2022-043   | 2022-04-29 0411  | Changzheng 2C        | Y70          | Siwei 1-01/02 (Siwei GJ 1-01/02)       | JQ LC43/94  | CN      | S       |
 | 2022-023   | 2022-03-05 0601  | Changzheng 2C        | Y62          | Yinhe 2-01/06                          | XSC LC2     | CN      | S       |
 | 2021-099   | 2021-11-03 0743  | Changzheng 2C/YZ-1S  | Y41          | YG-32 02 zu (YG-32-02)                 | JQ LC43/94  | CN      | S       |

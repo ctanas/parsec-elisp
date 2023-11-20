@@ -8,7 +8,7 @@ Până în prezent, racheta Changzheng 6 a fost lansată de 15 ori, din care 0 l
 
 | Launch_Tag | Launch_Date     | LV_Type       | Flight_ID | Mission                           | Launch_Site | Country | Outcome |
 |------------|-----------------|---------------|-----------|-----------------------------------|-------------|---------|---------|
-| 2023-168   | 2023-10-31 2250 | Changzheng 6A | Y4        | Tianhui-5                         | TYSC LC16   | CN      | S       |
+| 2023-168   | 2023-10-31 2250 | Changzheng 6A | Y4        | Tianhui-5                         | TYSC LC9A   | CN      | S       |
 | 2023-139   | 2023-09-10 0430 | Changzheng 6A | Y5        | YG-40 (Yaogan 40)                 | TYSC LC16   | CN      | S       |
 | 2023-087   | 2023-06-20 0318 | Changzheng 6  | Y12       | Shiyan 25                         | TYSC LC16   | CN      | S       |
 | 2022-151   | 2022-11-11 2252 | Changzheng 6A | Y2        | Yunhai-3                          | TYSC LC9A   | CN      | S       |
