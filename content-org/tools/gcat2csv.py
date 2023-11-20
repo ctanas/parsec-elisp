@@ -189,6 +189,24 @@ def merge_pads(val1, val2):
 df['Mission'] = df.apply(lambda row: merge_missions(row['Flight'], row['Mission']), axis=1)
 df['Launch_Site'] = df.apply(lambda row: merge_pads(row['Launch_Site'], row['Launch_Pad']), axis=1)
 
+# cleaning up the whitespace
+# but first, converting everything to string
+df=df.astype(str)
+df['Launch_Tag'].str.strip()
+df['Launch_JD'].str.strip()
+df['Launch_Date'].str.strip()
+df['LV_Type'].str.strip()
+df['Variant'].str.strip()
+df['Flight_ID'].str.strip()
+df['Mission'].str.strip()
+df['Platform'].str.strip()
+df['Launch_Site'].str.strip()
+df['Agency'].str.strip()
+df['Launch_Code'].str.strip()
+df['Category'].str.strip()
+df['Country'].str.strip()
+df['Outcome'].str.strip()
+
 # Export the reformatted file as CSV, while filtering out some columns
 print("Exporting data...")
 df[['Launch_Tag','Launch_JD','Launch_Date','LV_Type','Variant','Flight_ID', 'Mission','Platform','Launch_Site','Agency','Launch_Code', 'Category', 'Country','Outcome']].to_csv('../data.csv', sep=';', index=False)
