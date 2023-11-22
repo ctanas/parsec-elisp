@@ -34,7 +34,7 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 ** Rachete orbitale active
 
-  + SUA: [[/r/falcon9][Falcon 9]], [[/r/falconh][Falcon Heavy]], [[/r/sls][SLS]], [[/r/atlasv][Atlas V]], [[/r/delta4][Delta IV]], [[/r/delta4h][Delta IV Heavy]], [[/r/electron][Electron]], [[/r/fireflya][Firefly Alpha]], [[/r/launcherone][LauncherOne]], [[/r/astrarocket][Astra]], [[/r/antares][Antares]], [[/r/minotaur][Minotaur]], [[/r/pegasus][Pegasus]], [[/r/terran1][Terran 1]], [[/r/rs1][RS1]];
+  + SUA: [[/r/falcon9][Falcon 9]], [[/r/falconh][Falcon Heavy]], [[/r/starship][Starship]], [[/r/sls][SLS]], [[/r/atlasv][Atlas V]], [[/r/delta4][Delta IV]], [[/r/delta4h][Delta IV Heavy]], [[/r/electron][Electron]], [[/r/fireflya][Firefly Alpha]], [[/r/launcherone][LauncherOne]], [[/r/astrarocket][Astra]], [[/r/antares][Antares]], [[/r/minotaur][Minotaur]], [[/r/pegasus][Pegasus]], [[/r/terran1][Terran 1]], [[/r/rs1][RS1]];
   + China: [[/r/cz2c][CZ-2C]], [[/r/cz2d][CZ-2D]], [[/r/cz2f][CZ-2F]], [[/r/cz3b][CZ-3B]], [[/r/cz3c][CZ-3C]], [[/r/cz4b][CZ-4B]], [[/r/cz4c][CZ-4C]], [[/r/cz11][CZ-11]], [[/r/cz5][CZ-5]], [[/r/cz6][CZ-6]], [[/r/cz7][CZ-7]], [[/r/cz8][CZ-8]], [[/r/kz1a][KZ-1A]], [[/r/kz11][KZ-11]], [[/r/gushenxing1][Gushenxing-1]], [[/r/lijian1][Lijian-1]], [[/r/shuangquxian][Shuang Quxian 1]], [[/r/jielong][Jielong]], [[/r/osm1][OS-M1]], [[/r/zhuque2][Zhuque-2]], [[/r/kt2][KT-2]], [[/r/tianlong2][Tianlong-2]];
   + Rusia: [[/r/soyuz21][Soiuz-2.1]], [[/r/soyuz21v][Soiuz-2.1v]], [[/r/angara12][Angara-1.2]], [[/r/angaraa5][Angara-A5]], [[/r/protonm][Proton-M]];
   + Europa: [[/r/ariane5][Ariane 5]], [[/r/vega][Vega]];
@@ -43,7 +43,7 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
   + Iran: [[/r/safir][Safir]], [[/r/simorgh][Simorgh]], [[/r/qased][Qased]];
   + Israel: [[/r/shavit][Shavit]];
   + Coreea de Sud: [[/r/nuri][Nuri]];
-  + Coreea de Nord: [[/r/Kwangmyongsong][Kwangmyongsong]], [[/r/cheonlima1][Cheonlima-1]].
+  + Coreea de Nord: [[/r/kwangmyongsong][Kwangmyongsong]], [[/r/cheonlima1][Cheonlima-1]].
 
 * About
 :PROPERTIES:
@@ -1189,6 +1189,22 @@ Până în prezent, racheta src_emacs-lisp[:results value raw]{rocket} a fost la
 
 #+BEGIN_SRC emacs-lisp :results silent :exports results
   (setq rocket "Falcon Heavy")
+  (counts-for-rocket rocket)
+#+END_SRC
+
+Până în prezent, racheta src_emacs-lisp[:results value raw]{rocket} a fost lansată de src_emacs-lisp[:results value raw]{(nth 0 (counts-for-rocket rocket))} ori, din care src_emacs-lisp[:results value raw]{(nth 1 (counts-for-rocket rocket))} lansări au eșuat.
+
+#+BEGIN_SRC emacs-lisp :results raw :exports results
+  (get-rocket 3 rocket 0 2 3 5 6 8 12 13)
+#+END_SRC
+
+** Starship
+:PROPERTIES:
+:EXPORT_FILE_NAME: starship
+:END:
+
+#+BEGIN_SRC emacs-lisp :results silent :exports results
+  (setq rocket "Starship")
   (counts-for-rocket rocket)
 #+END_SRC
 
