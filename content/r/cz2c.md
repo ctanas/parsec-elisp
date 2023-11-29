@@ -8,7 +8,7 @@ Până în prezent, racheta Changzheng 2C a fost lansată de 75 ori, din care 1 
 
 | Launch_Tag | Launch_Date      | LV_Type              | Flight_ID    | Mission                                | Launch_Site | Country | Outcome |
 |------------|------------------|----------------------|--------------|----------------------------------------|-------------|---------|---------|
-| 2023-176   | 2023-11-16 0355  | Changzheng 2C/YZ-1S  | Yxx/Y6?      | HY3-01                                 | JQ LC43/94  | CN      | S       |
+| 2023-176   | 2023-11-16 0355  | Changzheng 2C/YZ-1S  | Y56/Y9       | HY3-01                                 | JQ LC43/94  | CN      | S       |
 | 2023-116   | 2023-08-08 2253  | Changzheng 2C        | Y46          | HJ2-06                                 | TYSC LC9    | CN      | S       |
 | 2023-095   | 2023-07-09 1100  | Changzheng 2C/YZ-1S  | Y52?/Y3?     | HJSW-1                                 | JQ LC43/94  | CN      | S       |
 | 2023-069   | 2023-05-21 0800  | Changzheng 2C        | Y60          | Aomen Kexue                            | JQ LC43/94  | CN      | S       |

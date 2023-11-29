@@ -14,18 +14,18 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 ## Cele mai recente lansări orbitale {#cele-mai-recente-lansări-orbitale}
 
-| ID       | Dată (UTC)      | Lansator            | Var | Serie        | Misiune                            | Centru      | TR | R |
-|----------|-----------------|---------------------|-----|--------------|------------------------------------|-------------|----|---|
-| 2023-F11 | 2023-11-18 1302 | Starship V1.0       | -   | B09/S25      | Orbital Flight Test (Ship 25)      | STB OLP1    | US | F |
-| 2023-177 | 2023-11-18 0505 | Falcon 9            | FT5 | 275/B1069.11 | Starlink-123 (Starlink Group 6-28) | CC LC40     | US | S |
-| 2023-176 | 2023-11-16 0355 | Changzheng 2C/YZ-1S | -   | Yxx/Y6?      | HY3-01                             | JQ LC43/94  | CN | S |
-| 2023-175 | 2023-11-12 2108 | Falcon 9            | FT5 | 274/B1076.9  | O3b mPOWER 5/6                     | CC LC40     | US | S |
-| 2023-174 | 2023-11-11 1849 | Falcon 9            | FT5 | 273/B1071.12 | Transporter-9                      | VSFBS SLC4E | US | S |
-| 2023-173 | 2023-11-10 0128 | Falcon 9            | FT5 | 272/B1081.2  | Dragon CRS-29 (Dragon C211.2)      | KSC LC39A   | US | S |
-| 2023-172 | 2023-11-09 1123 | Changzheng 3B       | G2  | Y94          | Zhongxing 6E                       | XSC LC2     | CN | S |
-| 2023-171 | 2023-11-08 0505 | Falcon 9            | FT5 | 271/B1073.11 | Starlink-122 (Starlink Group 6-27) | CC LC40     | US | S |
-| 2023-170 | 2023-11-04 0037 | Falcon 9            | FT5 | 270/B1058.18 | Starlink-121 (Starlink Group 6-26) | CC LC40     | US | S |
-| 2023-169 | 2023-11-03 1454 | Changzheng 7A       | -   | Y6           | TJS-10                             | WEN LC201   | CN | S |
+| ID       | Dată (UTC)      | Lansator            | Var | Serie        | Misiune                            | Centru       | TR | R |
+|----------|-----------------|---------------------|-----|--------------|------------------------------------|--------------|----|---|
+| 2023-183 | 2023-11-28 0420 | Falcon 9            | FT5 | 278/B1062.17 | Starlink-126 (Starlink Group 6-30) | CC LC40      | US | S |
+| 2023-182 | 2023-11-25 2058 | Soyuz-2.1b          | -   | -            | Kosmos-2572?                       | GIK-1 LC43/4 | RU | S |
+| 2023-181 | 2023-11-23 1000 | Changzheng 2D/YZ-3  | -   | Y59/Y2       | XQG-02                             | XSC          | CN | S |
+| 2023-180 | 2023-11-22 0747 | Falcon 9            | FT5 | 277/B1067.15 | Starlink-125 (Starlink Group 6-29) | CC LC40      | US | S |
+| 2023-179 | 2023-11-21 1342 | Cheonlima-1         | -   | -            | Manligyeong-1 F3                   | SOHAE LC2    | KP | S |
+| 2023-178 | 2023-11-20 1030 | Falcon 9            | FT5 | 276/B1063.15 | Starlink-124 (Starlink Group 7-7)  | VSFBS SLC4E  | US | S |
+| 2023-F11 | 2023-11-18 1302 | Starship V1.0       | -   | B09/S25      | Orbital Flight Test 2 (Ship 25)    | STB OLP1     | US | F |
+| 2023-177 | 2023-11-18 0505 | Falcon 9            | FT5 | 275/B1069.11 | Starlink-123 (Starlink Group 6-28) | CC LC40      | US | S |
+| 2023-176 | 2023-11-16 0355 | Changzheng 2C/YZ-1S | -   | Y56/Y9       | HY3-01                             | JQ LC43/94   | CN | S |
+| 2023-175 | 2023-11-12 2108 | Falcon 9            | FT5 | 274/B1076.9  | O3b mPOWER 5/6                     | CC LC40      | US | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}
