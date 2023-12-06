@@ -4,10 +4,11 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Gushenxing 1 a fost lansată de 10 ori, din care 1 lansări au eșuat.
+Până în prezent, racheta Gushenxing 1 a fost lansată de 11 ori, din care 1 lansări au eșuat.
 
 | Launch_Tag | Launch_Date     | LV_Type      | Flight_ID | Mission                                  | Launch_Site | Country | Outcome |
 |------------|-----------------|--------------|-----------|------------------------------------------|-------------|---------|---------|
+| 2023-189   | 2023-12-04 2333 | Gushenxing 1 | Y9        | We Won't Stop (Jiheng-1/Xingchi-1A)      | JQ LC43/95A | CN      | S       |
 | 2023-F09   | 2023-09-21 0459 | Gushenxing 1 | Y11       | Autumn Sonata (Jilin-1 GF04B)            | JQ LC43/95A | CN      | F       |
 | 2023-135   | 2023-09-05 0934 | Gushenxing 1 | Y1        | The Little Mermaid (Tianqi-21/24)        | HHAI LP4    | CN      | S       |
 | 2023-127   | 2023-08-25 0459 | Gushenxing 1 | Y8        | Cornfield Chase (Jilin-1 Kuanfu 02A)     | JQ LC43/95A | CN      | S       |

@@ -4,10 +4,11 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Changzheng 2C a fost lansată de 75 ori, din care 1 lansări au eșuat.
+Până în prezent, racheta Changzheng 2C a fost lansată de 76 ori, din care 1 lansări au eșuat.
 
 | Launch_Tag | Launch_Date      | LV_Type              | Flight_ID    | Mission                                | Launch_Site | Country | Outcome |
 |------------|------------------|----------------------|--------------|----------------------------------------|-------------|---------|---------|
+| 2023-187   | 2023-12-04 0410  | Changzheng 2C        | Y75          | MisrSat-2 (Aiji-2)                     | JQ LC43/94  | CN      | S       |
 | 2023-176   | 2023-11-16 0355  | Changzheng 2C/YZ-1S  | Y56/Y9       | HY3-01                                 | JQ LC43/94  | CN      | S       |
 | 2023-116   | 2023-08-08 2253  | Changzheng 2C        | Y46          | HJ2-06                                 | TYSC LC9    | CN      | S       |
 | 2023-095   | 2023-07-09 1100  | Changzheng 2C/YZ-1S  | Y52?/Y3?     | HJSW-1                                 | JQ LC43/94  | CN      | S       |
