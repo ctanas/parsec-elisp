@@ -14,18 +14,18 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 ## Cele mai recente lansări orbitale {#cele-mai-recente-lansări-orbitale}
 
-| ID       | Dată (UTC)      | Lansator           | Var | Serie        | Misiune                                  | Centru       | TR | R |
-|----------|-----------------|--------------------|-----|--------------|------------------------------------------|--------------|----|---|
-| 2023-190 | 2023-12-05 1924 | Jielong-3          | -   | Y2           | WHJSW 03                                 | YJ LP1       | CN | S |
-| 2023-189 | 2023-12-04 2333 | Gushenxing 1       | 1   | Y9           | We Won't Stop (Jiheng-1/Xingchi-1A)      | JQ LC43/95A  | CN | S |
-| 2023-188 | 2023-12-04 0500 | ADD TV2            | -   | -            | S-STEP                                   | JEJU         | KR | S |
-| 2023-187 | 2023-12-04 0410 | Changzheng 2C      | -   | Y75          | MisrSat-2 (Aiji-2)                       | JQ LC43/94   | CN | S |
-| 2023-186 | 2023-12-02 0400 | Falcon 9           | FT5 | 280/B1078.6  | Starlink-127 (Starlink Group 6-31)       | CC LC40      | US | S |
-| 2023-185 | 2023-12-01 1819 | Falcon 9           | FT5 | 279/B1061.17 | Project 425 (Korea 425)                  | VSFBS SLC4E  | US | S |
-| 2023-184 | 2023-12-01 0925 | Soyuz-2.1a         | -   | M 15000-067  | Progress MS-25 (Progress 7K-TGM No. 455) | GIK-5 LC31   | RU | S |
-| 2023-183 | 2023-11-28 0420 | Falcon 9           | FT5 | 278/B1062.17 | Starlink-126 (Starlink Group 6-30)       | CC LC40      | US | S |
-| 2023-182 | 2023-11-25 2058 | Soyuz-2.1b         | -   | -            | Kosmos-2572?                             | GIK-1 LC43/4 | RU | S |
-| 2023-181 | 2023-11-23 1000 | Changzheng 2D/YZ-3 | -   | Y59/Y2       | XQG-02                                   | XSC          | CN | S |
+| ID       | Dată (UTC)      | Lansator      | Var | Serie        | Misiune                                  | Centru      | TR | R |
+|----------|-----------------|---------------|-----|--------------|------------------------------------------|-------------|----|---|
+| 2023-192 | 2023-12-08 0803 | Falcon 9      | FT5 | 276/B1071.13 | Starlink-129 (Starlink Group 7-8)        | VSFBS SLC4E | US | S |
+| 2023-191 | 2023-12-07 0507 | Falcon 9      | FT5 | 281/B1077.9  | Starlink-128 (Starlink Group 6-33)       | CC LC40     | US | S |
+| 2023-190 | 2023-12-05 1924 | Jielong-3     | -   | Y2           | WHJSW 03                                 | YJ LP1      | CN | S |
+| 2023-189 | 2023-12-04 2333 | Gushenxing 1  | 1   | Y9           | We Won't Stop (Jiheng-1/Xingchi-1A)      | JQ LC43/95A | CN | S |
+| 2023-188 | 2023-12-04 0500 | ADD TV2       | -   | -            | S-STEP                                   | JEJU        | KR | S |
+| 2023-187 | 2023-12-04 0410 | Changzheng 2C | -   | Y75          | MisrSat-2 (Aiji-2)                       | JQ LC43/94  | CN | S |
+| 2023-186 | 2023-12-02 0400 | Falcon 9      | FT5 | 280/B1078.6  | Starlink-127 (Starlink Group 6-31)       | CC LC40     | US | S |
+| 2023-185 | 2023-12-01 1819 | Falcon 9      | FT5 | 279/B1061.17 | Project 425 (Korea 425)                  | VSFBS SLC4E | US | S |
+| 2023-184 | 2023-12-01 0925 | Soyuz-2.1a    | -   | M 15000-067  | Progress MS-25 (Progress 7K-TGM No. 455) | GIK-5 LC31  | RU | S |
+| 2023-183 | 2023-11-28 0420 | Falcon 9      | FT5 | 278/B1062.17 | Starlink-126 (Starlink Group 6-30)       | CC LC40     | US | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}
