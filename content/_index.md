@@ -16,6 +16,7 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 | ID       | Dată (UTC)      | Lansator      | Var | Serie        | Misiune                                  | Centru      | TR | R |
 |----------|-----------------|---------------|-----|--------------|------------------------------------------|-------------|----|---|
+| 2023-193 | 2023-12-08 2339 | Zhuque-2      | -   | Y3           | Hongqing-1/2/TY-33                       | JQ LC43/96  | CN | S |
 | 2023-192 | 2023-12-08 0803 | Falcon 9      | FT5 | 276/B1071.13 | Starlink-129 (Starlink Group 7-8)        | VSFBS SLC4E | US | S |
 | 2023-191 | 2023-12-07 0507 | Falcon 9      | FT5 | 281/B1077.9  | Starlink-128 (Starlink Group 6-33)       | CC LC40     | US | S |
 | 2023-190 | 2023-12-05 1924 | Jielong-3     | -   | Y2           | WHJSW 03                                 | YJ LP1      | CN | S |
@@ -25,7 +26,6 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 | 2023-186 | 2023-12-02 0400 | Falcon 9      | FT5 | 280/B1078.6  | Starlink-127 (Starlink Group 6-31)       | CC LC40     | US | S |
 | 2023-185 | 2023-12-01 1819 | Falcon 9      | FT5 | 279/B1061.17 | Project 425 (Korea 425)                  | VSFBS SLC4E | US | S |
 | 2023-184 | 2023-12-01 0925 | Soyuz-2.1a    | -   | M 15000-067  | Progress MS-25 (Progress 7K-TGM No. 455) | GIK-5 LC31  | RU | S |
-| 2023-183 | 2023-11-28 0420 | Falcon 9      | FT5 | 278/B1062.17 | Starlink-126 (Starlink Group 6-30)       | CC LC40     | US | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}
@@ -39,11 +39,4 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 -   SUA: [Falcon 9](/r/falcon9), [Falcon Heavy](/r/falconh), [Starship](/r/starship), [SLS](/r/sls), [Atlas V](/r/atlasv), [Delta IV](/r/delta4), [Delta IV Heavy](/r/delta4h), [Electron](/r/electron), [Firefly Alpha](/r/fireflya), [LauncherOne](/r/launcherone), [Astra](/r/astrarocket), [Antares](/r/antares), [Minotaur](/r/minotaur), [Pegasus](/r/pegasus), [Terran 1](/r/terran1), [RS1](/r/rs1);
 -   China: [CZ-2C](/r/cz2c), [CZ-2D](/r/cz2d), [CZ-2F](/r/cz2f), [CZ-3B](/r/cz3b), [CZ-3C](/r/cz3c), [CZ-4B](/r/cz4b), [CZ-4C](/r/cz4c), [CZ-11](/r/cz11), [CZ-5](/r/cz5), [CZ-6](/r/cz6), [CZ-7](/r/cz7), [CZ-8](/r/cz8), [KZ-1A](/r/kz1a), [KZ-11](/r/kz11), [Gushenxing-1](/r/gushenxing1), [Lijian-1](/r/lijian1), [Shuang Quxian 1](/r/shuangquxian), [Jielong](/r/jielong), [OS-M1](/r/osm1), [Zhuque-2](/r/zhuque2), [KT-2](/r/kt2), [Tianlong-2](/r/tianlong2);
--   Rusia: [Soiuz-2.1](/r/soyuz21), [Soiuz-2.1v](/r/soyuz21v), [Angara-1.2](/r/angara12), [Angara-A5](/r/angaraa5), [Proton-M](/r/protonm);
--   Europa: [Ariane 5](/r/ariane5), [Vega](/r/vega);
--   Japonia: [H-II](/r/hii), [H3](/r/h3), [Epsilon](/r/epsilon);
--   India: [SSLV](/r/sslv), [PSLV](/r/pslv), [GSLV Mk. 2](/r/gslvmk2), [LVM3](/r/lvm3);
--   Iran: [Safir](/r/safir), [Simorgh](/r/simorgh), [Qased](/r/qased);
--   Israel: [Shavit](/r/shavit);
--   Coreea de Sud: [Nuri](/r/nuri);
--   Coreea de Nord: [Kwangmyongsong](/r/kwangmyongsong), [Cheonlima-1](/r/cheonlima1).
+-   Rusia: [Soiuz-2.1](/r/soyuz21), [Soiuz-2.1v](/r/soyuz21v), [[</r/anga>
