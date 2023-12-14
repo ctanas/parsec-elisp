@@ -4,11 +4,12 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Changzheng 2D a fost lansată de 84 ori, din care 0 lansări au eșuat.
+Până în prezent, racheta Changzheng 2D a fost lansată de 85 ori, din care 0 lansări au eșuat.
 
 | Launch_Tag | Launch_Date      | LV_Type            | Flight_ID | Mission                                | Launch_Site | Country | Outcome |
 |------------|------------------|--------------------|-----------|----------------------------------------|-------------|---------|---------|
-| 2023-181   | 2023-11-23 1000  | Changzheng 2D/YZ-3 | Y59/Y2    | XQG-02                                 | XSC         | CN      | S       |
+| 2023-194   | 2023-12-10 0158  | Changzheng 2D      | Y86       | YG-39 05 (Yaogan 39 05)                | XSC         | CN      | S       |
+| 2023-181   | 2023-11-23 1000  | Changzheng 2D/YZ-3 | Y59/Y2    | XQG-02 (WHJSW 02)                      | XSC         | CN      | S       |
 | 2023-163   | 2023-10-23 2003  | Changzheng 2D      | Y85       | YG-39 04 (Yaogan 39 04)                | XSC LC3     | CN      | S       |
 | 2023-159   | 2023-10-15 0054  | Changzheng 2D      | Y77       | Yunhai-1 04                            | JQ LC43/94  | CN      | S       |
 | 2023-152   | 2023-10-05 0024  | Changzheng 2D      | Y84       | YG-39 03 (Yaogan 39 03)                | XSC LC3     | CN      | S       |

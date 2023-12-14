@@ -4,7 +4,7 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Din 1957 și până în prezent au avut loc 6550 tentative de lansări orbitale, din care 6164 lansări reușite și 386 eșecuri (încărcătura primară nu a ajuns pe orbită).
+Din 1957 și până în prezent au avut loc 6551 tentative de lansări orbitale, din care 6165 lansări reușite și 386 eșecuri (încărcătura primară nu a ajuns pe orbită).
 
 În tabelul de mai jos sunt prezentate numărul total de lansări orbitale, pentru fiecare stat în parte, începând cu 1957. Câteva precizări: lansările URSS și ale Rusiei nu sunt numărate separat, iar lansările statelor europene, fie prin Arianespace sau separat, sunt catalogate drept lansări europene, indiferent de locul de unde este lansată racheta. În stabilirea țării în a cărei portofoliu intră lansarea, am considerat că statul în care este înregistrat operatorul este cel consiederat în statistici (de exemplu, lansările rachetei Electron din Noua Zeelandă sunt lansări ale Statelor Unite, pentru că Rocket Lab, compania care operează lansatorul, este o companie americană).
 
@@ -12,7 +12,7 @@ Din 1957 și până în prezent au avut loc 6550 tentative de lansări orbitale,
 |---------|-------|---------|--------|
 | RU      | 3372  | 3214    | 158    |
 | US      | 2021  | 1877    | 144    |
-| CN      | 563   | 537     | 26     |
+| CN      | 564   | 538     | 26     |
 | EU      | 327   | 310     | 17     |
 | JP      | 129   | 118     | 11     |
 | IN      | 90    | 81      | 9      |
@@ -24,7 +24,7 @@ Din 1957 și până în prezent au avut loc 6550 tentative de lansări orbitale,
 
 | Year | BR | CN | EU | IL | IN | IR | JP | KP | KR | RU  | US  | Total |
 |------|----|----|----|----|----|----|----|----|----|-----|-----|-------|
-| 2023 | 0  | 58 | 3  | 1  | 7  | 2  | 3  | 3  | 2  | 16  | 109 | 204   |
+| 2023 | 0  | 59 | 3  | 1  | 7  | 2  | 3  | 3  | 2  | 16  | 109 | 205   |
 | 2022 | 0  | 64 | 6  | 0  | 5  | 1  | 1  | 0  | 1  | 21  | 87  | 186   |
 | 2021 | 0  | 55 | 7  | 0  | 2  | 2  | 3  | 0  | 1  | 24  | 51  | 145   |
 | 2020 | 0  | 39 | 7  | 1  | 2  | 2  | 4  | 0  | 0  | 15  | 44  | 114   |
