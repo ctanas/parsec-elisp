@@ -4,10 +4,11 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Changzheng 2F a fost lansată de 21 ori, din care 0 lansări au eșuat.
+Până în prezent, racheta Changzheng 2F a fost lansată de 22 ori, din care 0 lansări au eșuat.
 
 | Launch_Tag | Launch_Date      | LV_Type       | Flight_ID | Mission                               | Launch_Site | Country | Outcome |
 |------------|------------------|---------------|-----------|---------------------------------------|-------------|---------|---------|
+| 2023-195   | 2023-12-14 1412? | Changzheng 2F | T5        | CSSHQ                                 | JQ LC43/91  | CN      | S       |
 | 2023-164   | 2023-10-26 0314  | Changzheng 2F | Y17       | Shenzhou 17                           | JQ LC43/91  | CN      | S       |
 | 2023-077   | 2023-05-30 0131  | Changzheng 2F | Y16       | Shenzhou 16                           | JQ LC43/91  | CN      | S       |
 | 2022-162   | 2022-11-29 1508  | Changzheng 2F | Y15       | Shenzhou 15                           | JQ LC43/91  | CN      | S       |
