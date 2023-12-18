@@ -16,6 +16,7 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 | ID       | Dată (UTC)       | Lansator      | Var | Serie        | Misiune                             | Centru      | TR | R |
 |----------|------------------|---------------|-----|--------------|-------------------------------------|-------------|----|---|
+| 2023-197 | 2023-12-15 1341  | Changzheng 5  | -   | Y6           | Yaogan 41                           | WEN LC101   | CN | S |
 | 2023-196 | 2023-12-15 0405  | Electron      | -   | 42           | The Moon God Awakens (QPS-SAR-5)    | MAHIA LC1B  | US | S |
 | 2023-195 | 2023-12-14 1412? | Changzheng 2F | T   | T5           | CSSHQ                               | JQ LC43/91  | CN | S |
 | 2023-194 | 2023-12-10 0158  | Changzheng 2D | -   | Y86          | YG-39 05 (Yaogan 39 05)             | XSC         | CN | S |
@@ -25,7 +26,6 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 | 2023-190 | 2023-12-05 1924  | Jielong-3     | -   | Y2           | CX-20 (WHJSW 03)                    | YJ LP1      | CN | S |
 | 2023-189 | 2023-12-04 2333  | Gushenxing 1  | 1   | Y9           | We Won't Stop (Jiheng-1/Xingchi-1A) | JQ LC43/95A | CN | S |
 | 2023-188 | 2023-12-04 0500  | ADD TV2       | -   | -            | S-STEP                              | JEJU        | KR | S |
-| 2023-187 | 2023-12-04 0410  | Changzheng 2C | -   | Y54          | MisrSat-2 (Aiji-2)                  | JQ LC43/94  | CN | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}

@@ -4,10 +4,11 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Changzheng 5 a fost lansată de 9 ori, din care 1 lansări au eșuat.
+Până în prezent, racheta Changzheng 5 a fost lansată de 10 ori, din care 1 lansări au eșuat.
 
 | Launch_Tag | Launch_Date     | LV_Type           | Flight_ID | Mission                             | Launch_Site | Country | Outcome |
 |------------|-----------------|-------------------|-----------|-------------------------------------|-------------|---------|---------|
+| 2023-197   | 2023-12-15 1341 | Changzheng 5      | Y6        | Yaogan 41                           | WEN LC101   | CN      | S       |
 | 2022-143   | 2022-10-31 0737 | Changzheng 5B     | Y4        | Mengtian                            | WEN LC101   | CN      | S       |
 | 2022-085   | 2022-07-24 0622 | Changzheng 5B     | Y3        | Wentian                             | WEN LC101   | CN      | S       |
 | 2021-035   | 2021-04-29 0323 | Changzheng 5B     | Y2        | Tianhe                              | WEN LC101   | CN      | S       |
