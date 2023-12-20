@@ -50,3 +50,9 @@ identifier = "notes"
 name =  "WhatsApp"
 url = "https://whatsapp.com/channel/0029Va9bfkYBKfhuRHzWKr3X"
 weight = 130
+
+[[menu.secondary]]
+identifier = "threads"
+name =  "Threads"
+url = "https://www.threads.net/@parsec.ro"
+weight = 150

@@ -4,10 +4,11 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Shuang Quxian a fost lansată de 5 ori, din care 3 lansări au eșuat.
+Până în prezent, racheta Shuang Quxian a fost lansată de 6 ori, din care 3 lansări au eșuat.
 
 | Launch_Tag | Launch_Date     | LV_Type         | Flight_ID | Mission                            | Launch_Site | Country | Outcome |
 |------------|-----------------|-----------------|-----------|------------------------------------|-------------|---------|---------|
+| 2023-199   | 2023-12-17 0700 | Shuang Quxian 1 | Y7        | DEAR-1 (Dier-1)                    | JQ          | CN      | S       |
 | 2023-051   | 2023-04-07 0400 | Shuang Quxian 1 | Y6        | Test Payload                       | JQ LC43/95B | CN      | S       |
 | 2022-F02   | 2022-05-13 0709 | Shuang Quxian 1 | Y4        | Jilin-1 Mofang 1A/R (Jilin-1 MF01) | JQ LC43/95B | CN      | F       |
 | 2021-F05   | 2021-08-03 0739 | Shuang Quxian 1 | Y5        | Jilin-1 Mofang 1A (Jilin-1 MF01)   | JQ LC43/95B | CN      | F       |
