@@ -14,18 +14,18 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 ## Cele mai recente lansări orbitale {#cele-mai-recente-lansări-orbitale}
 
-| ID       | Dată (UTC)       | Lansator        | Var    | Serie               | Misiune                            | Centru      | TR | R |
-|----------|------------------|-----------------|--------|---------------------|------------------------------------|-------------|----|---|
-| 2023-200 | 2023-12-19 0401  | Falcon 9        | FT5    | 283/B1081.3         | Starlink-130 (Starlink Group 6-34) | CC LC40     | US | S |
-| 2023-199 | 2023-12-17 0700  | Shuang Quxian 1 | -      | Y7                  | DEAR-1 (Dier-1)                    | JQ          | CN | S |
-| 2023-198 | 2023-12-16 0917  | Soyuz-2.1b      | Fregat | Ya15000-058/ 122-11 | Arktika-M No. 2                    | GIK-5 LC31  | RU | S |
-| 2023-197 | 2023-12-15 1341  | Changzheng 5    | -      | Y6                  | Yaogan 41                          | WEN LC101   | CN | S |
-| 2023-196 | 2023-12-15 0405  | Electron        | -      | 42                  | The Moon God Awakens (QPS-SAR-5)   | MAHIA LC1B  | US | S |
-| 2023-195 | 2023-12-14 1412? | Changzheng 2F   | T      | T5                  | CSSHQ                              | JQ LC43/91  | CN | S |
-| 2023-194 | 2023-12-10 0158  | Changzheng 2D   | -      | Y86                 | YG-39 05 (Yaogan 39 05)            | XSC         | CN | S |
-| 2023-193 | 2023-12-08 2339  | Zhuque-2        | -      | Y3                  | Hongqing-1/2/TY-33                 | JQ LC43/96  | CN | S |
-| 2023-192 | 2023-12-08 0803  | Falcon 9        | FT5    | 282/B1071.13        | Starlink-129 (Starlink Group 7-8)  | VSFBS SLC4E | US | S |
-| 2023-191 | 2023-12-07 0507  | Falcon 9        | FT5    | 281/B1077.9         | Starlink-128 (Starlink Group 6-33) | CC LC40     | US | S |
+| ID       | Dată (UTC)       | Lansator        | Var    | Serie               | Misiune                            | Centru       | TR | R |
+|----------|------------------|-----------------|--------|---------------------|------------------------------------|--------------|----|---|
+| 2023-203 | 2023-12-23 0533  | Falcon 9        | FT5    | 284/B1058.19        | Starlink-131 (Starlink Group 6-32) | CC LC40      | US | S |
+| 2023-202 | 2023-12-22 1732  | Firefly Alpha   | -      | FLTA004             | Fly the Lightning (Tantrum)        | V SLC2W      | US | S |
+| 2023-201 | 2023-12-21 0848  | Soyuz-2.1b      | -      | -                   | Kosmos-2574? (Bars-M No. 5?)       | GIK-1 LC43/4 | RU | S |
+| 2023-200 | 2023-12-19 0401  | Falcon 9        | FT5    | 283/B1081.3         | Starlink-130 (Starlink Group 6-34) | CC LC40      | US | S |
+| 2023-199 | 2023-12-17 0700  | Shuang Quxian 1 | -      | Y7                  | DEAR-1 (Dier-1)                    | JQ           | CN | S |
+| 2023-198 | 2023-12-16 0917  | Soyuz-2.1b      | Fregat | Ya15000-058/ 122-11 | Arktika-M No. 2                    | GIK-5 LC31   | RU | S |
+| 2023-197 | 2023-12-15 1341  | Changzheng 5    | -      | Y6                  | Yaogan 41                          | WEN LC101    | CN | S |
+| 2023-196 | 2023-12-15 0405  | Electron        | -      | 42                  | The Moon God Awakens (QPS-SAR-5)   | MAHIA LC1B   | US | S |
+| 2023-195 | 2023-12-14 1412? | Changzheng 2F   | T      | T5                  | CSSHQ                              | JQ LC43/91   | CN | S |
+| 2023-194 | 2023-12-10 0158  | Changzheng 2D   | -      | Y86                 | YG-39 05 (Yaogan 39 05)            | XSC          | CN | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}
