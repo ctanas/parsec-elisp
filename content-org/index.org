@@ -88,23 +88,22 @@ Din 1957 și până în prezent au avut loc src_emacs-lisp[:results value raw]{g
 (table-launches-by-year-and-country)
 #+END_SRC
 
-** Lansări 2023
+** Lansări 2024
 :PROPERTIES:
-:EXPORT_FILE_NAME: 2023
-:EXPORT_TITLE: Lansări orbitale 2023
+:EXPORT_FILE_NAME: 2024
+:EXPORT_TITLE: Lansări orbitale 2024
 :END:
 
-În anul 2023, au avut loc un total de src_emacs-lisp[:results value raw]{2023-total} tentative de lansări orbitale, din care src_emacs-lisp[:results value raw]{2023-failures} eșecuri.
+În anul 2024, au avut loc un total de src_emacs-lisp[:results value raw]{2024-total} tentative de lansări orbitale, din care src_emacs-lisp[:results value raw]{2024-failures} eșecuri.
 
 #+BEGIN_SRC emacs-lisp :results raw :exports results
-(table-launches-year "2023")
+(table-launches-year "2024")
 #+END_SRC
 
 #+BEGIN_SRC emacs-lisp :results raw :exports results
-  (list-launches-for-year "2023" 0 2 3 4 5 6 8 12 13 '("ID" "Dată (UTC)" "Lansator" "V" "Serie" "Misiune" "Centru" "TR" "R"))
+  (list-launches-for-year "2024" 0 2 3 4 5 6 8 12 13 '("ID" "Dată (UTC)" "Lansator" "V" "Serie" "Misiune" "Centru" "TR" "R"))
 #+END_SRC
 
-* Lansări pre-2023 :noexport:
 ** Lansări 2023
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2023
@@ -121,6 +120,7 @@ Din 1957 și până în prezent au avut loc src_emacs-lisp[:results value raw]{g
 (list-launches-for-year "2023" 0 2 3 5 6 8 12 13 '("ID" "Dată (UTC)" "Lansator" "Serie" "Misiune" "Centru" "TR" "R"))
 #+END_SRC
 
+* Lansări pre-2023 :noexport:
 ** Lansări 2022
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022
