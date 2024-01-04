@@ -16,19 +16,20 @@ Mai există și varianta Soyuz-2.1v care înseamnă doar corpul central al rache
 
 Soyuz-2.1a poate lansa cel mult 7 tone pe orbită terestră joasă sau 2.8 tone pe orbită geostaționară, în timp ce Soyuz-2.1b poate urca până la 8.2 tone pe orbită terestră joasă și 3.2 tone pe orbită geostaționară. Soyuz-2.1v are performanțe mai modeste, cu 2.8 tone pe orbită terestră joasă.
 
-Până în prezent, racheta Soyuz-2.1 a fost lansată de 142 ori, din care 2 lansări au eșuat.
+Până în prezent, racheta Soyuz-2.1 a fost lansată de 143 ori, din care 2 lansări au eșuat.
 
 | Launch_Tag | Launch_Date     | LV_Type    | Flight_ID            | Mission                                     | Launch_Site   | Country | Outcome |
 |------------|-----------------|------------|----------------------|---------------------------------------------|---------------|---------|---------|
-| 2023-201   | 2023-12-21 0848 | Soyuz-2.1b | -                    | Kosmos-2574? (Bars-M No. 5?)                | GIK-1 LC43/4  | RU      | S       |
+| 2023-209   | 2023-12-27 0703 | Soyuz-2.1v | -                    | Kosmos-2574 (Razbeg No. 3?)                 | GIK-1 LC43/4  | RU      | S       |
+| 2023-201   | 2023-12-21 0848 | Soyuz-2.1b | -                    | Kosmos-2573 (Bars-M No. 5?)                 | GIK-1 LC43/4  | RU      | S       |
 | 2023-198   | 2023-12-16 0917 | Soyuz-2.1b | Ya15000-058/ 122-11  | Arktika-M No. 2                             | GIK-5 LC31    | RU      | S       |
 | 2023-184   | 2023-12-01 0925 | Soyuz-2.1a | M 15000-067          | Progress MS-25 (Progress 7K-TGM No. 455)    | GIK-5 LC31    | RU      | S       |
-| 2023-182   | 2023-11-25 2058 | Soyuz-2.1b | -                    | Kosmos-2572?                                | GIK-1 LC43/4  | RU      | S       |
+| 2023-182   | 2023-11-25 2058 | Soyuz-2.1b | -                    | Kosmos-2572 (Razdan?)                       | GIK-1 LC43/4  | RU      | S       |
 | 2023-165   | 2023-10-27 0604 | Soyuz-2.1b | -                    | Kosmos-2570/Kosmos-2571 (Lotos-S1 No. 808?) | GIK-1 LC43/3  | RU      | S       |
 | 2023-143   | 2023-09-15 1544 | Soyuz-2.1a | M 15000-061          | Soyuz MS-24 (Soyuz 11F732A48 No. 755)       | GIK-5 LC31    | RU      | S       |
 | 2023-125   | 2023-08-23 0108 | Soyuz-2.1a | M 15000-065          | Progress MS-24 (Progress 7K-TGM No. 454)    | GIK-5 LC31    | RU      | S       |
 | 2023-118   | 2023-08-10 2310 | Soyuz-2.1b | V 15000-003/ 122-10  | Luna-25 (Luna-Glob)                         | VOST PU1S     | RU      | S       |
-| 2023-114   | 2023-08-07 1319 | Soyuz-2.1b | -                    | Kosmos-2569? (Glonass-K2 No. 13L)           | GIK-1 LC43/3  | RU      | S       |
+| 2023-114   | 2023-08-07 1319 | Soyuz-2.1b | -          / 112-23  | Kosmos-2569 (Glonass-K2 No. 13L)            | GIK-1 LC43/3  | RU      | S       |
 | 2023-091   | 2023-06-27 1134 | Soyuz-2.1b | Kh15000-010/ 142-02  | Meteor-M No. 2-3 (Soyuz Rideshare 11)       | VOST PU1S     | RU      | S       |
 | 2023-074   | 2023-05-26 2114 | Soyuz-2.1a | V 15000-004/ 142-01  | Kondor-FKA No. 1                            | VOST PU1S     | RU      | S       |
 | 2023-071   | 2023-05-24 1256 | Soyuz-2.1a | M 15000-064          | Progress MS-23 (Progress 7K-TGM No. 453)    | GIK-5 LC31    | RU      | S       |

@@ -4,14 +4,15 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Changzheng 3B a fost lansată de 92 ori, din care 2 lansări au eșuat.
+Până în prezent, racheta Changzheng 3B a fost lansată de 93 ori, din care 2 lansări au eșuat.
 
 | Launch_Tag | Launch_Date     | LV_Type            | Flight_ID | Mission                                   | Launch_Site | Country | Outcome |
 |------------|-----------------|--------------------|-----------|-------------------------------------------|-------------|---------|---------|
+| 2023-207   | 2023-12-26 0326 | Changzheng 3B/YZ-1 | Y74/Y16   | Beidou 57/58 (Beidou)                     | XSC         | CN      | S       |
 | 2023-172   | 2023-11-09 1123 | Changzheng 3B      | Y94       | Zhongxing 6E                              | XSC LC2     | CN      | S       |
 | 2023-120   | 2023-08-12 1726 | Changzheng 3B      | Y92       | Ludi Tance 4A (LSAR4-01)                  | XSC LC2     | CN      | S       |
 | 2023-066   | 2023-05-17 0249 | Changzheng 3B      | Y87       | Beidou DW56 (Beidou-3 G4)                 | XSC LC2     | CN      | S       |
-| 2023-036   | 2023-03-17 0833 | Changzheng 3B      | Y90?      | Gao Fen 13-02                             | XSC LC2     | CN      | S       |
+| 2023-036   | 2023-03-17 0833 | Changzheng 3B      | Y90       | Gao Fen 13-02                             | XSC LC2     | CN      | S       |
 | 2023-023   | 2023-02-23 1149 | Changzheng 3B      | Y93       | Zhongxing 26 (ZX-26)                      | XSC LC2     | CN      | S       |
 | 2022-178   | 2022-12-29 0443 | Changzheng 3B      | Y88       | Shiyan 10-02                              | XSC LC2     | CN      | S       |
 | 2022-148   | 2022-11-05 1150 | Changzheng 3B      | Y91       | Zhongxing 19 (ZX-19)                      | XSC LC2     | CN      | S       |

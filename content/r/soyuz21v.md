@@ -4,10 +4,11 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Soyuz-2.1v a fost lansată de 10 ori, din care 0 lansări au eșuat.
+Până în prezent, racheta Soyuz-2.1v a fost lansată de 11 ori, din care 0 lansări au eșuat.
 
 | Launch_Tag | Launch_Date     | LV_Type    | Flight_ID           | Mission                              | Launch_Site   | Country | Outcome |
 |------------|-----------------|------------|---------------------|--------------------------------------|---------------|---------|---------|
+| 2023-209   | 2023-12-27 0703 | Soyuz-2.1v | -                   | Kosmos-2574 (Razbeg No. 3?)          | GIK-1 LC43/4  | RU      | S       |
 | 2023-045   | 2023-03-29 1957 | Soyuz-2.1v | -                   | Kosmos-2568 (Razbeg No. 2?)          | GIK-1 LC43/4? | RU      | S       |
 | 2022-137   | 2022-10-21 1920 | Soyuz-2.1v | -                   | Kosmos-2561/2562 (14F164/14F172)     | GIK-1 LC43/4  | RU      | S       |
 | 2022-089   | 2022-08-01 2025 | Soyuz-2.1v | -                   | Kosmos-2558 (Nivelir?)               | GIK-1 LC43/4? | RU      | S       |

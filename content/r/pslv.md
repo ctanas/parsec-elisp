@@ -4,10 +4,11 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta PSLV a fost lansată de 59 ori, din care 1 lansări au eșuat.
+Până în prezent, racheta PSLV a fost lansată de 60 ori, din care 1 lansări au eșuat.
 
 | Launch_Tag | Launch_Date     | LV_Type | Flight_ID | Mission                                    | Launch_Site | Country | Outcome |
 |------------|-----------------|---------|-----------|--------------------------------------------|-------------|---------|---------|
+| 2024-001   | 2024-01-01 0340 | PSLV-DL | PSLV-C58  | XPoSAT                                     | SHAR FLP    | IN      | S       |
 | 2023-132   | 2023-09-02 0620 | PSLV-XL | PSLV-C57  | Aditya-L1                                  | SHAR FLP    | IN      | S       |
 | 2023-109   | 2023-07-30 0101 | PSLV    | PSLV-C56  | DS-SAR                                     | SHAR FLP    | IN      | S       |
 | 2023-057   | 2023-04-22 0850 | PSLV    | PSLV-C55  | TeLEOS-2                                   | SHAR FLP    | IN      | S       |

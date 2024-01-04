@@ -4,14 +4,15 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Changzheng 2C a fost lansată de 76 ori, din care 1 lansări au eșuat.
+Până în prezent, racheta Changzheng 2C a fost lansată de 77 ori, din care 1 lansări au eșuat.
 
 | Launch_Tag | Launch_Date      | LV_Type              | Flight_ID    | Mission                                | Launch_Site | Country | Outcome |
 |------------|------------------|----------------------|--------------|----------------------------------------|-------------|---------|---------|
+| 2023-212   | 2023-12-30 0013  | Changzheng 2C/YZ-1S  | Y55/Y10?     | WHJSW-4 (WHJSW 04)                     | JQ LC43/94  | CN      | S       |
 | 2023-187   | 2023-12-04 0410  | Changzheng 2C        | Y54          | MisrSat-2 (Aiji-2)                     | JQ LC43/94  | CN      | S       |
 | 2023-176   | 2023-11-16 0355  | Changzheng 2C/YZ-1S  | Y56/Y9       | HY3-01                                 | JQ LC43/94  | CN      | S       |
 | 2023-116   | 2023-08-08 2253  | Changzheng 2C        | Y46          | HJ2-06                                 | TYSC LC9    | CN      | S       |
-| 2023-095   | 2023-07-09 1100  | Changzheng 2C/YZ-1S  | Y52?/Y3?     | WHJSW-1 (WHJSW 01)                     | JQ LC43/94  | CN      | S       |
+| 2023-095   | 2023-07-09 1100  | Changzheng 2C/YZ-1S  | Y52/Y3       | WHJSW-1 (WHJSW 01)                     | JQ LC43/94  | CN      | S       |
 | 2023-069   | 2023-05-21 0800  | Changzheng 2C        | Y60          | Aomen Kexue                            | JQ LC43/94  | CN      | S       |
 | 2023-032   | 2023-03-13 0402  | Changzheng 2C        | Y64          | Helusi 2 (Horus 2)                     | JQ LC43/94  | CN      | S       |
 | 2023-025   | 2023-02-24 0401  | Changzheng 2C        | Y63          | Helusi 1 (Horus 1)                     | JQ LC43/94  | CN      | S       |

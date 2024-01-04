@@ -4,12 +4,14 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Kuaizhou-1A a fost lansată de 22 ori, din care 2 lansări au eșuat.
+Până în prezent, racheta Kuaizhou-1A a fost lansată de 24 ori, din care 2 lansări au eșuat.
 
 | Launch_Tag | Launch_Date     | LV_Type     | Flight_ID | Mission                           | Launch_Site  | Country | Outcome |
 |------------|-----------------|-------------|-----------|-----------------------------------|--------------|---------|---------|
-| 2023-121   | 2023-08-14 0532 | Kuaizhou-1A | Y21?      | Jiaotong-6/10                     | XSC LC4      | CN      | S       |
-| 2023-101   | 2023-07-20 0320 | Kuaizhou-1A | Y22?      | Tianmu-1 07-10                    | JQ LC43/95A  | CN      | S       |
+| 2023-208   | 2023-12-27 0650 | Kuaizhou-1A | Y27       | Tianmu-1 19-22                    | JQ LC43/95A  | CN      | S       |
+| 2023-205   | 2023-12-25 0100 | Kuaizhou-1A | Y26       | Tianmu-1 11-14                    | JQ LC43/95A  | CN      | S       |
+| 2023-121   | 2023-08-14 0532 | Kuaizhou-1A | Y21       | Jiaotong-6/10                     | XSC LC4      | CN      | S       |
+| 2023-101   | 2023-07-20 0320 | Kuaizhou-1A | Y22       | Tianmu-1 07-10                    | JQ LC43/95A  | CN      | S       |
 | 2023-082   | 2023-06-09 0235 | Kuaizhou-1A | Y20       | Longjiang-3                       | JQ LC43/95A  | CN      | S       |
 | 2023-039   | 2023-03-22 0909 | Kuaizhou-1A | Y19       | Tianmu-1 03-06                    | JQ LC43/95A  | CN      | S       |
 | 2022-118   | 2022-09-24 2255 | Kuaizhou-1A | Y14       | Shiyan 14/15                      | TYSC         | CN      | S       |

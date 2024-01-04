@@ -4,10 +4,11 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Până în prezent, racheta Falcon Heavy a fost lansată de 8 ori, din care 0 lansări au eșuat.
+Până în prezent, racheta Falcon Heavy a fost lansată de 9 ori, din care 0 lansări au eșuat.
 
 | Launch_Tag | Launch_Date     | LV_Type      | Flight_ID | Mission                           | Launch_Site | Country | Outcome |
 |------------|-----------------|--------------|-----------|-----------------------------------|-------------|---------|---------|
+| 2023-210   | 2023-12-29 0107 | Falcon Heavy | 009       | X-37B OTV FLT-7 (X-37B No. 2)     | KSC LC39A   | US      | S       |
 | 2023-157   | 2023-10-13 1419 | Falcon Heavy | 008       | Psyche                            | KSC LC39A   | US      | S       |
 | 2023-108   | 2023-07-29 0304 | Falcon Heavy | 007       | Jupiter 3 (Jupiter 3/Echostar 24) | KSC LC39A   | US      | S       |
 | 2023-060   | 2023-05-01 0026 | Falcon Heavy | 006       | Viasat-3.1 (Viasat-3.1/Arcturus)  | KSC LC39A   | US      | S       |

@@ -4,18 +4,18 @@ author = ["Claudiu"]
 draft = false
 +++
 
-Din 1957 și până în prezent au avut loc 6561 tentative de lansări orbitale, din care 6175 lansări reușite și 386 eșecuri (încărcătura primară nu a ajuns pe orbită).
+Din 1957 și până în prezent au avut loc 6571 tentative de lansări orbitale, din care 6185 lansări reușite și 386 eșecuri (încărcătura primară nu a ajuns pe orbită).
 
 În tabelul de mai jos sunt prezentate numărul total de lansări orbitale, pentru fiecare stat în parte, începând cu 1957. Câteva precizări: lansările URSS și ale Rusiei nu sunt numărate separat, iar lansările statelor europene, fie prin Arianespace sau separat, sunt catalogate drept lansări europene, indiferent de locul de unde este lansată racheta. În stabilirea țării în a cărei portofoliu intră lansarea, am considerat că statul în care este înregistrat operatorul este cel consiederat în statistici (de exemplu, lansările rachetei Electron din Noua Zeelandă sunt lansări ale Statelor Unite, pentru că Rocket Lab, compania care operează lansatorul, este o companie americană).
 
 | Country | Total | Success | Failed |
 |---------|-------|---------|--------|
-| RU      | 3374  | 3216    | 158    |
-| US      | 2026  | 1882    | 144    |
-| CN      | 567   | 541     | 26     |
+| RU      | 3375  | 3217    | 158    |
+| US      | 2029  | 1885    | 144    |
+| CN      | 572   | 546     | 26     |
 | EU      | 327   | 310     | 17     |
 | JP      | 129   | 118     | 11     |
-| IN      | 90    | 81      | 9      |
+| IN      | 91    | 82      | 9      |
 | IR      | 17    | 8       | 9      |
 | IL      | 12    | 10      | 2      |
 | KP      | 8     | 3       | 5      |
@@ -24,7 +24,8 @@ Din 1957 și până în prezent au avut loc 6561 tentative de lansări orbitale,
 
 | Year | BR | CN | EU | IL | IN | IR | JP | KP | KR | RU  | US  | Total |
 |------|----|----|----|----|----|----|----|----|----|-----|-----|-------|
-| 2023 | 0  | 62 | 3  | 1  | 7  | 2  | 3  | 3  | 2  | 18  | 114 | 215   |
+| 2024 | 0  | 0  | 0  | 0  | 1  | 0  | 0  | 0  | 0  | 0   | 1   | 2     |
+| 2023 | 0  | 67 | 3  | 1  | 7  | 2  | 3  | 3  | 2  | 19  | 116 | 223   |
 | 2022 | 0  | 64 | 6  | 0  | 5  | 1  | 1  | 0  | 1  | 21  | 87  | 186   |
 | 2021 | 0  | 55 | 7  | 0  | 2  | 2  | 3  | 0  | 1  | 24  | 51  | 145   |
 | 2020 | 0  | 39 | 7  | 1  | 2  | 2  | 4  | 0  | 0  | 15  | 44  | 114   |
