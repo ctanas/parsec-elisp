@@ -16,6 +16,7 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 
 | ID       | Dată (UTC)      | Lansator            | Var | Serie        | Misiune                            | Centru       | TR | R |
 |----------|-----------------|---------------------|-----|--------------|------------------------------------|--------------|----|---|
+| 2024-003 | 2024-01-03 2304 | Falcon 9            | FT5 | 288/B1076.10 | Ovzon-3                            | CC LC40      | US | S |
 | 2024-002 | 2024-01-03 0344 | Falcon 9            | FT5 | 287/B1082.1  | Starlink-133 (Starlink Group 7-9)  | VSFBS SLC4E  | US | S |
 | 2024-001 | 2024-01-01 0340 | PSLV-DL             | -   | PSLV-C58     | XPoSAT                             | SHAR FLP     | IN | S |
 | 2023-212 | 2023-12-30 0013 | Changzheng 2C/YZ-1S | -   | Y55/Y10?     | WHJSW-4 (WHJSW 04)                 | JQ LC43/94   | CN | S |
@@ -25,7 +26,6 @@ Siteul de față reprezintă o colecție personală de materiale, articole și n
 | 2023-208 | 2023-12-27 0650 | Kuaizhou-1A         | -   | Y27          | Tianmu-1 19-22                     | JQ LC43/95A  | CN | S |
 | 2023-207 | 2023-12-26 0326 | Changzheng 3B/YZ-1  | -   | Y74/Y16      | Beidou 57/58 (Beidou)              | XSC          | CN | S |
 | 2023-206 | 2023-12-25 2239 | Changzheng 11       | H   | Y5           | Shiyan-24C 1-3                     | YJ LP1       | CN | S |
-| 2023-205 | 2023-12-25 0100 | Kuaizhou-1A         | -   | Y26          | Tianmu-1 11-14                     | JQ LC43/95A  | CN | S |
 
 
 ## Lansări orbitale {#lansări-orbitale}
